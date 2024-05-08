@@ -1,0 +1,39 @@
+.header {
+  display: flex; // выровняли элементы по горизонтали
+  flex-direction: column; // выровняли элементы в колонку
+  // justify-content: space-between;  выровняли на равном растоянии вдоль всей высоты
+
+  padding-bottom: 40px;
+
+  min-height: 700px;
+
+  background: url('./../img/header/header-bg.jpg');
+}
+
+.header__advertising {
+  background: $white;
+}
+
+.header__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 10px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.header__title {
+  text-align: center;
+  font-size: 44px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+}
