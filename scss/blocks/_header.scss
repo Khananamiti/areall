@@ -3,11 +3,11 @@
   flex-direction: column; // выровняли элементы в колонку
   // justify-content: space-between;  выровняли на равном растоянии вдоль всей высоты
 
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 
-  min-height: 700px;
+  min-height: 200px;
 
-  background: url('./../img/header/header-bg.jpg');
+  background: $header-footer-bg; // background: url('./../img/header/header-bg.jpg');
 }
 
 .header__advertising {
@@ -20,6 +20,11 @@
   align-items: center;
 
   padding: 10px 10px;
+}
+
+.header__bottom-row, .header__geo {
+  display: flex;
+  column-gap: 50px;
 }
 
 .header__logo {
@@ -36,6 +41,7 @@
 
 .breadcrumbs__list {
   display: flex;
+  column-gap: 25px;
 }
 
 .header__contact {

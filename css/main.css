@@ -90,7 +90,7 @@ legend {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: radial-gradient(50% 50% at 50% 50%, rgb(27, 116, 163), rgb(11, 55, 82) 100%);
+  background-color: rgb(11, 55, 82);
   color: #FFFFFF;
   font-size: 14px;
 }
@@ -123,6 +123,11 @@ a:hover {
   overflow: hidden;
   width: 1px;
   position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px 1px 1px 1px);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  white-space: nowrap;
 }
 
 .header {
@@ -133,9 +138,9 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-bottom: 40px;
-  min-height: 700px;
-  background: url("./../img/header/header-bg.jpg");
+  padding-bottom: 10px;
+  min-height: 200px;
+  background: #0E2941;
 }
 
 .header__advertising {
@@ -153,6 +158,15 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   padding: 10px 10px;
+}
+
+.header__bottom-row, .header__geo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
 }
 
 .header__logo {
@@ -175,6 +189,9 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
 }
 
 .header__contact {
@@ -195,4 +212,32 @@ a:hover {
   -webkit-column-gap: 34px;
      -moz-column-gap: 34px;
           column-gap: 34px;
+}
+
+.info {
+  position: relative;
+}
+.info--tel, .info--mail, .info--more, .info--geo {
+  padding-left: 20px;
+}
+.info--tel::before, .info--mail::before, .info--more::before, .info--geo::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.info--tel::before {
+  background-image: url("./../img/header/phone.svg");
+}
+.info--mail::before {
+  background-image: url("./../img/header/mail.svg");
+}
+.info--more::before {
+  background-image: url("./../img/header/header-more.svg");
+}
+.info--geo::before {
+  background-image: url("./../img/header/geo.svg");
 }
