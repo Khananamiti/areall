@@ -114,6 +114,17 @@ a:hover {
   width: 370px;
 }
 
+.text-right {
+  text-align: right;
+}
+
+.visually-hidden {
+  height: 1px;
+  overflow: hidden;
+  width: 1px;
+  position: absolute;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -166,6 +177,12 @@ a:hover {
   display: flex;
 }
 
+.header__contact {
+  display: grid;
+  grid-template-columns: 2fr 2fr 24px 24px;
+  gap: 10px;
+}
+
 .nav {
   font-size: 16px;
   text-align: center;
@@ -178,26 +195,4 @@ a:hover {
   -webkit-column-gap: 34px;
      -moz-column-gap: 34px;
           column-gap: 34px;
-}
-
-.info {
-  position: relative;
-}
-.info--tel, .info--mail {
-  padding-left: 30px;
-}
-.info--tel::before, .info--mail::before {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 24px;
-  height: 24px;
-  background-repeat: no-repeat;
-}
-.info--tel::before {
-  background-image: url("./../img/header/phone.svg");
-}
-.info--mail::before {
-  background-image: url("./../img/header/mail.svg");
 }

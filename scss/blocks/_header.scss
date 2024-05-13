@@ -37,3 +37,10 @@
 .breadcrumbs__list {
   display: flex;
 }
+
+.header__contact {
+  display: grid;
+  grid-template-columns: 2fr 2fr 24px 24px;
+  gap: 10px;
+}
+
