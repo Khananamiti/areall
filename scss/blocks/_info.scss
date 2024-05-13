@@ -1,3 +1,27 @@
 .info {
-  
+  position: relative;
+
+  &--tel, &--mail{ // Если присутствуют модификаторы
+    padding-left: 30px;
+    
+    &::before {
+      content: "";
+
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 24px;
+      height: 24px;
+
+      background-repeat: no-repeat;
+    }    
+  }
+
+  &--tel::before {
+    background-image: url('./../img/header/phone.svg');
+  }
+
+  &--mail::before {
+    background-image: url('./../img/header/mail.svg');
+  }
 }
