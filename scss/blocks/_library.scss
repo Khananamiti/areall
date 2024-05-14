@@ -1,4 +1,5 @@
 .library {
+  padding-bottom: 32px;
 
 }
 
@@ -9,6 +10,11 @@
   gap: 33px 33px;
 
   justify-content: center;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
+
+  padding: 32px;
 }
 
 .library__item {
@@ -20,10 +26,13 @@
 .library__item-text {
   width: 175px;
   padding: 16px 8px;
+  background: #a81111;  
+  border-radius: 15px 0px 0px 15px;
+  
 }
 
 .library__item-img {
   width: 175px;
   background: #fff;
-  border-radius: 0px 15px 15px 0px;
+  border-radius: 0px 15px 15px 0px;  
 }

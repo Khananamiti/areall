@@ -161,10 +161,17 @@ a:hover {
   padding: 10px 10px;
 }
 
+.header__bottom {
+  padding: 10px 0px;
+}
+
 .header__bottom-row, .header__geo {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-column-gap: 50px;
      -moz-column-gap: 50px;
           column-gap: 50px;
@@ -243,6 +250,10 @@ a:hover {
   background-image: url("./../img/header/geo.svg");
 }
 
+.library {
+  padding-bottom: 32px;
+}
+
 .library__row {
   display: grid;
   grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */
@@ -251,6 +262,11 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background: #fff;
+  border-radius: 15px;
+  -webkit-box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
+  padding: 32px;
 }
 
 .library__item {
@@ -265,6 +281,8 @@ a:hover {
 .library__item-text {
   width: 175px;
   padding: 16px 8px;
+  background: #a81111;
+  border-radius: 15px 0px 0px 15px;
 }
 
 .library__item-img {

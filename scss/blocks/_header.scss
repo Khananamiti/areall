@@ -22,8 +22,13 @@
   padding: 10px 10px;
 }
 
+.header__bottom {
+  padding: 10px 0px;
+}
+
 .header__bottom-row, .header__geo {
   display: flex;
+  justify-content: start;
   column-gap: 50px;
 }
 
