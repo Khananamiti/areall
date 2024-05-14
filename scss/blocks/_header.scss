@@ -3,9 +3,7 @@
   flex-direction: column; // выровняли элементы в колонку
   // justify-content: space-between;  выровняли на равном растоянии вдоль всей высоты
 
-  padding-bottom: 10px;
-
-  min-height: 200px;
+  min-height: 150px;
 
   background: $header-footer-bg; // background: url('./../img/header/header-bg.jpg');
 }
@@ -22,36 +20,26 @@
   padding: 10px 10px;
 }
 
-.header__bottom {
-  padding: 10px 0px;
-}
-
-.header__bottom-row, .header__geo {
-  display: flex;
-  justify-content: start;
-  column-gap: 50px;
-}
-
 .header__logo {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .header__title {
   text-align: center;
   font-size: 44px;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: -1px;
-}
-
-.breadcrumbs__list {
-  display: flex;
-  column-gap: 25px;
 }
 
 .header__contact {
   display: grid;
   grid-template-columns: 2fr 2fr 24px 24px;
   gap: 10px;
+}
+
+.header__auth {
+  display: grid;
+  align-items: center;
 }
 

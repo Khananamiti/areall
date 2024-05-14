@@ -1,8 +1,9 @@
 .info {
   position: relative;
 
-  &--tel, &--mail, &--more, &--geo{ // Если присутствуют модификаторы
-    padding-left: 20px;
+  &--more, &--geo, &--home { // Если присутствуют модификаторы
+    padding-left: 24px;
+    justify-items: center;
     
     &::before {
       content: "";
@@ -10,19 +11,11 @@
       position: absolute;
       left: 0px;
       top: 0px;
-      width: 24px;
-      height: 24px;
+      width: 18px;
+      height: 18px;
 
       background-repeat: no-repeat;
     }    
-  }
-
-  &--tel::before {
-    background-image: url('./../img/header/phone.svg');
-  }
-
-  &--mail::before {
-    background-image: url('./../img/header/mail.svg');
   }
 
   &--more::before {
@@ -31,5 +24,9 @@
 
   &--geo::before {
     background-image: url('./../img/header/geo.svg');
+  }
+
+  &--home::before {
+    background-image: url('./../img/header/home.svg');
   }
 }
