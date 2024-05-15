@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>    
-    <header class="header none"> <!-- Не забудь убрать none  -->
+    <header class="header">
         <div class="header__advertising">
             <div class="container">
                 <img src="./img/header/advertising.jpg" alt="Реклама">
@@ -103,17 +103,18 @@
                 </div>
 
 
-                <div class="library__block">
+                <div class="block">
                     <div class="library__title">
                         <h2 class="title-24">Библиотека оценщика</h2>
                         <p class="subtitle">Мониторинги, аналитические отчеты, материалы докладов и выступлений</p>
                         <div class="title-line"></div>
                     </div>
-                    <div class="library__row">
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--0">
+                    <div class="library__cards">
+
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--0">
                                 <ul>
-                                    <li class="item-title">Новое</li>
+                                    <li class="card__title">Новое</li>
                                     <li><a href="#!">Методическое пособие</a></li>
                                     <li><a href="#!">Сборник корректировок</a></li>
                                     <li><a href="#!">Аналитический отчет</a></li>
@@ -122,26 +123,26 @@
                                     <li><a href="#!">ФСО</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-0.png" alt="Новое" class="library__item-img">
+                            <img src="./img/library/img-0.png" alt="Новое" class="library__card-img">
                         </div>
                     
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--1">
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--1">
                                 <ul>
-                                    <li class="item-title">Мои документы</li>
+                                    <li class="card__title">Мои документы</li>
                                     <li><a href="#!">Федеральный закон</a></li>
                                     <li><a href="#!">Квалэкзамен Движимое</a></li>
                                     <li><a href="#!">Жилые комплексы новые</a></li>
                                     <li><a href="#!">Долгострои</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-1.png" alt="Мои документы" class="library__item-img">
+                            <img src="./img/library/img-1.png" alt="Мои документы" class="library__card-img">
                         </div>
                     
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--2">
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--2">
                                 <ul>
-                                    <li class="item-title">Квалификационный экзамен</li>
+                                    <li class="card__title">Квалификационный экзамен</li>
                                     <li><a href="#!">Недвижимость</a></li>
                                     <li><a href="#!">Движимое</a></li>
                                     <li><a href="#!">Бизнес</a></li>
@@ -150,74 +151,139 @@
                                     <li><a href="#!">pprog.ru/examination</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-2.png" alt="Квалификационный экзамен" class="library__item-img">
+                            <img src="./img/library/img-2.png" alt="Квалификационный экзамен" class="library__card-img">
                         </div>
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--3">
+
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--3">
                                 <ul>
-                                    <li class="item-title">Законодательство</li>
+                                    <li class="card__title">Законодательство</li>
                                     <li><a href="#!">ФСО</a></li>
                                     <li><a href="#!">Приказы</a></li>
                                     <li><a href="#!">Федеральные законы</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-3.png" alt="Законодательство" class="library__item-img">
+                            <img src="./img/library/img-3.png" alt="Законодательство" class="library__card-img">
                         </div>
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--4">
+
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--4">
                                 <ul>
-                                    <li class="item-title">Аналитика</li>
+                                    <li class="card__title">Аналитика</li>
                                     <li><a href="#!">Сборник аналитических рыночных данных</a></li>
                                     <li><a href="#!">Аналитический отчет</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-4.png" alt="Аналитика" class="library__item-img">
+                            <img src="./img/library/img-4.png" alt="Аналитика" class="library__card-img">
                         </div>
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--5">
+
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--5">
                                 <ul>
-                                    <li class="item-title">Исследования рынка</li>
+                                    <li class="card__title">Исследования рынка</li>
                                     <li><a href="#!">Сборник корректировок</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-5.png" alt="Исследования рынка" class="library__item-img">
+                            <img src="./img/library/img-5.png" alt="Исследования рынка" class="library__card-img">
                         </div>
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--6">
+
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--6">
                                 <ul>
-                                    <li class="item-title">Образование</li>
+                                    <li class="card__title">Образование</li>
                                     <li><a href="#!">Курсы</a></li>
                                     <li><a href="#!">Литература</a></li>
                                     <li><a href="#!">ВУЗы</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-6.png" alt="Образование" class="library__item-img">
+                            <img src="./img/library/img-6.png" alt="Образование" class="library__card-img">
                         </div>
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--7">
+
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--7">
                                 <ul>
-                                    <li class="item-title">Мероприятия</li>
+                                    <li class="card__title">Мероприятия</li>
                                     <li><a href="#!">Конференция</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-7.png" alt="Мероприятия" class="library__item-img">
+                            <img src="./img/library/img-7.png" alt="Мероприятия" class="library__card-img">
                         </div>
-                        <div class="library__item">
-                            <div class="library__item-text item-bg item-bg--8">
+
+                        <div class="library__card">
+                            <div class="library__card-text card-bg card-bg--8">
                                 <ul>
-                                    <li class="item-title">Статьи и доклады</li>
+                                    <li class="card__title">Статьи и доклады</li>
                                     <li><a href="#!">Статья</a></li>
                                     <li><a href="#!">Доклад</a></li>
                                 </ul>
                             </div>
-                            <img src="./img/library/img-8.png" alt="Статьи и доклады" class="library__item-img">
+                            <img src="./img/library/img-8.png" alt="Статьи и доклады" class="library__card-img">
                         </div>
+
                     </div>
-                </div> 
+                </div>
+                
+                <!-- <div class="side--right">
+                    <div class="telegram">
+                        <a href="#!">
+                            <img src="./img/header/telegram.jpg" alt="telegram" class="block--p0">
+                        </a>
+                    </div>
+                </div> -->
             </section>
 
-            <section class="investigation">
-                Исследования рынка недвижимости
+            <section class="investigation">                
+                <div class="block">
+
+                    <div class="investigation__title">
+                        <h2 class="title-24">Исследования рынка недвижимости</h2>
+                        <p class="subtitle">Справочники оценщика, сборники корректировок, мониторинги рынка, аналитические отчеты</p>
+                        <div class="title-line"></div>
+                    </div>
+
+                    <div class="investigation__documents">
+                        <div class="investigation__document">
+                            <div class="document__img">
+                                <img src="./img/investigation/document.svg" alt="Документ">
+                            </div>
+                            <div class="document__info">
+                                <span class="document-type">Аналитический отчет</span>
+                                <span class="link">
+                                    <a href="" target="_blank">Рынок жилой недвижимости города Омска за сентябрь 2011 года</a>
+                                </span>
+                                <span class="company">ОМЭКС</span>
+                            </div>
+
+                            <div class="document__price">
+                                <div class="price">300 руб.</div>
+                                <div class="data">
+                                    <span>ОПУБЛИКОВАН:</span>
+                                    <span>30.03.2014</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="investigation__document">
+                            <img src="./img/investigation/document.svg">
+                            <span class="document-type">Аналитический отчет</span>
+                            <span class="link">
+                                <a href="" target="_blank">Рынок жилой недвижимости города Омска за сентябрь 2011 года</a>
+                            </span>
+                            <span class="company">ОМЭКС</span>
+                            <td class="result">
+                            <div class="price">300 руб.</div>
+                            <div class="data">
+                                <span>ОПУБЛИКОВАН:</span>
+                                <span>30.03.2014</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="link">
+                        <a href="#!">Весь список</a>
+                    </span>                      
+
+                </div>
             </section>
 
             <section class="analisys">

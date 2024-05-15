@@ -23,43 +23,26 @@
   align-items: center;
 }
 
-.library__block {
-  background: $white;
-  border-radius: 15px;
-  box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
-  padding: 32px;
-}
-
 .library__title {    
   padding-bottom: 24px;
 }
 
-.library__row {
+.library__cards {
   display: grid;  
   grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */    
   grid-template-rows: repeat(3, 233px); /* Будет создано 3 ряда */
   gap: 33px 33px;
 
-  justify-content: center;  
-
-  
+  justify-content: center;    
 }
 
-.library__item {
+.library__card {
   display: flex;
   border-radius: 15px;
   box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
 }
 
-.item-title {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 17px;
-
-  margin-bottom: 8px;  
-}
-
-.library__item-text {
+.library__card-text {
   font-size: 12px;
   line-height: 20px;
 
@@ -69,21 +52,9 @@
   border-radius: 15px 0px 0px 15px;  
 }
 
-.item-bg {
-  background: rgb(11, 55, 82); 
-  
-  &--0 {background: #CF4239;}  
-  &--1 {background: #3F9E56;}
-  &--2 {background: #358EE4;}
-  &--3 {background: #279088;}
-  &--4 {background: #5C7A8A;}
-  &--5 {background: #D35629;}
-  &--6 {background: #E4920E;}
-  &--7 {background: #36B6D0;}
-  &--8 {background: #85BA52;}
-}
 
-.library__item-img {
+
+.library__card-img {
   width: 175px;
   background: $white;
   border-radius: 0px 15px 15px 0px;  

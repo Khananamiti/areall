@@ -1,0 +1,21 @@
+.card-bg {
+  background: rgb(11, 55, 82); 
+  
+  &--0 {background: #CF4239;}  
+  &--1 {background: #3F9E56;}
+  &--2 {background: #358EE4;}
+  &--3 {background: #279088;}
+  &--4 {background: #5C7A8A;}
+  &--5 {background: #D35629;}
+  &--6 {background: #E4920E;}
+  &--7 {background: #36B6D0;}
+  &--8 {background: #85BA52;}
+}
+
+.card__title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+
+  margin-bottom: 8px;  
+}
