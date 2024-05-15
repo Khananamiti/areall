@@ -1,20 +1,5 @@
 .library {
   padding-bottom: 32px;
-
-}
-
-.library__row {
-  display: grid;  
-  grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */    
-  grid-template-rows: repeat(3, 233px); /* Будет создано 3 ряда */
-  gap: 33px 33px;
-
-  justify-content: center;
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
-
-  padding: 32px;
 }
 
 .library__top {
@@ -43,6 +28,21 @@
 //   justify-content: start;
 //   column-gap: 500px;
 // }
+
+
+.library__row {
+  display: grid;  
+  grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */    
+  grid-template-rows: repeat(3, 233px); /* Будет создано 3 ряда */
+  gap: 33px 33px;
+
+  justify-content: center;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
+
+  padding: 32px;
+}
 
 .library__item {
   display: flex;
