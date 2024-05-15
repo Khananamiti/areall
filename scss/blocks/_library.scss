@@ -23,12 +23,16 @@
   align-items: center;
 }
 
-// .library__geo {
-//   display: flex;
-//   justify-content: start;
-//   column-gap: 500px;
-// }
+.library__block {
+  background: $white;
+  border-radius: 15px;
+  box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
+  padding: 32px;
+}
 
+.library__title {    
+  padding-bottom: 24px;
+}
 
 .library__row {
   display: grid;  
@@ -36,12 +40,9 @@
   grid-template-rows: repeat(3, 233px); /* Будет создано 3 ряда */
   gap: 33px 33px;
 
-  justify-content: center;
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
+  justify-content: center;  
 
-  padding: 32px;
+  
 }
 
 .library__item {
@@ -84,6 +85,6 @@
 
 .library__item-img {
   width: 175px;
-  background: #fff;
+  background: $white;
   border-radius: 0px 15px 15px 0px;  
 }
