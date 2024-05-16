@@ -91,9 +91,12 @@ legend {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(11, 55, 82);
   color: #FFFFFF;
   font-size: 14px;
+}
+
+main {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(27, 116, 163), rgb(11, 55, 82) 100%);
 }
 
 a {
@@ -142,7 +145,10 @@ a:hover {
 }
 
 .block {
+  max-width: 1180px;
+  min-width: 280px;
   background: #FFFFFF;
+  color: #2E363E;
   border-radius: 15px;
   -webkit-box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
           box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
@@ -185,6 +191,10 @@ a:hover {
 
 .header__advertising {
   background: #FFFFFF;
+}
+
+.header__top {
+  background: url("./../img/header/header-bg-nav.jpg");
 }
 
 .header__top-row {
@@ -273,7 +283,13 @@ a:hover {
 }
 
 .library {
+  display: grid;
+  grid-template-rows: 40px, 1fr;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-bottom: 32px;
+  background: url(./../img/header/header-bg.jpg);
 }
 
 .library__top {
@@ -321,7 +337,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */
   grid-template-rows: repeat(3, 233px); /* Будет создано 3 ряда */
-  gap: 33px 33px;
+  gap: 33px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -385,6 +401,7 @@ a:hover {
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
+  color: #FFFFFF;
   margin-bottom: 8px;
 }
 
@@ -398,16 +415,28 @@ a:hover {
 
 .investigation__documents {
   display: grid;
-  grid-template-rows: repeat(auto-fill, 100px);
+  grid-template-rows: repeat(auto-fill, 1fr);
 }
 
 .investigation__document {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 2fr 6fr 1fr;
+}
+
+.document__link {
+  color: rgb(5, 120, 158);
+}
+
+.document__data--red {
+  color: red;
 }
 
 .telegram {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.footer {
+  background: #0E2941;
 }

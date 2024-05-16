@@ -1,5 +1,9 @@
 .library {
+  display: grid;
+  grid-template-rows: 40px, 1fr;
+  justify-content: center;
   padding-bottom: 32px;
+  background: url(./../img/header/header-bg.jpg);
 }
 
 .library__top {
@@ -31,7 +35,8 @@
   display: grid;  
   grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */    
   grid-template-rows: repeat(3, 233px); /* Будет создано 3 ряда */
-  gap: 33px 33px;
+  // grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); адаптив для мобильных устройств
+  gap: 33px;
 
   justify-content: center;    
 }
@@ -48,7 +53,7 @@
 
   width: 175px;
   padding: 16px 8px;
-   
+  
   border-radius: 15px 0px 0px 15px;  
 }
 

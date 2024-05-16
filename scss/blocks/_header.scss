@@ -5,11 +5,15 @@
 
   min-height: 150px;
 
-  background: $header-footer-bg; // background: url('./../img/header/header-bg.jpg');
+  background: $header-footer-bg;
 }
 
 .header__advertising {
   background: $white;
+}
+
+.header__top {
+  background: url('./../img/header/header-bg-nav.jpg');
 }
 
 .header__top-row {

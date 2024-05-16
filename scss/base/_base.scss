@@ -2,9 +2,12 @@
 
 body {
   font-family: $font-main;
-  background-color: rgb(11, 55, 82);
   color: $white;
   font-size: 14px;
+}
+
+main {
+  background: $main-bg;
 }
 
 a {
@@ -19,7 +22,7 @@ a {
 .container {
   margin: 0 auto;
   padding: 0 15px;
-  max-width: 1210px;
+  max-width: 1210px;  
 }
 
 .side {
@@ -57,7 +60,10 @@ a {
 }
 
 .block {
+  max-width: 1180px;
+  min-width: 280px;
   background: $white;
+  color: $black;
   border-radius: 15px;
   box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
   padding: 32px;
