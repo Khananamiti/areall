@@ -1,13 +1,24 @@
-.document__img {
-
+.document__img img {
+  height: 150px;
 }
 
 .document__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
+.document__info h3 {
+  font-size: 18px;
 }
 
 .document__type {
-
+  width: 150px;
+  padding: 2px 12px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: $stroke;
 }
 
 .document__link{
@@ -15,21 +26,42 @@
 }
 
 .document__company {
-  
+  display: flex;
+  gap: 10px;
+}
+
+.document__company span{
+  font-weight: 500;
 }
 
 .document__result {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .document__price {
-
+  color: red;
+  font-size: 18px;
 }
 
 .document__data {
 
-  &--red {
-    color: red;
-  }
+}
+.document__buy {
 
+}
+
+.document__btn {
+  height: 40px;
+  padding: 12px 40px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: $accent;
+  transition: background-color 0.2s ease-in;
+
+  &:hover {
+    background-color: $accent2;
+  }
 }
