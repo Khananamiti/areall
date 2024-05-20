@@ -13,7 +13,7 @@
 }
 
 .header__top {
-  background: url('./../img/header/header-bg-nav.jpg');
+  
 }
 
 .header__top-row {
@@ -45,5 +45,9 @@
 .header__auth {
   display: grid;
   align-items: center;
+}
+
+.header {
+  background: url('./../img/header/header-bg-nav.jpg'), no-repeat;
 }
 

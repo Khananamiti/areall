@@ -157,7 +157,9 @@ a:hover {
 .block--p0 {
   border-radius: 15px;
 }
-
+.block--w780 {
+  width: 780px;
+}
 .title-24 {
   font-size: 24px;
   font-weight: 700;
@@ -191,10 +193,6 @@ a:hover {
 
 .header__advertising {
   background: #FFFFFF;
-}
-
-.header__top {
-  background: url("./../img/header/header-bg-nav.jpg");
 }
 
 .header__top-row {
@@ -237,6 +235,10 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header {
+  background: url("./../img/header/header-bg-nav.jpg"), no-repeat;
 }
 
 .nav {
@@ -483,7 +485,8 @@ a:hover {
 }
 
 .document__type {
-  width: 150px;
+  min-width: 150px;
+  max-width: 250px;
   padding: 2px 12px;
   text-align: center;
   font-weight: 500;
