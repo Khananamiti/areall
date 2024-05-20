@@ -157,9 +157,28 @@ a:hover {
 .block--p0 {
   border-radius: 15px;
 }
+.block--w280 {
+  width: 280px;
+}
+.block--w380 {
+  width: 380px;
+}
+.block--w480 {
+  width: 480px;
+}
+.block--w580 {
+  width: 580px;
+}
+.block--w680 {
+  width: 680px;
+}
 .block--w780 {
   width: 780px;
 }
+.block--w880 {
+  width: 880px;
+}
+
 .title-24 {
   font-size: 24px;
   font-weight: 700;
@@ -444,6 +463,10 @@ a:hover {
 }
 
 .investigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
   padding: 24px 0px;
 }
 

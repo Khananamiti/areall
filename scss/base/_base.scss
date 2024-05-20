@@ -72,15 +72,13 @@ a {
     border-radius: 15px;
   }
 
-  &--w280 {}
-  &--w380 {}
-  &--w480 {}
-  &--w580 {}
-  &--w680 {}
-  &--w780 {
-    width: 780px;
-  }
-  &--w880 {}
+  &--w280 {width: 280px;}
+  &--w380 {width: 380px;}
+  &--w480 {width: 480px;}
+  &--w580 {width: 580px;}
+  &--w680 {width: 680px;}
+  &--w780 {width: 780px;}
+  &--w880 {width: 880px;}
 }
 
 .title-24 {
