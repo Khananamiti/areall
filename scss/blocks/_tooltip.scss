@@ -1,0 +1,16 @@
+.tooltip-text-ex {
+  position: relative;
+}
+.tooltip-text-ex .tooltip-content {
+  display: none;
+  position: absolute;
+  height: 70px;  
+  background: $header-footer-bg;
+  top: 10%; /* Позиция подсказки */
+  text-align: center;
+  font-size: 12px;
+  color: $white; /* Цвет текста */
+}
+.tooltip-text-ex:hover .tooltip-content {
+  display: block;
+}

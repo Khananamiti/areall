@@ -577,16 +577,85 @@ a:hover {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, auto);
   margin-bottom: 64px;
   gap: 68px;
+}
+
+.footer__logo {
+  width: 177px;
+}
+
+.footer-nav__list li {
+  margin-bottom: 10px;
 }
 
 .footer__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 30%;
+}
+
+.footer__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.footer__socials img {
+  height: 32px;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.footer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__form input {
+  width: 181px;
+  border: solid 1px #D9D9D9;
+  border-radius: 6px 0 0 6px;
+  text-align: center;
+}
+
+.footer__btn {
+  height: 40px;
+  width: 142px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 0 6px 6px 0;
+  background-color: #FBD14C;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+.footer__btn:hover {
+  background-color: #eec02a;
+}
+
+.tooltip-text-ex {
+  position: relative;
+}
+
+.tooltip-text-ex .tooltip-content {
+  display: none;
+  position: absolute;
+  height: 70px;
+  background: #0E2941;
+  top: 10%; /* Позиция подсказки */
+  text-align: center;
+  font-size: 12px;
+  color: #FFFFFF; /* Цвет текста */
+}
+
+.tooltip-text-ex:hover .tooltip-content {
+  display: block;
 }
