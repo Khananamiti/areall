@@ -7,21 +7,26 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 64px;
+  gap: 68px;
 }
 
-.footer_logo {}
+.footer__logo {}
 
-.footer_nav {}
+.footer__nav {}
 
-.footer_question {}
+.footer__question {}
 
-.footer_row {
+.footer__row {
   display: flex;
   justify-content: space-between;
 }
 
-.footer_socials {
+.footer__socials {
 }
 
-.footer_copyright {
+.footer__copyright {
+}
+
+.footer__form {
+  
 }

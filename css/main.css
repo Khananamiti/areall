@@ -579,9 +579,10 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   margin-bottom: 64px;
+  gap: 68px;
 }
 
-.footer_row {
+.footer__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

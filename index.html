@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>    
-    <header class="header"> <!-- Шапка -->
+    <header class="header none"> <!-- Шапка -->
         <div class="header__advertising">
             <div class="container">
                 <img src="./img/header/advertising.jpg" alt="Реклама">
@@ -83,9 +83,9 @@
         
     </header>   
     
-    <main>
+    <main class="none">
         
-        <section class="library none"> <!-- Библиотека -->
+        <section class="library"> <!-- Библиотека -->
     
             <div class="library__top">  
                 <div class="library__top-row">
@@ -238,7 +238,7 @@
         </section>
 
         <div class="container">
-            <section class="investigation none"> <!-- Исследования -->
+            <section class="investigation"> <!-- Исследования -->
                 <div class="block block--w780">
 
                     <div class="investigation__title">
@@ -253,15 +253,39 @@
                         
                         <!-- <div class="analytical-reports"> -->
 
-                            <div class="investigation__document"> <!-- AO "Рынок земли" 2024 -->
+                            <div class="investigation__document"> <!-- AO "Рынок земли" 2023 -->
+                                <div class="document__img">
+                                    <img src="./img/analisys/ao-earth2023-4.jpg" alt="Документ">
+                                </div>
+                                <div class="document__info">
+                                    <span class="document__type">Анализ рынка</span>
+                                    <a href="src/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf" class="document__link">Аналитический отчет "Рынок земли" города Омска. 4Q 2023</a>
+                                    <div class="document__company">
+                                        <span>Подготовлен:</span>
+                                        <p>НП "Евразийский Союз Экспертов</p>
+                                    </div>
+                                </div>
+                                <div class="document__result">
+                                    <div class="document__price">5000 руб.</div>
+                                    <div class="document__data">
+                                        <p>ОПУБЛИКОВАН:</p>
+                                        <p>01.10.2023</p>
+                                    </div>
+                                    <div class="document__buy">
+                                        <a href="https://createqr.ru/api/v1/qr-pay?Name=Иванов И. И.&PersonalAcc=00000000000000000000&BankName=АО 'АЛЬФА-БАНК' &BIC=044525593&CorrespAcc=30101810200000000593&SumRub=100&Purpose=Оплата по счету" width="256" height="256" alt="QR-код для оплаты">
+                                            <button type="button" class="document__btn" >Купить</button>
+                                        </a>                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="investigation__document none"> <!-- AO "Рынок земли" 2024 -->
                                 <div class="document__img">
                                     <img src="./img/analisys/ao-earth2024-1.jpg" alt="Документ">
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Анализ рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Аналитический отчет "Рынок земли" города Омска. 2024</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Аналитический отчет "Рынок земли" города Омска. 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -281,15 +305,40 @@
                                 </div>
                             </div>
                             
-                            <div class="investigation__document"> <!-- AO "Офисная недвижимость" 2024 -->
+                            <div class="investigation__document"> <!-- AO "Офисная недвижимость" 2023 -->
+                                <div class="document__img">
+                                    <img src="./img/analisys/ao-office2023-4.jpg" alt="Документ">
+                                </div>
+                                <div class="document__info">
+                                    <span class="document__type">Анализ рынка</span>
+                                    <a href="src/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЭМО.doc" class="document__link">Аналитический отчет "Офисная недвижимость" города Омска. 4Q 2023</a>
+                                    <div class="document__company">
+                                        <span>Подготовлен:</span>
+                                        <p>НП "Евразийский Союз Экспертов</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="document__result">
+                                    <div class="document__price">5000 руб.</div>
+                                    <div class="document__data">
+                                        <p>ОПУБЛИКОВАН:</p>
+                                        <p>01.10.2023</p>
+                                    </div>
+                                    <div class="document__buy">
+                                        <a href="https://createqr.ru/api/v1/qr-pay?Name=Иванов И. И.&PersonalAcc=00000000000000000000&BankName=АО 'АЛЬФА-БАНК' &BIC=044525593&CorrespAcc=30101810200000000593&SumRub=100&Purpose=Оплата по счету" width="256" height="256" alt="QR-код для оплаты">
+                                            <button type="button" class="document__btn">Купить</button>
+                                        </a>                                    
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="investigation__document none"> <!-- AO "Офисная недвижимость" 2024 -->
                                 <div class="document__img">
                                     <img src="./img/analisys/ao-office2024-1.jpg" alt="Документ">
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Анализ рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Аналитический отчет "Офисная недвижимость" города Омска. 2024</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Аналитический отчет "Офисная недвижимость" города Омска. 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -310,15 +359,39 @@
                                 </div>
                             </div>
 
-                            <div class="investigation__document"> <!-- AO "Индивидуальная жилая застройка" 2024 -->
+                            <div class="investigation__document"> <!-- AO "Индивидуальная жилая застройка" 2023 -->
+                                <div class="document__img">
+                                    <img src="./img/analisys/ao-izhs2023-4.jpg" alt="Документ">
+                                </div>
+                                <div class="document__info">
+                                    <span class="document__type">Анализ рынка</span>
+                                    <a href="src/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf" class="document__link">Аналитический отчет "Индивидуальная жилая застройка" города Омска. 4Q 2023</a>
+                                    <div class="document__company">
+                                        <span>Подготовлен:</span>
+                                        <p>НП "Евразийский Союз Экспертов</p>
+                                    </div>
+                                </div>
+                                <div class="document__result">
+                                    <div class="document__price">5000 руб.</div>
+                                    <div class="document__data">
+                                        <p>ОПУБЛИКОВАН:</p>
+                                        <p>01.10.2023</p>
+                                    </div>
+                                    <div class="document__buy">
+                                        <a href="https://createqr.ru/api/v1/qr-pay?Name=Иванов И. И.&PersonalAcc=00000000000000000000&BankName=АО 'АЛЬФА-БАНК' &BIC=044525593&CorrespAcc=30101810200000000593&SumRub=100&Purpose=Оплата по счету" width="256" height="256" alt="QR-код для оплаты">
+                                            <button type="button" class="document__btn">Купить</button>
+                                        </a>                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="investigation__document none"> <!-- AO "Индивидуальная жилая застройка" 2024 -->
                                 <div class="document__img">
                                     <img src="./img/analisys/ao-izhs2024-1.jpg" alt="Документ">
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Анализ рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Аналитический отчет "Индивидуальная жилая застройка" города Омска. 2024</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Аналитический отчет "Индивидуальная жилая застройка" города Омска. 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -344,9 +417,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Анализ рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Аналитический отчет "Производственно-складская недвижимость" города Омска. 2023</a>
-                                    </h3>
+                                    <a href="src/analytics/Анализ_рынка_ПСН_4кв._2023_БФ_ДЕМО.pdf" class="document__link">Аналитический отчет "Производственно-складская недвижимость" города Омска. 4Q 2023</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -356,7 +427,7 @@
                                     <div class="document__price">5000 руб.</div>
                                     <div class="document__data">
                                         <p>ОПУБЛИКОВАН:</p>
-                                        <p>01.01.2023</p>
+                                        <p>01.10.2023</p>
                                     </div>
                                     <div class="document__buy">
                                         <a href="https://createqr.ru/api/v1/qr-pay?Name=Иванов И. И.&PersonalAcc=00000000000000000000&BankName=АО 'АЛЬФА-БАНК' &BIC=044525593&CorrespAcc=30101810200000000593&SumRub=100&Purpose=Оплата по счету" width="256" height="256" alt="QR-код для оплаты">
@@ -366,15 +437,13 @@
                                 </div>
                             </div>
 
-                            <div class="investigation__document"> <!-- AO "ПСН" 2024 -->
+                            <div class="investigation__document none"> <!-- AO "ПСН" 2024 -->
                                 <div class="document__img">
                                     <img src="./img/analisys/ao-psn2024.jpg" alt="Документ">
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Анализ рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Аналитический отчет "Производственно складская недвижимость" города Омска. 2024</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Аналитический отчет "Производственно складская недвижимость" города Омска. 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -385,6 +454,32 @@
                                     <div class="document__data">
                                         <p>ОПУБЛИКОВАН:</p>
                                         <p>01.01.2024</p>
+                                    </div>
+                                    <div class="document__buy">
+                                        <a href="https://createqr.ru/api/v1/qr-pay?Name=Иванов И. И.&PersonalAcc=00000000000000000000&BankName=АО 'АЛЬФА-БАНК' &BIC=044525593&CorrespAcc=30101810200000000593&SumRub=100&Purpose=Оплата по счету" width="256" height="256" alt="QR-код для оплаты">
+                                            <button type="button" class="document__btn">Купить</button>
+                                        </a>                                    
+                                    </div>
+                                </div>
+                            </div>
+                                                        
+                            <div class="investigation__document"> <!-- AO "ПСН" 2023 -->
+                                <div class="document__img">
+                                    <img src="./img/analisys/ao-ton2023-4.jpg" alt="Документ">
+                                </div>
+                                <div class="document__info">
+                                    <span class="document__type">Анализ рынка</span>
+                                    <a href="src/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf" class="document__link">Аналитический отчет "Торговые помещения" города Омска. 4Q 2023</a>
+                                    <div class="document__company">
+                                        <span>Подготовлен:</span>
+                                        <p>НП "Евразийский Союз Экспертов</p>
+                                    </div>
+                                </div>
+                                <div class="document__result">
+                                    <div class="document__price">5000 руб.</div>
+                                    <div class="document__data">
+                                        <p>ОПУБЛИКОВАН:</p>
+                                        <p>01.10.2023</p>
                                     </div>
                                     <div class="document__buy">
                                         <a href="https://createqr.ru/api/v1/qr-pay?Name=Иванов И. И.&PersonalAcc=00000000000000000000&BankName=АО 'АЛЬФА-БАНК' &BIC=044525593&CorrespAcc=30101810200000000593&SumRub=100&Purpose=Оплата по счету" width="256" height="256" alt="QR-код для оплаты">
@@ -405,9 +500,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Квартиры" 2020</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Квартиры" 2020</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -433,9 +526,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Квартиры" 2023</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Квартиры" 2023</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -461,9 +552,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="src/collection/Сборник_корректировок_КВАРТИРЫ_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Квартиры" 2024</a>
-                                    </h3>
+                                    <a href="src/collection/Сборник_корректировок_КВАРТИРЫ_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Квартиры" 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -489,9 +578,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Гаражи. Индивидуальные объекты хранения" 2020</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Гаражи. Индивидуальные объекты хранения" 2020</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -517,9 +604,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Гаражи. Индивидуальные объекты хранения" 2023</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Гаражи. Индивидуальные объекты хранения" 2023</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -545,9 +630,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="src/collection/Сборник_корректировок_ГАРАЖИ_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Гаражи. Индивидуальные объекты хранения" 2024</a>
-                                    </h3>
+                                    <a href="src/collection/Сборник_корректировок_ГАРАЖИ_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Гаражи. Индивидуальные объекты хранения" 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -573,9 +656,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Индивидуальные жилые строения" 2020</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Индивидуальные жилые строения" 2020</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -601,9 +682,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="src/collection/Сборник_корректировок_ИЖС_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Индивидуальные жилые строения" 2024</a>
-                                    </h3>
+                                    <a href="src/collection/Сборник_корректировок_ИЖС_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Индивидуальные жилые строения" 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -629,9 +708,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Производственно-складская недвижимость" 2020</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Производственно-складская недвижимость" 2020</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -657,9 +734,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Производственно-складская недвижимость" 2023</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Производственно-складская недвижимость" 2023</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -685,9 +760,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="src/collection/Сборник_корректировок_ПСН_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Производственно-складская недвижимость" 2024</a>
-                                    </h3>
+                                    <a href="src/collection/Сборник_корректировок_ПСН_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Производственно-складская недвижимость" 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -713,9 +786,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Торгово-офисная недвижимость" 2023</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Торгово-офисная недвижимость" 2023</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -741,9 +812,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="src/collection/Сборник_корректировок_ТОН_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Торгово-офисная недвижимость" 2024</a>
-                                    </h3>
+                                    <a href="src/collection/Сборник_корректировок_ТОН_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Торгово-офисная недвижимость" 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -769,9 +838,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Земельные участки" 2020</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Земельные участки" 2020</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -797,9 +864,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Земельные участки" 2021</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Земельные участки" 2021</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -825,9 +890,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Земельные участки" 2022</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Земельные участки" 2022</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -853,9 +916,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="#!" class="document__link">Сборник корректировок "Земельные участки" 2023</a>
-                                    </h3>
+                                    <a href="#!" class="document__link">Сборник корректировок "Земельные участки" 2023</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -881,9 +942,7 @@
                                 </div>
                                 <div class="document__info">
                                     <span class="document__type">Исследования рынка</span>
-                                    <h3>
-                                        <a href="src/collection/Сборник_корректировок_ЗЕМЛЯ_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Земельные участки" 2024</a>
-                                    </h3>
+                                    <a href="src/collection/Сборник_корректировок_ЗЕМЛЯ_2024_demo.pdf" class="document__link" target="_blank">Сборник корректировок "Земельные участки" 2024</a>
                                     <div class="document__company">
                                         <span>Подготовлен:</span>
                                         <p>НП "Евразийский Союз Экспертов</p>
@@ -931,15 +990,68 @@
     <footer class="footer"> <!-- Подвал -->
         <div class="container">
             <div class="footer-grid">
-                <div class="footer_logo">Logo</div>
-                <div class="footer_nav">NAV</div>
-                <div class="footer_nav">NAV</div>
-                <div class="footer_nav">NAV</div>
-                <div class="footer_question">QUEstion</div>
+                <div class="footer__logo">
+                    <a href="#!">
+                        <img src="./img/LOGO.svg" alt="Areall | Продвижение недвижимости">
+                    </a>
+                </div>
+
+                <div class="footer__nav">
+                    <nav class="footer-nav">
+                        <ul class="footer-nav__list">
+                            <li><a href="#!">Ценовое зонирование</a></li>
+                            <li><a href="#!">Сегментирование и классификация</a></li>
+                            <li><a href="#!">Недвижимость</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__nav">
+                    <nav class="footer-nav">
+                        <ul class="footer-nav__list">
+                            <li><a href="#!">Аналитика</a></li>
+                            <li><a href="#!">Исследования</a></li>
+                            <li><a href="#!">Совет экспертов</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__nav">
+                    <nav class="footer-nav">
+                        <ul class="footer-nav__list">
+                            <li><a href="#!">Контакты</a></li>
+                            <li><a href="#!">Команда</a></li>
+                            <li><a href="#!">Образование</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer__question">
+                    <nav class="footer-nav">
+                        <ul class="footer-nav__list">
+                            <li>
+                                <form action="|" class="footer__form">                                    
+                                    <input type="text">| Ваш вопрос?</input>
+                                    <button type="button" class="document__btn" >Направьте нам!</button>
+                                </form>
+                            </li>
+                            <li>                                
+                                <div class="tooltip-text-ex">
+                                    <p>Нашли ошибку на сайте?</p>
+                                    <div class="tooltip-content">
+                                        <p>Выделите текст (максимум 160 символов) и нажмите Ctrl+Enter</p>
+                                    </div> 
+                                </div>        
+                            </li>
+                            <li>Есть замечания или предложения?</li>                            
+                        </ul>
+                    </nav>
+                </div>
             </div>
-            <div class="footer_row">
-                <div class="footer_socials">блок иконок соцсетей</div>
-                <div class="footer_copyright">Копирайт</div>
+
+            <div class="footer__row">
+                <div class="footer__socials">блок иконок соцсетей</div>
+                <div class="footer__copyright">Копирайт</div>
             </div>
         </div>
     </footer>
