@@ -6,7 +6,7 @@
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  margin-bottom: 64px;
+  margin-bottom: 24px;
   gap: 68px;
 }
 
@@ -24,7 +24,7 @@
 
 .footer__row {
   display: flex;
-  gap: 30%;
+  gap: 35%;
 }
 
 .footer__socials {  
