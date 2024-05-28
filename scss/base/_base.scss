@@ -103,10 +103,10 @@ a {
   }
 }
 
-.fixblock {
+.fix-block {
   position: fixed;
   top: 32px;
-  left: 1002px;
+  left: calc(50% + 210px);
 }
 
 .title-24 {

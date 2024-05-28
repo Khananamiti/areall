@@ -16,11 +16,14 @@
 
 .footer__nav {}
 
-.footer-nav__list li{
-  margin-bottom: 10px;
+.footer__nav-list{
+  display: grid;
+  gap: 10px;
 }
 
-.footer__question {}
+.footer__question {
+  letter-spacing: 0.03em;
+}
 
 .footer__row {
   display: flex;

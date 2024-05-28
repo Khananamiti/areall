@@ -31,22 +31,23 @@
 
 .header__title {
   text-align: center;
-  font-size: 44px;
+  font-size: 36px;
   font-weight: 700;
   letter-spacing: -1px;
 }
 
 .header__contact {
   display: grid;
-  grid-template-columns: 2fr 2fr 24px 24px;
+  grid-template-columns: auto auto 24px 24px;
   gap: 10px;
+  align-items: center;
 }
 
 .header__auth {
   display: flex;
   flex-direction: column;
   align-items: center;
-  g
+  gap: 8px;
 }
 
 .header__auth-login {
@@ -74,7 +75,7 @@
 .header__cont-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  gap: 8px;
 }
 
 .header {
