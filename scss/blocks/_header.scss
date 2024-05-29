@@ -25,10 +25,14 @@
   padding: 10px 10px;
 }
 
-.header__nav {
+@mixin mediaTablet {
   @media screen and (max-width: $tablet){
-    display: none;
+    @content;
   } 
+}
+
+.header__nav {
+  
 }
 
 .header__nav-btn {

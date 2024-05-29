@@ -247,12 +247,6 @@ a:hover {
   padding: 10px 10px;
 }
 
-@media screen and (max-width: 999px) {
-  .header__nav {
-    display: none;
-  }
-}
-
 .header__nav-btn {
   display: none;
 }
