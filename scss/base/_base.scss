@@ -59,7 +59,7 @@ a {
   display: none !important;
 }
 
-.block {
+.block {  
   max-width: 1180px;
   min-width: 280px;
   background: $white;
@@ -84,13 +84,14 @@ a {
   &--w680 {width: 680px;}
   &--w780 {width: 780px;}
   &--w880 {width: 880px;}
+
+  &--fix {
+    position: fixed;
+    top: 32px;
+    left: calc(50% + 210px);
+  }
 }
 
-.fix-block {
-  position: fixed;
-  top: 32px;
-  left: calc(50% + 210px);
-}
 
 .title-24 {
   font-size: 24px;

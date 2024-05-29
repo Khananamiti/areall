@@ -182,8 +182,7 @@ a:hover {
 .block--w880 {
   width: 880px;
 }
-
-.fix-block {
+.block--fix {
   position: fixed;
   top: 32px;
   left: calc(50% + 210px);
