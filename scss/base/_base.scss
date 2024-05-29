@@ -68,39 +68,22 @@ a {
   box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
   padding: 32px;
 
-  &--p0 {
-    border-radius: 15px;
+  &--w280, &--w380, &--w480, &--w580, &--w680, &--w780, &--880 {
+    padding: 24px;
   }
 
-  &--w280 {
-    width: 280px;
-    padding: 24px;
-  }
+  &--p0 {border-radius: 15px;}
+
+  &--w280 {width: 280px;}
   &--w380 {
     width: 380px;
-    padding: 24px;
     max-height: 466px;
   }
-  &--w480 {
-    width: 480px;
-    padding: 24px;
-  }
-  &--w580 {
-    width: 580px;
-    padding: 24px;
-  }
-  &--w680 {
-    width: 680px;
-    padding: 24px;
-  }
-  &--w780 {
-    width: 780px;
-    padding: 24px;
-  }
-  &--w880 {
-    width: 880px;
-    padding: 24px;
-  }
+  &--w480 {width: 480px;}
+  &--w580 {width: 580px;}
+  &--w680 {width: 680px;}
+  &--w780 {width: 780px;}
+  &--w880 {width: 880px;}
 }
 
 .fix-block {
