@@ -227,7 +227,7 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 150px;
-  background: #0E2941;
+  background: url("./../img/header/header-bg-nav.jpg"), no-repeat;
 }
 
 .header__advertising {
@@ -247,6 +247,21 @@ a:hover {
   padding: 10px 10px;
 }
 
+@media screen and (max-width: 999px) {
+  .header__nav {
+    display: none;
+  }
+}
+
+.header__nav-btn {
+  display: none;
+}
+@media screen and (max-width: 999px) {
+  .header__nav-btn {
+    display: block;
+  }
+}
+
 .header__logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -261,6 +276,11 @@ a:hover {
   font-size: 36px;
   font-weight: 700;
   letter-spacing: -1px;
+}
+@media screen and (max-width: 999px) {
+  .header__title {
+    display: none;
+  }
 }
 
 .header__contact {
@@ -322,10 +342,6 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 8px;
-}
-
-.header {
-  background: url("./../img/header/header-bg-nav.jpg"), no-repeat;
 }
 
 .nav {

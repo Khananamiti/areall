@@ -5,7 +5,8 @@
 
   min-height: 150px;
 
-  background: $header-footer-bg;
+  background: url('./../img/header/header-bg-nav.jpg'), no-repeat;
+
 }
 
 .header__advertising {
@@ -24,6 +25,21 @@
   padding: 10px 10px;
 }
 
+.header__nav {
+  @media screen and (max-width: $tablet){
+    display: none;
+  } 
+}
+
+.header__nav-btn {
+  display: none;
+
+  @media screen and (max-width: $tablet){
+    display: block;
+  }  
+}
+
+
 .header__logo {
   display: flex;
   justify-content: center;
@@ -34,6 +50,10 @@
   font-size: 36px;
   font-weight: 700;
   letter-spacing: -1px;
+
+  @media screen and (max-width: $tablet){
+    display: none;
+  }
 }
 
 .header__contact {
@@ -81,7 +101,5 @@
   gap: 8px;
 }
 
-.header {
-  background: url('./../img/header/header-bg-nav.jpg'), no-repeat;
-}
+
 
