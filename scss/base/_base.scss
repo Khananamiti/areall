@@ -19,6 +19,10 @@ a {
   }
 }
 
+.active {
+  color: $accent;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 15px;
@@ -86,7 +90,7 @@ a {
   &--w880 {width: 880px;}
 
   &--fix {
-    position: fixed;
+    position: sticky;
     top: 32px;
     left: calc(50% + 210px);
   }

@@ -53,13 +53,14 @@
 .header__auth-login {
   display: flex;
   gap: 10px;
+  width: 126px;
   height: 40px;
-  width: 140px;
-  padding: 8px 24px;  
+  padding: 9px 24px;  
   font-weight: 600;
   border-radius: 6px;
   border: solid 1px $stroke;
   text-align: center;
+  align-items: center;
 
   transition: background-color 0.2s ease-in;
 
@@ -69,7 +70,9 @@
 }
 
 .header__auth-reg {
+  font-family: $font-secondary;
   font-size: 13px;
+
 }
 
 .header__cont-text {
