@@ -1,0 +1,5 @@
+@mixin mediaTablet {  // для планшетов до 1000px
+  @media screen and (max-width: $tablet) {
+    @content;
+  }
+}

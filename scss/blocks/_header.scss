@@ -25,28 +25,13 @@
   padding: 10px 10px;
 }
 
-@mixin mediaTablet {
-  @media screen and (max-width: $tablet){
-    @content;
-  } 
-}
-
-.header__nav {
-  
-}
-
-.header__nav-btn {
-  display: none;
-
-  @media screen and (max-width: $tablet){
-    display: block;
-  }  
-}
-
-
 .header__logo {
   display: flex;
   justify-content: center;
+}
+
+.header__center {
+  align-items: center;
 }
 
 .header__title {
@@ -55,15 +40,28 @@
   font-weight: 700;
   letter-spacing: -1px;
 
-  @media screen and (max-width: $tablet){
+  @include mediaTablet {
     display: none;
+  }
+}
+.header__nav {
+  @include mediaTablet {
+    display: none;
+  }
+}
+
+.header__nav-btn {
+  display: none;
+
+  @include mediaTablet {
+    display: block;
   }
 }
 
 .header__contact {
   display: grid;
-  grid-template-columns: auto auto 24px 24px;
-  gap: 10px;
+  grid-template-columns: repeat(3, auto);
+  gap: 2px;
   align-items: center;
 }
 
@@ -96,13 +94,27 @@
 .header__auth-reg {
   font-family: $font-secondary;
   font-size: 13px;
-
 }
 
 .header__cont-text {
   display: flex;
   flex-direction: column;
+  width: 129px;
   gap: 8px;
+
+  @include mediaTablet {
+      display: none;
+    }
+}
+
+.header__contact-social {
+  display: flex;
+}
+
+.header__cont-icons, .header__cont-messengers{
+  display: flex;
+  flex-direction: column;
+  width: 24px;
 }
 
 

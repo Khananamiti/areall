@@ -2,6 +2,7 @@
 @import './base/reset'; // сбросили все стили
 @import './base/vars'; // определили переменные
 @import './base/base'; // использование переменных в базе и некоторых блоках
+@import './base/mixins'; // подключение миксинов
 
 // Blocks
 @import './blocks/header';
@@ -12,7 +13,7 @@
 @import './blocks/card';
 @import './blocks/investigation';
 @import './blocks/document';
-@import './blocks/npes';
+@import './blocks/npese';
 @import './blocks/telegram';
 @import './blocks/footer';
-@import './blocks/_tooltip';
+@import './blocks/tooltip';
