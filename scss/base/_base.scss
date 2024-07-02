@@ -123,6 +123,7 @@ a {
 }
 
 .qr-code {
+  padding: 20px;
   background: $main-bg;
   width: 100%;
   height: 100%;
@@ -147,6 +148,13 @@ a {
   display: inline-block;
   vertical-align: middle;
   text-align: left;
+  border-radius: 16px;
+}
+
+.widgets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 
