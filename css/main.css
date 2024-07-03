@@ -213,6 +213,10 @@ a:hover {
   gap: 20px;
 }
 
+.no-scroll {
+  overflow-y: hidden;
+}
+
 .header {
   background-color: #fff;
   background-image: url("");
