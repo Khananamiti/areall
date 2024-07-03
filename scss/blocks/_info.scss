@@ -10,12 +10,14 @@
 
       position: absolute;
       left: 0px;
-      top: 0px;
+      top: 50%;
       width: 18px;
       height: 18px;
+      transform: translate(0%, -50%);
 
-      background-repeat: no-repeat;
-    }    
+      background-repeat: no-repeat;      
+      background-position: center;
+    }
   }
 
   &--more::before {
