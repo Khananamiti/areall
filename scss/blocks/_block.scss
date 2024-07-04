@@ -16,8 +16,11 @@
 
   &--w280 {width: 280px;}
   &--w380 {
-    max-width: 380px;    
-    max-height: 466px;
+    max-width: 380px;
+
+    @include mediaTablet {
+      max-width: 780px;
+    }
   }
   &--w480 {max-width: 480px;}
   &--w580 {max-width: 580px;}

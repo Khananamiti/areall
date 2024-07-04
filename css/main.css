@@ -154,7 +154,6 @@ a:hover {
   line-height: 29px;
   color: #2E363E;
 }
-
 .title-16 {
   font-size: 16px;
   font-weight: 700;
@@ -218,6 +217,7 @@ a:hover {
 }
 
 .header {
+  overflow: hidden;
   background-color: #fff;
   background-image: url("");
   background-position: center center;
@@ -545,6 +545,7 @@ a:hover {
 }
 
 .library {
+  overflow: hidden;
   display: grid;
   grid-template-rows: 40px, 1fr;
   -webkit-box-pack: center;
@@ -600,6 +601,11 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (max-width: 999px) {
+  .library__cards {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); /* Aдаптив для мобильных устройств */
+  }
+}
 
 .library__card {
   display: -webkit-box;
@@ -646,7 +652,11 @@ a:hover {
 }
 .block--w380 {
   max-width: 380px;
-  max-height: 466px;
+}
+@media screen and (max-width: 999px) {
+  .block--w380 {
+    max-width: 780px;
+  }
 }
 .block--w480 {
   max-width: 480px;
@@ -751,6 +761,14 @@ a:hover {
   display: flex;
   gap: 20px;
   padding: 24px 0px;
+}
+@media screen and (max-width: 999px) {
+  .investigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .investigation__title {
@@ -945,6 +963,7 @@ a:hover {
 }
 
 .footer {
+  overflow: hidden;
   padding: 32px 240px;
   background: #0E2941;
 }

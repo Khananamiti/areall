@@ -1,8 +1,8 @@
 // Base
 @import './base/reset'; // сбросили все стили
 @import './base/vars'; // определили переменные
-@import './base/base'; // использование переменных в базе и некоторых блоках
 @import './base/mixins'; // подключение миксинов
+@import './base/base'; // использование переменных в базе и некоторых блоках
 
 // Blocks
 @import './blocks/header';

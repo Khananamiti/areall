@@ -69,6 +69,10 @@ a {
   font-weight: 700;
   line-height: 29px;
   color: $black;
+
+  @include mediaTablet {
+    
+  }
 }
 
 .title-16 {
