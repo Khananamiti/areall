@@ -12,19 +12,14 @@
   flex-direction: column; // выровняли элементы в колонку
   // justify-content: space-between;  выровняли на равном раccтоянии вдоль всей высоты
 
-  min-height: 150px;
-
   background: url('./../img/header/header-bg-nav.jpg'), no-repeat;
-
 }
 
 .header__advertising {
   background: $white;
 }
 
-.header__top {
-  
-}
+.header__top {}
 
 .header__top-row {
   display: flex;
@@ -100,7 +95,6 @@
 }
 
 .header__logo img {
-  max-width: 180px;
   min-width: 120px;
   max-height: 68px;
 }
