@@ -251,7 +251,34 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 30px;
   padding: 10px 10px;
+}
+.header__top-row .item1 {
+  width: 311px;
+}
+@media screen and (max-width: 1200px) {
+  .header__top-row .item1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .header__top-row .item2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    width: 40px;
+  }
+  .header__top-row .item3 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .header__top-row .item1 {
+    width: 178px;
+  }
 }
 
 .header__top-row--mobile {
@@ -294,8 +321,8 @@ a:hover {
 }
 .header__top-row--mobile .header__nav-btn {
   position: fixed;
-  top: 50px;
-  right: 15px;
+  top: 110px;
+  left: 10px;
 }
 
 .header__logo {
@@ -305,6 +332,12 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.header__logo img {
+  max-width: 180px;
+  min-width: 120px;
+  max-height: 68px;
 }
 
 .header__center {
@@ -319,13 +352,18 @@ a:hover {
   font-weight: 700;
   letter-spacing: -1px;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1200px) {
   .header__title {
     display: none;
   }
 }
+@media screen and (max-width: 1680px) {
+  .header__title {
+    font-size: 28px;
+  }
+}
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1200px) {
   .header__nav {
     display: none;
   }
@@ -334,16 +372,21 @@ a:hover {
 .header__nav-btn {
   display: none;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1200px) {
   .header__nav-btn {
     display: block;
   }
 }
 
 .header__contact {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 4px;
+  justify-items: end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -401,7 +444,7 @@ a:hover {
   width: 129px;
   gap: 8px;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1440px) {
   .header__cont-text {
     display: none;
   }
@@ -428,6 +471,11 @@ a:hover {
   font-size: 16px;
   text-align: center;
 }
+@media screen and (max-width: 1680px) {
+  .nav {
+    font-size: 14px;
+  }
+}
 
 .nav__list {
   display: -webkit-box;
@@ -439,6 +487,14 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (max-width: 1680px) {
+  .nav__list {
+    -webkit-column-gap: 16px;
+       -moz-column-gap: 16px;
+            column-gap: 16px;
+    width: 786px;
+  }
 }
 
 /* Nav Icon */

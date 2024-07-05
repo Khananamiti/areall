@@ -3,3 +3,21 @@
     @content;
   }
 }
+
+@mixin mediaLaptopS {  // для экранов до 1200px
+  @media screen and (max-width: $laptop-s) {
+    @content;
+  }
+}
+
+@mixin mediaLaptopM {  // для экранов до 1440px
+  @media screen and (max-width: $laptop-m) {
+    @content;
+  }
+}
+
+@mixin mediaLaptopL {  // для экранов до 1680px
+  @media screen and (max-width: $laptop-l) {
+    @content;
+  }
+}

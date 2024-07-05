@@ -10,7 +10,7 @@
 .header {
   display: flex; // выровняли элементы по горизонтали
   flex-direction: column; // выровняли элементы в колонку
-  // justify-content: space-between;  выровняли на равном растоянии вдоль всей высоты
+  // justify-content: space-between;  выровняли на равном раccтоянии вдоль всей высоты
 
   min-height: 150px;
 
@@ -30,8 +30,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  gap: 30px;
   padding: 10px 10px;
+
+  .item1 {
+    width: 311px;
+  }
+
+  @include mediaLaptopS {
+    .item1 {
+      order: 2;
+    }
+
+    .item2 {
+      order: 1;
+      width: 40px;
+    }
+    
+    .item3 {
+      order: 3;
+    }
+  }
+
+  @include mediaLaptopM {
+    .item1 {
+      width: 178px;
+    }
+  }
 }
 
 .header__top-row--mobile {
@@ -64,14 +89,20 @@
 
   .header__nav-btn {
     position: fixed;
-    top: 50px;
-    right: 15px;
+    top: 110px;
+    left: 10px;
   }  
 }
 
 .header__logo {  
   display: flex;
   justify-content: center;
+}
+
+.header__logo img {
+  max-width: 180px;
+  min-width: 120px;
+  max-height: 68px;
 }
 
 .header__center {
@@ -84,12 +115,17 @@
   font-weight: 700;
   letter-spacing: -1px;
 
-  @include mediaTablet {
+  @include mediaLaptopS {
     display: none;
   }
+
+  @include mediaLaptopL {
+    font-size: 28px;
+  }
 }
+
 .header__nav {
-  @include mediaTablet {
+  @include mediaLaptopS {
     display: none;
   }
 }
@@ -97,15 +133,16 @@
 .header__nav-btn {
   display: none;
 
-  @include mediaTablet {
+  @include mediaLaptopS {
     display: block;
   }
 }
 
 .header__contact {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 2px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+  justify-items: end;
   align-items: center;
 }
 
@@ -146,7 +183,7 @@
   width: 129px;
   gap: 8px;
 
-  @include mediaTablet {
+  @include mediaLaptopM {
       display: none;
     }
 }
