@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   gap: 20px;
-  padding: 24px 0px;
+  padding-top: 32px;
 
   @include mediaTablet {
     flex-direction: column;
