@@ -44,7 +44,7 @@
   justify-content: center;    
   
   @include mediaLaptopS {
-    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); /* Aдаптив для мобильных устройств */    
+    grid-template-columns: repeat(auto-fit, minmax(290px, 350px)); /* Aдаптив для мобильных устройств */    
   }
 }
 
