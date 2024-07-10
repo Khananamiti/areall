@@ -19,10 +19,15 @@
   @include mediaTablet {
     flex-direction: column;
     align-items: start;
-    max-width: 290px;
     padding: 0 15px;
     gap: 24px;
   }
+
+  // @include mediaTablet {
+  //   display: grid;
+  //   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
+  //   gap: 40px;
+  // }
 }
 
 .footer__logo {

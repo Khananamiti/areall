@@ -7,7 +7,7 @@
 }
 
 .library__top {
-  padding: 10px 0px;
+  padding: 10px 15px;
 }
 
 .library__top-row {
@@ -43,7 +43,7 @@
   
   justify-content: center;    
   
-  @include mediaTablet {
+  @include mediaLaptopS {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); /* Aдаптив для мобильных устройств */    
   }
 }

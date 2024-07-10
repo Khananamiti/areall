@@ -629,7 +629,7 @@ a:hover {
 }
 
 .library__top {
-  padding: 10px 0px;
+  padding: 10px 15px;
 }
 
 .library__top-row {
@@ -674,7 +674,7 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1200px) {
   .library__cards {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); /* Aдаптив для мобильных устройств */
   }
@@ -1074,7 +1074,6 @@ a:hover {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
-    max-width: 290px;
     padding: 0 15px;
     gap: 24px;
   }
