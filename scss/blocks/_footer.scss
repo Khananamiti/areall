@@ -1,33 +1,18 @@
 .footer {
   overflow: hidden;
-  padding: 32px 15px;
+  padding: 32px 15px;  
   background: $header-footer-bg;
-
-  @include mediaTablet {     
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 .footer-top {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   margin-bottom: 24px;
-  gap: 8px;
+  gap: 20px;
 
   @include mediaTablet {
-    flex-direction: column;
-    align-items: start;
-    padding: 0 15px;
-    gap: 24px;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
   }
-
-  // @include mediaTablet {
-  //   display: grid;
-  //   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr))
-  //   gap: 40px;
-  // }
 }
 
 .footer__logo {
@@ -56,8 +41,7 @@
 
 .footer__socials {  
   display: flex;
-  justify-content: center;
-  gap: 12px;
+  gap: 24px;
 }
 
 .footer__socials img{
