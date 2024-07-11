@@ -127,7 +127,11 @@ a:hover {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 0px;
+  max-width: 1440px;
   padding: 0px 15px;
+}
+.container--full {
+  max-width: 1440px;
 }
 @media screen and (max-width: 999px) {
   .container {
@@ -237,15 +241,6 @@ a:hover {
 }
 
 .header {
-  overflow: hidden;
-  background-color: #fff;
-  background-image: url("");
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -260,6 +255,15 @@ a:hover {
   background: #FFFFFF;
 }
 
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .header__top-row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -271,6 +275,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
+  max-width: 1920px;
   padding: 10px 10px;
 }
 .header__top-row .item1 {
@@ -1036,6 +1041,16 @@ a:hover {
 }
 
 .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   overflow: hidden;
   padding: 32px 15px;
   background: #0E2941;
@@ -1044,6 +1059,7 @@ a:hover {
 .footer-top {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  max-width: 1440px;
   margin-bottom: 24px;
   gap: 20px;
 }
@@ -1091,7 +1107,7 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 24px;
+  gap: 12px;
 }
 
 .footer__socials img {

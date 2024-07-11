@@ -9,25 +9,26 @@
     <link rel="shortcut icon" href="./img/header/icon.jpg" />
   </head>
   <body>
+		<!-- Шапка -->
     <header class="header none1">
-      <!-- Шапка -->
+			<!-- Реклама -->
       <div class="header__advertising">
-        <!-- Реклама -->
         <div class="container">
           <img src="./img/header/advertising.jpg" alt="Реклама" />
         </div>
       </div>
 
       <div class="header__top">
+				<!-- Выравнивание элементов в ряд и по краям -->
         <div class="header__top-row">
-          <!-- Выравнивание элементов в ряд  и по краям -->
 
           <div class="header__logo item1">
-            <a href="#!"
-              ><img
+            <a href="#!">
+							<img
                 src="./img/LOGO.svg"
-                alt="Areall | Продвижение недвижимости"
-            /></a>
+                alt="Areall | Продвижение недвижимости" 
+							/>
+						</a>
           </div>
 
           <div class="header__center item2">
@@ -85,6 +86,7 @@
                   ><img src="./img/socials/mail.svg" alt="mail"
                 /></a>
               </div>
+
               <!-- Реализовать  переход в соответствующее приложение при нажатии на текст -->
               <div class="header__cont-messengers">
                 <a href="#!"
@@ -1416,83 +1418,77 @@
       </section>
     </main>
 
+		<!-- Подвал -->
     <footer class="footer none1">
-      <!-- Подвал -->
-      <div class="footer-top">
-        <div class="footer__logo">
-          <a href="#!"
-            ><img src="./img/LOGO.svg" alt="Areall | Продвижение недвижимости"
-          /></a>
-          <div class="footer__socials">
-            <a href="#!"><img src="./img/socials/phone.svg" alt="phone" /></a>
-            <a href="#!"><img src="./img/socials/mail.svg" alt="mail" /></a>
-            <a href="#!"
-              ><img src="./img/socials/telegram.svg" alt="telegram"
-            /></a>
-            <a href="#!"
-              ><img src="./img/socials/whatsapp.svg" alt="whatsapp"
-            /></a>
-          </div>
-        </div>
+      <div class="container container--column">
+				<div class="footer-top">
+					<div class="footer__logo">
+						<a href="#!">
+										<img src="./img/LOGO.svg" alt="Areall | Продвижение недвижимости"/>
+									</a>
+						<div class="footer__socials">
+							<a href="#!"><img src="./img/socials/phone.svg" alt="phone" /></a>
+							<a href="#!"><img src="./img/socials/mail.svg" alt="mail" /></a>
+							<a href="#!"><img src="./img/socials/telegram.svg" alt="telegram"/></a>
+							<a href="#!"><img src="./img/socials/whatsapp.svg" alt="whatsapp"/></a>
+						</div>
+					</div>
+					<div class="footer__nav">
+						<nav>
+							<ul class="footer__nav-list">
+								<li><a href="#!">Ценовое зонирование</a></li>
+								<li><a href="#!">Сегментирование и классификация</a></li>
+								<li><a href="#!">Недвижимость</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__nav">
+						<nav>
+							<ul class="footer__nav-list">
+								<li><a href="#!">Аналитика</a></li>
+								<li><a href="#!">Исследования</a></li>
+								<li><a href="#!">Совет экспертов</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__nav">
+						<nav>
+							<ul class="footer__nav-list">
+								<li><a href="#!">Контакты</a></li>
+								<li><a href="#!">Команда</a></li>
+								<li><a href="#!">Образование</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__question">
+						<ul class="footer__nav-list">
+							<li>
+								<form action="mailto:areall@mail.ru" class="footer__form">
+									<input type="text" value="| Ваш вопрос?" name="input" />
+									<button type="button" class="footer__btn">
+										Направьте нам!
+									</button>
+								</form>
+							</li>
+							<li>
+								<div class="tooltip-text-ex">
+									<p>Нашли ошибку на сайте?</p>
+									<div class="tooltip-content">
+										<p>
+											Выделите текст (максимум 160 символов) и нажмите Ctrl+Enter
+										</p>
+									</div>
+								</div>
+							</li>
+							<li>Есть замечания или предложения?</li>
+						</ul>
+					</div>
+				</div>
 
-        <div class="footer__nav">
-          <nav>
-            <ul class="footer__nav-list">
-              <li><a href="#!">Ценовое зонирование</a></li>
-              <li><a href="#!">Сегментирование и классификация</a></li>
-              <li><a href="#!">Недвижимость</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="footer__nav">
-          <nav>
-            <ul class="footer__nav-list">
-              <li><a href="#!">Аналитика</a></li>
-              <li><a href="#!">Исследования</a></li>
-              <li><a href="#!">Совет экспертов</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="footer__nav">
-          <nav>
-            <ul class="footer__nav-list">
-              <li><a href="#!">Контакты</a></li>
-              <li><a href="#!">Команда</a></li>
-              <li><a href="#!">Образование</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="footer__question">
-          <ul class="footer__nav-list">
-            <li>
-              <form action="mailto:areall@mail.ru" class="footer__form">
-                <input type="text" value="| Ваш вопрос?" name="input" />
-                <button type="button" class="footer__btn">
-                  Направьте нам!
-                </button>
-              </form>
-            </li>
-            <li>
-              <div class="tooltip-text-ex">
-                <p>Нашли ошибку на сайте?</p>
-                <div class="tooltip-content">
-                  <p>
-                    Выделите текст (максимум 160 символов) и нажмите Ctrl+Enter
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>Есть замечания или предложения?</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer__copyright">
-        <p>© Areall | 2012 - 2024 г.</p>
-      </div>
+				<div class="footer__copyright">
+					<p>© Areall | 2012 - 2024 г.</p>
+				</div>
+			</div>
     </footer>
 
     <script src="./js/main.js"></script>

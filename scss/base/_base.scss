@@ -33,7 +33,12 @@ a {
   &--column {
     flex-direction: column;
     gap: 0px;
+    max-width: 1440px;
     padding: 0px 15px;
+  }
+
+  &--full {
+    max-width: 1440px;
   }
   
   @include mediaTablet {

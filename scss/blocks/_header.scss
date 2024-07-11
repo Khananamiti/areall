@@ -1,16 +1,6 @@
 .header {
-  overflow: hidden;
-  background-color: #fff;
-  background-image: url('');
-  background-position: center center; // x y
-  background-size: cover;
-  background-repeat: no-repeat;  
-}
-
-.header {
   display: flex; // выровняли элементы по горизонтали
   flex-direction: column; // выровняли элементы в колонку
-  // justify-content: space-between;  выровняли на равном раccтоянии вдоль всей высоты
 
   background: url('./../img/header/header-bg-nav.jpg'), no-repeat;
 }
@@ -19,13 +9,17 @@
   background: $white;
 }
 
-.header__top {}
+.header__top {
+  display: flex;
+  justify-content: center;
+}
 
 .header__top-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
+  max-width: 1920px;
   padding: 10px 10px;
 
   .item1 {
