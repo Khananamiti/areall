@@ -275,7 +275,7 @@ a:hover {
       -ms-flex-align: center;
           align-items: center;
   gap: 30px;
-  max-width: 1920px;
+  width: 1920px;
   padding: 10px 10px;
 }
 .header__top-row .item1 {
@@ -629,7 +629,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 32px;
+  padding-bottom: 12px;
   background: url(./../img/header/header-bg.jpg);
 }
 
