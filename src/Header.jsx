@@ -3,8 +3,7 @@ import images from "./constants/data"
 const Header = () => {
   return (
     <header className="header none1">
-
-      {/* <!-- Реклама --> */}
+      {/* Реклама */}
       <div className="header__advertising">
         <div className="container">
           <img src={images.advertising} alt="Реклама" />
@@ -12,15 +11,11 @@ const Header = () => {
       </div>
 
       <div className="header__top">
-        
-        {/* <!-- Выравнивание элементов в ряд и по краям --> */}
+        {/* Выравнивание элементов в ряд и по краям */}
         <div className="header__top-row">
           <div className="header__logo item1">
             <a href="#!">
-              <img
-                src={images.logo}
-                alt="Areall | Продвижение недвижимости"
-              />
+              <img src={images.logo} alt="Areall | Продвижение недвижимости" />
             </a>
           </div>
 
@@ -68,7 +63,7 @@ const Header = () => {
           <div className="header__contact item3">
             <div className="header__auth none1">
               <button type="button" className="header__auth-login">
-                <img src="img/header/log-in.svg" alt="Войти" />
+                <img src={images.logIn} alt="Войти" />
                 Войти
               </button>
               <button type="button" className="header__auth-reg">
@@ -93,20 +88,20 @@ const Header = () => {
             <div className="header__contact-social">
               <div className="header__cont-icons">
                 <a href="tel:+79136236787">
-                  <img src="./img/socials/phone.svg" alt="phone" />
+                  <img src={images.phone} alt="phone" />
                 </a>
                 <a href="mailto:areall@mail.ru">
-                  <img src="./img/socials/mail.svg" alt="mail" />
+                  <img src={images.mail} alt="mail" />
                 </a>
               </div>
 
               {/* <!-- Реализовать  переход в соответствующее приложение при нажатии на текст --> */}
               <div className="header__cont-messengers">
                 <a href="#!">
-                  <img src="./img/socials/telegram.svg" alt="telegram" />
+                  <img src={images.telegram} alt="telegram" />
                 </a>
                 <a href="#!">
-                  <img src="./img/socials/whatsapp.svg" alt="whatsapp" />
+                  <img src={images.whatsapp} alt="whatsapp" />
                 </a>
               </div>
             </div>
