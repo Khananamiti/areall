@@ -1,4 +1,4 @@
-import React from "react";
+import images from "./constants/data"
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       {/* <!-- Реклама --> */}
       <div className="header__advertising">
         <div className="container">
-          <img src="./img/header/advertising.jpg" alt="Реклама" />
+          <img src={images.advertising} alt="Реклама" />
         </div>
       </div>
 
@@ -18,7 +18,7 @@ const Header = () => {
           <div className="header__logo item1">
             <a href="#!">
               <img
-                src="./img/LOGO.svg"
+                src={images.logo}
                 alt="Areall | Продвижение недвижимости"
               />
             </a>

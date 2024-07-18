@@ -3,10 +3,12 @@ import Header from "./Header";
 
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return <>
     <Header/>
+    <main>
+      
+    </main>
   </>
 }
 

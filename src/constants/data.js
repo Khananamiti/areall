@@ -12,7 +12,6 @@ import headerBg from "../img/header/header-bg.jpg";
 import headerBgNav from "../img/header/header-bg-nav.jpg";
 import icon from "../img/header/icon.jpg";
 import library from "../img/header/library.jpg";
-import telegram from "../img/header/telegram.jpg";
 import contacts from "../img/header/contacts.png";
 import chevronRight from "../img/header/chevron-right.svg";
 import geo from "../img/header/geo.svg";
@@ -79,7 +78,6 @@ export default {
     headerBgNav,
     icon,
     library,
-    telegram,
     contacts,
     chevronRight,
     geo,
