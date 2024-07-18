@@ -1,3 +1,4 @@
+import images from "./constants/data"
 
 const Footer = () => {
   return (
@@ -13,16 +14,16 @@ const Footer = () => {
             </a>
             <div className="footer__socials">
               <a href="#!">
-                <img src="./img/socials/phone.svg" alt="phone" />
+                <img src={images.phone} alt="phone" />
               </a>
               <a href="#!">
-                <img src="./img/socials/mail.svg" alt="mail" />
+                <img src={images.mail} alt="mail" />
               </a>
               <a href="#!">
-                <img src="./img/socials/telegram.svg" alt="telegram" />
+                <img src={images.telegram} alt="telegram" />
               </a>
               <a href="#!">
-                <img src="./img/socials/whatsapp.svg" alt="whatsapp" />
+                <img src={images.whatsapp} alt="whatsapp" />
               </a>
             </div>
           </div>

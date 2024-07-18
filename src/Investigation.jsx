@@ -1,4 +1,4 @@
-
+import images from "./constants/data";
 
 const Investigation = () => {
   return (
@@ -20,7 +20,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* AO "Рынок земли" 2023 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-earth2023-4.jpg" alt="Документ" />
+                <img src={images.aoEarth20234} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -57,7 +57,7 @@ const Investigation = () => {
             <div className="investigation__document none">
               {/* AO "Рынок земли" 2024 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-earth2024-1.jpg" alt="Документ" />
+                <img src={images.aoEarth20241} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -90,7 +90,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* AO "Офисная недвижимость" 2023 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-office2023-4.jpg" alt="Документ" />
+                <img src={images.aoOffice20234} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -129,7 +129,7 @@ const Investigation = () => {
             <div className="investigation__document none">
               {/* AO "Офисная недвижимость" 2024 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-office2024-1.jpg" alt="Документ" />
+                <img src={images.aoOffice20241} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -163,7 +163,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* AO "Индивидуальная жилая застройка" 2023 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-izhs2023-4.jpg" alt="Документ" />
+                <img src={images.aoIzhs20234} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -201,7 +201,7 @@ const Investigation = () => {
             <div className="investigation__document none">
               {/* AO "Индивидуальная жилая застройка" 2024 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-izhs2024-1.jpg" alt="Документ" />
+                <img src={images.aoIzhs20241} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -235,7 +235,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* AO "ПСН" 2023 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-psn2023-4.jpg" alt="Документ" />
+                <img src={images.aoPsn20234} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -273,7 +273,7 @@ const Investigation = () => {
             <div className="investigation__document none">
               {/* AO "ПСН" 2024 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-psn2024.jpg" alt="Документ" />
+                <img src={images.aoPsn20241} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -305,9 +305,9 @@ const Investigation = () => {
             </div>
 
             <div className="investigation__document">
-              {/* AO "ПСН" 2023 */}
+              {/* AO "ТОН" 2023 */}
               <div className="document__img">
-                <img src="./img/analysis/ao-ton2023-4.jpg" alt="Документ" />
+                <img src={images.aoTon20234} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
@@ -345,10 +345,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "Квартиры" 2020 */}
               <div className="document__img">
-                <img
-                  src="./img/investigation/apartment2020.jpg"
-                  alt="Документ"
-                />
+                <img src={images.iApartment2020} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -381,10 +378,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "Квартиры" 2023 */}
               <div className="document__img">
-                <img
-                  src="./img/investigation/apartment2023.jpg"
-                  alt="Документ"
-                />
+                <img src={images.iApartment2023} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -417,10 +411,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "Квартиры" 2024 */}
               <div className="document__img">
-                <img
-                  src="./img/investigation/apartment2024.jpg"
-                  alt="Документ"
-                />
+                <img src={images.iApartment2024} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -457,7 +448,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "Гаражи" 2020 */}
               <div className="document__img">
-                <img src="./img/investigation/garage2020.jpg" alt="Документ" />
+                <img src={images.iGarage2020} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -491,7 +482,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "Гаражи" 2023 */}
               <div className="document__img">
-                <img src="./img/investigation/garage2023.jpg" alt="Документ" />
+                <img src={images.iGarage2023} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -525,7 +516,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "Гаражи" 2024 */}
               <div className="document__img">
-                <img src="./img/investigation/garage2024.jpg" alt="Документ" />
+                <img src={images.iGarage2024} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -563,7 +554,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ИЖС" 2020 */}
               <div className="document__img">
-                <img src="./img/investigation/izhs2020.jpg" alt="Документ" />
+                <img src={images.iIzhs2020} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -596,7 +587,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ИЖС" 2024 */}
               <div className="document__img">
-                <img src="./img/investigation/izhs2024-1.jpg" alt="Документ" />
+                <img src={images.iIzhs2024} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -633,7 +624,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ПСН" 2020 */}
               <div className="document__img">
-                <img src="./img/investigation/psn2020.jpg" alt="Документ" />
+                <img src={images.iPsn2020} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -667,7 +658,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ПСН" 2023 */}
               <div className="document__img">
-                <img src="./img/investigation/psn2023.jpg" alt="Документ" />
+                <img src={images.iPsn2023} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -701,7 +692,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ПСН" 2024 */}
               <div className="document__img">
-                <img src="./img/investigation/psn2024-1.jpg" alt="Документ" />
+                <img src={images.iPsn20241} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -739,7 +730,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ТОН" 2023 */}
               <div className="document__img">
-                <img src="./img/investigation/ton2023.jpg" alt="Документ" />
+                <img src={images.iTon2023} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -772,7 +763,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ТОН" 2024 */}
               <div className="document__img">
-                <img src="./img/investigation/ton2024.jpg" alt="Документ" />
+                <img src={images.iTon2024} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -809,7 +800,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ЗУ" 2020 */}
               <div className="document__img">
-                <img src="./img/investigation/zu2020.jpg" alt="Документ" />
+                <img src={images.iZu2020} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -842,7 +833,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ЗУ" 2021 */}
               <div className="document__img">
-                <img src="./img/investigation/zu2021.jpg" alt="Документ" />
+                <img src={images.iZu2021} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -875,7 +866,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ЗУ" 2022 */}
               <div className="document__img">
-                <img src="./img/investigation/zu2022.jpg" alt="Документ" />
+                <img src={images.iZu2022} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -908,7 +899,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ЗУ" 2023 */}
               <div className="document__img">
-                <img src="./img/investigation/zu2023.jpg" alt="Документ" />
+                <img src={images.iZu2023} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -941,7 +932,7 @@ const Investigation = () => {
             <div className="investigation__document">
               {/* "ЗУ" 2024 */}
               <div className="document__img">
-                <img src="./img/investigation/zu2024.jpg" alt="Документ" />
+                <img src={images.iZu2024} alt="Документ" />
               </div>
               <div className="document__info">
                 <span className="document__type">Исследования рынка</span>
@@ -979,7 +970,7 @@ const Investigation = () => {
 
         <div className="widgets">
           <div className="npese block block--w380 block--fix1">
-            {/* НП ЕСЭ  */}
+            {/* НП ЕСЭ */}
             <div className="npese__title">
               <h2 className="title-16">НП “Евразийский союз экспертов”</h2>
               <p className="subtitle">Некоммерческое партнерство</p>
@@ -989,7 +980,7 @@ const Investigation = () => {
             <div className="npese__content">
               <div className="npese__content-img">
                 <img
-                  src="./img/widgets/npese.svg"
+                  src={images.wNpese}
                   alt="НП “Евразийский союз экспертов”"
                 />
                 <p>
@@ -1016,7 +1007,7 @@ const Investigation = () => {
           </div>
 
           <div className="correct block block--w380">
-            {/* Корректировка по местоположению  */}
+            {/* Корректировка по местоположению */}
             <div className="correct__title">
               <h2 className="title-16">Корректировка по местоположению</h2>
               <p className="subtitle">Для определения стоимости квартиры</p>
@@ -1026,7 +1017,7 @@ const Investigation = () => {
             <div className="correct__content">
               <div className="correct__content-img">
                 <img
-                  src="./img/widgets/correct.png"
+                  src={images.wCorrect}
                   alt="Корректировка по местоположению - график"
                 />
               </div>
@@ -1034,7 +1025,7 @@ const Investigation = () => {
           </div>
 
           <div className="price-zone block block--w380 block--fix1">
-            {/* Ценовое зонирование  */}
+            {/* Ценовое зонирование */}
             <div className="price-zone__title">
               <h2 className="title-16">Ценовое зонирование</h2>
               <p className="subtitle">
@@ -1045,7 +1036,7 @@ const Investigation = () => {
             <div className="price-zone__content">
               <div className="price-zone__content-img">
                 <img
-                  src="./img/widgets/price-zone.png"
+                  src={images.wPriceZone}
                   alt="Ценовое зонирование - карта"
                 />
               </div>
@@ -1053,7 +1044,7 @@ const Investigation = () => {
           </div>
 
           <div className="grad-plan block block--w380 block--fix1">
-            {/* Градостроительный план  */}
+            {/* Градостроительный план */}
             <div className="grad-plan__title">
               <h2 className="title-16">Градостроительный план</h2>
               <p className="subtitle">Градостроительный план города Омск</p>
@@ -1062,7 +1053,7 @@ const Investigation = () => {
             <div className="grad-plan__content">
               <div className="grad-plan__content-img">
                 <img
-                  src="./img/widgets/grad-plan.png"
+                  src={images.wGradPlan}
                   alt="Градостроительный план - карта"
                 />
               </div>
@@ -1070,7 +1061,7 @@ const Investigation = () => {
           </div>
 
           <div className="cad-map block block--w380 block--fix1">
-            {/* Публичная кадастровая карта  */}
+            {/* Публичная кадастровая карта */}
             <div className="cad-map__title">
               <h2 className="title-16">Публичная кадастровая карта</h2>
               <p className="subtitle">
@@ -1087,7 +1078,7 @@ const Investigation = () => {
               </p>
               <div className="cad-map__content-img">
                 <img
-                  src="./img/widgets/cad-map.png"
+                  src={images.wCadMap}
                   alt="Публичная кадастровая карта - карта"
                 />
               </div>
