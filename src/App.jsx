@@ -14,7 +14,7 @@ function App() {
         <Library />
         <Investigation />
         <Analysis />
-        <Reserch />
+        <Research />
         <Geolocation />
       </main>
       <Footer />
