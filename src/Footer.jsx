@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="footer__logo">
             <a href="#!">
               <img
-                src="./img/LOGO.svg"
+                src={images.logo}
                 alt="Areall | Продвижение недвижимости"
               />
             </a>

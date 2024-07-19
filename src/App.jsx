@@ -1,20 +1,16 @@
 import Header from "./Header";
 import Library from "./Library";
-import Footer from "./Footer";
 import Investigation from "./Investigation";
-
-
+import Geolocation from "./Geolocation";
+import Footer from "./Footer";
 
 function App() {
-
   return (
     <>
       <Header />
       <main>
         <Library />
         <Investigation />
-        <Analysis />
-        <Research />
         <Geolocation />
       </main>
       <Footer />
