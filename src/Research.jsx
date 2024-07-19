@@ -1,6 +1,6 @@
-import images from "./constants/data";
 
-const Header = () => {
+
+const Research = () => {
   return (
     <section className="research-for-profi none1">
       {/* Поиск для профессионалов */}
@@ -11,4 +11,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Research;
