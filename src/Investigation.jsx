@@ -1,5 +1,9 @@
 import images from "./constants/data";
 
+import investigationList 
+
+["Рынок земли", "Офисная недвижимость", "Индивидуальная жилая застройка", "Производственно-складская недвижимость", "Торговые помещения", "Сборник корректировок"]
+
 const Investigation = () => {
   return (
     <section className="investigation none1">
@@ -18,8 +22,8 @@ const Investigation = () => {
           <div className="investigation__documents">
           {/* АНАЛИТИЧЕСКИE ОТЧЕТЫ */}
 
+          {/* AO "Рынок земли" 2023 */}
             <div className="investigation__document">
-              {/* AO "Рынок земли" 2023 */}
               <div className="document__img">
                 <img src={images.aoEarth20234} alt="Документ" />
               </div>
@@ -55,8 +59,8 @@ const Investigation = () => {
               </div>
             </div>
 
-            <div className="investigation__document none">
-              {/* AO "Рынок земли" 2024 */}
+            {/* AO "Рынок земли" 2024 */}
+            <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoEarth20241} alt="Документ" />
               </div>
@@ -88,8 +92,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* AO "Офисная недвижимость" 2023 */}
             <div className="investigation__document">
-              {/* AO "Офисная недвижимость" 2023 */}
               <div className="document__img">
                 <img src={images.aoOffice20234} alt="Документ" />
               </div>
@@ -127,8 +131,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* AO "Офисная недвижимость" 2024 */}
             <div className="investigation__document none">
-              {/* AO "Офисная недвижимость" 2024 */}
               <div className="document__img">
                 <img src={images.aoOffice20241} alt="Документ" />
               </div>
@@ -161,8 +165,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* AO "Индивидуальная жилая застройка" 2023 */}
             <div className="investigation__document">
-              {/* AO "Индивидуальная жилая застройка" 2023 */}
               <div className="document__img">
                 <img src={images.aoIzhs20234} alt="Документ" />
               </div>
@@ -199,8 +203,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* AO "Индивидуальная жилая застройка" 2024 */}
             <div className="investigation__document none">
-              {/* AO "Индивидуальная жилая застройка" 2024 */}
               <div className="document__img">
                 <img src={images.aoIzhs20241} alt="Документ" />
               </div>
@@ -233,8 +237,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* AO "ПСН" 2023 */}
             <div className="investigation__document">
-              {/* AO "ПСН" 2023 */}
               <div className="document__img">
                 <img src={images.aoPsn20234} alt="Документ" />
               </div>
@@ -271,8 +275,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* AO "ПСН" 2024 */}
             <div className="investigation__document none">
-              {/* AO "ПСН" 2024 */}
               <div className="document__img">
                 <img src={images.aoPsn20241} alt="Документ" />
               </div>
@@ -305,8 +309,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* AO "ТОН" 2023 */}
             <div className="investigation__document">
-              {/* AO "ТОН" 2023 */}
               <div className="document__img">
                 <img src={images.aoTon20234} alt="Документ" />
               </div>
@@ -343,8 +347,8 @@ const Investigation = () => {
             </div>
 
             {/* СБОРНИКИ КОРРЕКТИРОВОК */}
+            {/* "Квартиры" 2020 */}
             <div className="investigation__document">
-              {/* "Квартиры" 2020 */}
               <div className="document__img">
                 <img src={images.iApartment2020} alt="Документ" />
               </div>
@@ -375,9 +379,9 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
+            {/* "Квартиры" 2023 */}
 
             <div className="investigation__document">
-              {/* "Квартиры" 2023 */}
               <div className="document__img">
                 <img src={images.iApartment2023} alt="Документ" />
               </div>
@@ -408,9 +412,9 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
+            {/* "Квартиры" 2024 */}
 
             <div className="investigation__document">
-              {/* "Квартиры" 2024 */}
               <div className="document__img">
                 <img src={images.iApartment2024} alt="Документ" />
               </div>
@@ -445,9 +449,9 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
+            {/* "Гаражи" 2020 */}
 
             <div className="investigation__document">
-              {/* "Гаражи" 2020 */}
               <div className="document__img">
                 <img src={images.iGarage2020} alt="Документ" />
               </div>
@@ -479,9 +483,9 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
+            {/* "Гаражи" 2023 */}
 
             <div className="investigation__document">
-              {/* "Гаражи" 2023 */}
               <div className="document__img">
                 <img src={images.iGarage2023} alt="Документ" />
               </div>
@@ -513,9 +517,9 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
+            {/* "Гаражи" 2024 */}
 
             <div className="investigation__document">
-              {/* "Гаражи" 2024 */}
               <div className="document__img">
                 <img src={images.iGarage2024} alt="Документ" />
               </div>
@@ -551,9 +555,9 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
+            {/* "ИЖС" 2020 */}
 
             <div className="investigation__document">
-              {/* "ИЖС" 2020 */}
               <div className="document__img">
                 <img src={images.iIzhs2020} alt="Документ" />
               </div>
@@ -584,9 +588,9 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
+            {/* "ИЖС" 2024 */}
 
             <div className="investigation__document">
-              {/* "ИЖС" 2024 */}
               <div className="document__img">
                 <img src={images.iIzhs20241} alt="Документ" />
               </div>
@@ -621,9 +625,9 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
+            {/* "ПСН" 2020 */}
 
             <div className="investigation__document">
-              {/* "ПСН" 2020 */}
               <div className="document__img">
                 <img src={images.iPsn2020} alt="Документ" />
               </div>
@@ -656,8 +660,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ПСН" 2023 */}
             <div className="investigation__document">
-              {/* "ПСН" 2023 */}
               <div className="document__img">
                 <img src={images.iPsn2023} alt="Документ" />
               </div>
@@ -690,8 +694,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ПСН" 2024 */}
             <div className="investigation__document">
-              {/* "ПСН" 2024 */}
               <div className="document__img">
                 <img src={images.iPsn20241} alt="Документ" />
               </div>
@@ -728,8 +732,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ТОН" 2023 */}
             <div className="investigation__document">
-              {/* "ТОН" 2023 */}
               <div className="document__img">
                 <img src={images.iTon2023} alt="Документ" />
               </div>
@@ -761,8 +765,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ТОН" 2024 */}
             <div className="investigation__document">
-              {/* "ТОН" 2024 */}
               <div className="document__img">
                 <img src={images.iTon2024} alt="Документ" />
               </div>
@@ -798,8 +802,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ЗУ" 2020 */}
             <div className="investigation__document">
-              {/* "ЗУ" 2020 */}
               <div className="document__img">
                 <img src={images.iZu2020} alt="Документ" />
               </div>
@@ -831,8 +835,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ЗУ" 2021 */}
             <div className="investigation__document">
-              {/* "ЗУ" 2021 */}
               <div className="document__img">
                 <img src={images.iZu2021} alt="Документ" />
               </div>
@@ -864,8 +868,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ЗУ" 2022 */}
             <div className="investigation__document">
-              {/* "ЗУ" 2022 */}
               <div className="document__img">
                 <img src={images.iZu2022} alt="Документ" />
               </div>
@@ -897,8 +901,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ЗУ" 2023 */}
             <div className="investigation__document">
-              {/* "ЗУ" 2023 */}
               <div className="document__img">
                 <img src={images.iZu2023} alt="Документ" />
               </div>
@@ -930,8 +934,8 @@ const Investigation = () => {
               </div>
             </div>
 
+            {/* "ЗУ" 2024 */}
             <div className="investigation__document">
-              {/* "ЗУ" 2024 */}
               <div className="document__img">
                 <img src={images.iZu2024} alt="Документ" />
               </div>
@@ -970,8 +974,8 @@ const Investigation = () => {
         </div>
 
         <div className="widgets">
+        {/* НП ЕСЭ */}
           <div className="npese block block--w380 block--fix1">
-            {/* НП ЕСЭ */}
             <div className="npese__title">
               <h2 className="title-16">НП “Евразийский союз экспертов”</h2>
               <p className="subtitle">Некоммерческое партнерство</p>
@@ -1007,8 +1011,8 @@ const Investigation = () => {
             </div>
           </div>
 
+          {/* Корректировка по местоположению */}
           <div className="correct block block--w380">
-            {/* Корректировка по местоположению */}
             <div className="correct__title">
               <h2 className="title-16">Корректировка по местоположению</h2>
               <p className="subtitle">Для определения стоимости квартиры</p>
@@ -1025,8 +1029,8 @@ const Investigation = () => {
             </div>
           </div>
 
+          {/* Ценовое зонирование */}
           <div className="price-zone block block--w380 block--fix1">
-            {/* Ценовое зонирование */}
             <div className="price-zone__title">
               <h2 className="title-16">Ценовое зонирование</h2>
               <p className="subtitle">
@@ -1044,8 +1048,8 @@ const Investigation = () => {
             </div>
           </div>
 
+          {/* Градостроительный план */}
           <div className="grad-plan block block--w380 block--fix1">
-            {/* Градостроительный план */}
             <div className="grad-plan__title">
               <h2 className="title-16">Градостроительный план</h2>
               <p className="subtitle">Градостроительный план города Омск</p>
@@ -1061,8 +1065,8 @@ const Investigation = () => {
             </div>
           </div>
 
+          {/* Публичная кадастровая карта */}
           <div className="cad-map block block--w380 block--fix1">
-            {/* Публичная кадастровая карта */}
             <div className="cad-map__title">
               <h2 className="title-16">Публичная кадастровая карта</h2>
               <p className="subtitle">
