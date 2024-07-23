@@ -1,15 +1,23 @@
 import images from "./constants/data";
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-// import investigationList
-
+import investigationList from "./investigationList";
+import Document from "./Document";
 
 const Investigation = () => {
   const [isActive, setIsActive] = useState("Рынок земли");
+  const [filterItems, setFilterItems] = useState(investigationList);
 
-  const handleFilter = category =>{
-    setIsActive(category)
-  }
+  const handleFilter = (category) => {
+    setIsActive(category);
+    if (category === "Земля") setFilterItems(investigationList);
+    else {
+      const filterItem = investigationList.filter(
+        (item) => item.category === category
+      );
+      setFilterItems(filterItem);
+    }
+  };
   return (
     <section className="investigation none1">
       {/* Исследования рынка недвижимости */}
@@ -18,30 +26,45 @@ const Investigation = () => {
           <div className="investigation__title">
             <h2 className="title-24">Исследования рынка недвижимости</h2>
             <p className="subtitle">
-              Справочники оценщика, сборники корректировок, мониторинги рынка, аналитические отчеты
+              Справочники оценщика, сборники корректировок, мониторинги рынка,
+              аналитические отчеты
             </p>
             <div className="title-line"></div>
           </div>
 
           <div className="investigation-list">
-          {
-            ["Земля", "Офисы", "ИЖС", "ПСН", "Торговые помещения",  "Сборники корректировок",  "Анализ рынка"].map(category => (
-              <button 
-                className={`investigation-item ${isActive === category ? "active":""}`}
+            {[
+              "Земля",
+              "Офисы",
+              "ИЖС",
+              "ПСН",
+              "Торговые помещения",
+              "Сборники корректировок",
+              "Анализ рынка",
+            ].map((category) => (
+              <button
+                className={`investigation-item ${
+                  isActive === category ? "active" : ""
+                }`}
                 key={category}
                 onClick={() => handleFilter(category)}
               >
                 {category}
               </button>
-            ))
-          }
-            {/* <li class="investigation-item active" data-filter="earth">"Рынок земли</li> */}
+            ))}
           </div>
-          
-          <div className="investigation__documents">
-          {/* АНАЛИТИЧЕСКИE ОТЧЕТЫ */}
 
-          {/* AO "Рынок земли" 2023 */}
+          <div className="investigation__documents">
+            {/* АНАЛИТИЧЕСКИЕ ОТЧЕТЫ */}
+
+            {/* AO "Рынок земли" 2023 */}
+
+            <div className="investigation__document">
+              {filterItems.map((item) => {
+                return <Document key={item.id} item={item} />;
+              })}
+            </div>
+
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoEarth20234} alt="Документ" />
@@ -119,7 +142,7 @@ const Investigation = () => {
               <div className="document__info">
                 <span className="document__type">Анализ рынка</span>
                 <a
-                  href="src/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЭМО.doc"
+                  href="src/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЕМО.pdf"
                   className="document__link"
                   target="_blank"
                 >
@@ -151,7 +174,7 @@ const Investigation = () => {
             </div>
 
             {/* AO "Офисная недвижимость" 2024 */}
-            <div className="investigation__document none">
+            <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoOffice20241} alt="Документ" />
               </div>
@@ -223,7 +246,7 @@ const Investigation = () => {
             </div>
 
             {/* AO "Индивидуальная жилая застройка" 2024 */}
-            <div className="investigation__document none">
+            <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoIzhs20241} alt="Документ" />
               </div>
@@ -295,7 +318,7 @@ const Investigation = () => {
             </div>
 
             {/* AO "ПСН" 2024 */}
-            <div className="investigation__document none">
+            <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoPsn20241} alt="Документ" />
               </div>
@@ -398,8 +421,8 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
-            {/* "Квартиры" 2023 */}
 
+            {/* "Квартиры" 2023 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iApartment2023} alt="Документ" />
@@ -431,8 +454,8 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
-            {/* "Квартиры" 2024 */}
 
+            {/* "Квартиры" 2024 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iApartment2024} alt="Документ" />
@@ -644,8 +667,8 @@ const Investigation = () => {
                 </div>
               </div>
             </div>
-            {/* "ПСН" 2020 */}
 
+            {/* "ПСН" 2020 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iPsn2020} alt="Документ" />
@@ -994,7 +1017,8 @@ const Investigation = () => {
 
         {/* Виджеты */}
         <div className="widgets">
-        {/* НП ЕСЭ */}
+          
+          {/* НП ЕСЭ */}
           <div className="npese block block--w380 block--fix1">
             <div className="npese__title">
               <h2 className="title-16">НП “Евразийский союз экспертов”</h2>
