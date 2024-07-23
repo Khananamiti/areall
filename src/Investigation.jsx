@@ -1,10 +1,15 @@
 import images from "./constants/data";
+import React, {useState} from "react";
 
-import investigationList 
+// import investigationList
 
-["Рынок земли", "Офисная недвижимость", "Индивидуальная жилая застройка", "Производственно-складская недвижимость", "Торговые помещения", "Сборник корректировок"]
 
 const Investigation = () => {
+  const [isActive, setIsActive] = useState("Рынок земли");
+
+  const handleFilter = category =>{
+    setIsActive(category)
+  }
   return (
     <section className="investigation none1">
       {/* Исследования рынка недвижимости */}
@@ -13,10 +18,24 @@ const Investigation = () => {
           <div className="investigation__title">
             <h2 className="title-24">Исследования рынка недвижимости</h2>
             <p className="subtitle">
-              Справочники оценщика, сборники корректировок, мониторинги рынка,
-              аналитические отчеты
+              Справочники оценщика, сборники корректировок, мониторинги рынка, аналитические отчеты
             </p>
             <div className="title-line"></div>
+          </div>
+
+          <div className="investigation-list">
+          {
+            ["Земля", "Офисы", "ИЖС", "ПСН", "Торговые помещения",  "Сборники корректировок",  "Анализ рынка"].map(category => (
+              <button 
+                className={`investigation-item ${isActive === category ? "active":""}`}
+                key={category}
+                onClick={() => handleFilter(category)}
+              >
+                {category}
+              </button>
+            ))
+          }
+            {/* <li class="investigation-item active" data-filter="earth">"Рынок земли</li> */}
           </div>
           
           <div className="investigation__documents">
@@ -48,13 +67,13 @@ const Investigation = () => {
                   <p>01.10.2023</p>
                 </div>
                 <div className="document__buy">
-                  <button
+                  {/* <button
                     type="button"
                     className="document__btn"
                     onClick={window.open('/qr-code.html')}
                   >
                     Купить
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
@@ -973,6 +992,7 @@ const Investigation = () => {
           </div>
         </div>
 
+        {/* Виджеты */}
         <div className="widgets">
         {/* НП ЕСЭ */}
           <div className="npese block block--w380 block--fix1">
