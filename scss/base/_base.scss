@@ -23,6 +23,16 @@ a {
   color: $accent;
 }
 
+button {
+  height: 44px;
+  padding: 2px 4px;
+  min-width: 60px;
+  text-align: center;
+  border: 1px solid $stroke;
+  border-radius: 6px;
+  transition: background-color 0.2s ease-in;  
+}
+
 .container {
   display: flex;
   gap: 20px;
