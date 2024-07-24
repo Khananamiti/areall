@@ -2,8 +2,8 @@ import Header from "./Header";
 import Library from "./Library";
 import Investigation from "./Investigation";
 import Geolocation from "./Geolocation";
-import Footer from "./Footer";
 import Research from "./Research";
+import Footer from "./Footer";
 
 function App() {
   return (
