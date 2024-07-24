@@ -236,6 +236,14 @@ a:hover {
   gap: 20px;
 }
 
+.btn-up {
+  z-index: 11;
+  opacity: 0.8;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+}
+
 .no-scroll {
   overflow-y: hidden;
 }
