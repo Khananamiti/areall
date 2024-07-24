@@ -1,13 +1,13 @@
-import images from "./constants/data"
-import { useState } from "react"
+import images from "./constants/data";
+import { useState } from "react";
 
 
 const Header = () => {
-  const [isActive, setIsActive] = useState (false)
+  const [isActive, setIsActive] = useState(false);
 
   const handleToggle = () => {
-    setIsActive(!isActive)
-  }
+    setIsActive(!isActive);
+  };
 
   return (
     <header className="header none1">
@@ -33,35 +33,24 @@ const Header = () => {
             </h1>
 
             <div className="header__nav">
-              <nav className={isActive ? "nav active": "nav"}>
+              <nav className={isActive ? "nav active" : "nav"}>
                 <ul className="nav__list">
-                  <li className="item">
-                    <a href="#!" className="link active">
-                      Библиотека оценщика
-                    </a>
-                  </li>
-                  <li className="item">
-                    Народный кадастр
-                  </li>
-                  <li className="item">
-                    Рынок недвижимости
-                  </li>
-                  <li className="item">
-                    Аналитика
-                  </li>
-                  <li className="item">
-                    Исследования
-                  </li>
-                  <li>
-                    
-                    <a href="#!" className="info info--more">Еще                      
-                    </a>
-                  </li>
+                  <li className="item link active">Библиотека оценщика</li>
+                  <li className="item">Народный кадастр</li>
+                  <li className="item">Рынок недвижимости</li>
+                  <li className="item">Аналитика</li>
+                  <li className="item">Исследования</li>
+                  <li className="info info--more">Еще</li>
                 </ul>
               </nav>
             </div>
 
-            <div className={isActive ? "header__nav-btn active": "header__nav-btn"} onclick={handleToggle}>
+            <div
+              className={
+                isActive ? "header__nav-btn active" : "header__nav-btn"
+              }
+              onClick={handleToggle}
+            >
               <button className="nav-icon-btn">
                 <span className="nav-icon"></span>
               </button>
