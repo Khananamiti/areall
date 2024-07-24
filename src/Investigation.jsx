@@ -32,6 +32,7 @@ const Investigation = () => {
             <div className="title-line"></div>
           </div>
 
+          {/* Кнопки фильтрации */}
           <div className="investigation-list">
             {[
               "Земля",

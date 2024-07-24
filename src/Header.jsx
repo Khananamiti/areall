@@ -1,6 +1,14 @@
 import images from "./constants/data"
+import { useState } from "react"
+
 
 const Header = () => {
+  const [isActive, setIsActive] = useState (false)
+
+  const handleToggle = () => {
+    setIsActive(!isActive)
+  }
+
   return (
     <header className="header none1">
       {/* Реклама */}
@@ -25,26 +33,26 @@ const Header = () => {
             </h1>
 
             <div className="header__nav">
-              <nav className="nav">
+              <nav className={isActive ? "nav active": "nav"}>
                 <ul className="nav__list">
-                  <li>
-                    <a href="#!" className="active">
+                  <li className="item">
+                    <a href="#!" className="link active">
                       Библиотека оценщика
                     </a>
                   </li>
-                  <li>
-                    <a href="#!">Народный кадастр</a>
+                  <li className="item">
+                    <a href="#!" className="link">Народный кадастр</a>
                   </li>
-                  <li>
-                    <a href="#!">Рынок недвижимости</a>
+                  <li className="item">
+                    <a href="#!" className="link">Рынок недвижимости</a>
                   </li>
-                  <li>
-                    <a href="#!">Аналитика</a>
+                  <li className="item">
+                    <a href="#!" className="link">Аналитика</a>
                   </li>
-                  <li>
-                    <a href="#!">Исследования</a>
+                  <li className="item">
+                    <a href="#!" className="link">Исследования</a>
                   </li>
-                  <li>
+                  <li className="item">
                     <a href="#!" className="info info--more">
                       Еще
                     </a>

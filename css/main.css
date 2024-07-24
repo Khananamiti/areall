@@ -112,17 +112,6 @@ a:hover {
   color: #FBD14C;
 }
 
-button {
-  height: 44px;
-  padding: 2px 4px;
-  min-width: 60px;
-  text-align: center;
-  border: 1px solid #D9D9D9;
-  border-radius: 6px;
-  -webkit-transition: background-color 0.2s ease-in;
-  transition: background-color 0.2s ease-in;
-}
-
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -862,6 +851,19 @@ button {
 
 .investigation__title {
   margin-bottom: 24px;
+}
+
+button.investigation-item {
+  height: 44px;
+  padding: 2px 4px;
+  min-width: 60px;
+  text-align: center;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+  -webkit-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+          box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
 }
 
 .investigation-list {
