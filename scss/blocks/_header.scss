@@ -1,8 +1,8 @@
 .header {
   display: flex; // выровняли элементы по горизонтали
   flex-direction: column; // выровняли элементы в колонку
-  background: $header-footer-bg;
-  // background: url('./../img/header/header-bg-nav.jpg'), no-repeat;
+  // background: $header-footer-bg;
+  background: url('./../src/img/header/header-bg-nav.jpg'), no-repeat;
 }
 
 .header__advertising {

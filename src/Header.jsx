@@ -41,27 +41,27 @@ const Header = () => {
                     </a>
                   </li>
                   <li className="item">
-                    <a href="#!" className="link">Народный кадастр</a>
+                    Народный кадастр
                   </li>
                   <li className="item">
-                    <a href="#!" className="link">Рынок недвижимости</a>
+                    Рынок недвижимости
                   </li>
                   <li className="item">
-                    <a href="#!" className="link">Аналитика</a>
+                    Аналитика
                   </li>
                   <li className="item">
-                    <a href="#!" className="link">Исследования</a>
+                    Исследования
                   </li>
-                  <li className="item">
-                    <a href="#!" className="info info--more">
-                      Еще
+                  <li>
+                    
+                    <a href="#!" className="info info--more">Еще                      
                     </a>
                   </li>
                 </ul>
               </nav>
             </div>
 
-            <div className="header__nav-btn">
+            <div className={isActive ? "header__nav-btn active": "header__nav-btn"} onclick={handleToggle}>
               <button className="nav-icon-btn">
                 <span className="nav-icon"></span>
               </button>
