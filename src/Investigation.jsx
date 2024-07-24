@@ -94,7 +94,7 @@ const Investigation = () => {
                   {/* <button
                     type="button"
                     className="document__btn"
-                    onClick={window.open('/qr-code.html')}
+                    onClick={window.open('./qr-code.html')}
                   >
                     Купить
                   </button> */}
@@ -127,7 +127,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -166,7 +166,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -200,7 +200,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -238,7 +238,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -272,7 +272,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -310,7 +310,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -344,7 +344,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -381,7 +381,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -415,7 +415,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -448,7 +448,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -485,7 +485,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -519,7 +519,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -553,7 +553,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -591,7 +591,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -624,7 +624,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -661,7 +661,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -695,7 +695,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -729,7 +729,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -767,7 +767,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -800,7 +800,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -837,7 +837,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -870,7 +870,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -903,7 +903,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -936,7 +936,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -969,7 +969,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
@@ -1006,7 +1006,7 @@ const Investigation = () => {
                   <button
                     type="button"
                     className="document__btn"
-                    onClick="window.open('/qr-code.html')"
+                    onClick="window.open('./qr-code.html')"
                   >
                     Купить
                   </button>
