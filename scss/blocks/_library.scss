@@ -27,13 +27,6 @@
   align-items: center;
 }
 
-.library__title {
-}
-
-.library__filters {
-
-}
-
 .library__cards {
   display: grid;  
   grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */    
