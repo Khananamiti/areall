@@ -1,8 +1,9 @@
 import Header from "./Header";
 import Library from "./Library";
 import Investigation from "./Investigation";
-import Geolocation from "./Geolocation";
+import Analysis from "./Analysis";
 import Research from "./Research";
+import Geolocation from "./Geolocation";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 
@@ -13,8 +14,9 @@ function App() {
       <main>
         <Library />
         <Investigation />
-        <Geolocation />
+        <Analysis/>
         <Research />
+        <Geolocation />
       </main>
       <Footer />
       <ScrollToTop />
