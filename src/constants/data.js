@@ -69,18 +69,18 @@ import logo from "../assets/LOGO.svg";
 import qrCode from "../assets/QR-code.jpg";
 import sbpLogo from "../assets/SBP-logo.svg";
 
-import daoTon20234 from "../assets/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
-import daoEarth20234 from "../assets/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf";
-import daoIzhs20234 from "../assets/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf";
-import daoOffice20234 from "../assets/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЕМО.pdf";
-import daoPsn20234 from "../assets/analytics/Анализ_рынка_ПСН_4кв._2023_БФ_ДЕМО.pdf";
+import daoTon20234 from "../assets/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
+import daoEarth20234 from "../assets/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf";
+import daoIzhs20234 from "../assets/demo/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf";
+import daoOffice20234 from "../assets/demo/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЕМО.pdf";
+import daoPsn20234 from "../assets/demo/analytics/Анализ_рынка_ПСН_4кв._2023_БФ_ДЕМО.pdf";
 
-import diGarage2024 from "../assets/collection/Сборник_корректировок_ГАРАЖИ_2024_demo.pdf";
-import diZu2024 from "../assets/collection/Сборник_корректировок_ЗЕМЛЯ_2024_demo.pdf";
-import diIzhs20241 from "../assets/collection/Сборник_корректировок_ИЖС_2024_demo.pdf";
-import diApartment2024 from "../assets/collection/Сборник_корректировок_КВАРТИРЫ_2024_demo.pdf";
-import diPsn20241 from "../assets/collection/Сборник_корректировок_ПСН_2024_demo.pdf";
-import diTon2024 from "../assets/collection/Сборник_корректировок_ТОН_2024_demo.pdf";
+import diGarage2024 from "../assets/demo/collection/Сборник_корректировок_ГАРАЖИ_2024_demo.pdf";
+import diZu2024 from "../assets/demo/collection/Сборник_корректировок_ЗЕМЛЯ_2024_demo.pdf";
+import diIzhs20241 from "../assets/demo/collection/Сборник_корректировок_ИЖС_2024_demo.pdf";
+import diApartment2024 from "../assets/demo/collection/Сборник_корректировок_КВАРТИРЫ_2024_demo.pdf";
+import diPsn20241 from "../assets/demo/collection/Сборник_корректировок_ПСН_2024_demo.pdf";
+import diTon2024 from "../assets/demo/collection/Сборник_корректировок_ТОН_2024_demo.pdf";
 
 
 export default {
