@@ -263,7 +263,7 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("./../src/img/header/header-bg-nav.jpg"), no-repeat;
+  background: url("./../src/assets/header/header-bg-nav.jpg"), no-repeat;
 }
 
 .header__advertising {
@@ -652,13 +652,13 @@ a:hover {
   background-position: center;
 }
 .info--more::before {
-  background-image: url("./../src/img/header/header-more.svg");
+  background-image: url("./../src/assets/header/header-more.svg");
 }
 .info--geo::before {
-  background-image: url("./../src/img/header/geo.svg");
+  background-image: url("./../src/assets/header/geo.svg");
 }
 .info--home::before {
-  background-image: url("./../src/img/header/home.svg");
+  background-image: url("./../src/assets/header/home.svg");
 }
 
 .library {
@@ -668,7 +668,7 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 12px;
-  background: url(./../src/img/header/header-bg.jpg);
+  background: url(./../src/assets/header/header-bg.jpg);
 }
 
 .library__top {
