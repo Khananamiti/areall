@@ -17,7 +17,7 @@ const Header = () => {
     <header className="header none1">
       {/* Реклама */}
       <div className="header__advertising">
-        <div className="container">
+        <div className="container container--nobottom">
           <img src={images.advertising} alt="Реклама" />
         </div>
       </div>
