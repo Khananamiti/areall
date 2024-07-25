@@ -11,7 +11,6 @@ import aoTon20234 from "../assets/analysis/ao-ton2023-4.jpg";
 import advertising from "../assets/header/advertising.jpg";
 import headerBg from "../assets/header/header-bg.jpg";
 import headerBgNav from "../assets/header/header-bg-nav.jpg";
-import icon from "../assets/icon.jpg";
 import library from "../assets/header/library.jpg";
 import contacts from "../assets/header/contacts.png";
 import chevronRight from "../assets/header/chevron-right.svg";
@@ -65,11 +64,37 @@ import wGradPlan from "../assets/widgets/grad-plan.png";
 import wPriceZone from "../assets/widgets/price-zone.png";
 import wNpese from "../assets/widgets/npese.svg";
 
+import icon from "../assets/icon.jpg";
 import logo from "../assets/LOGO.svg";
 import qrCode from "../assets/QR-code.jpg";
 import sbpLogo from "../assets/SBP-logo.svg";
 
+import daoTon20234 from "../assets/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
+import daoEarth20234 from "../assets/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf";
+import daoIzhs20234 from "../assets/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf";
+import daoOffice20234 from "../assets/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЕМО.pdf";
+import daoPsn20234 from "../assets/analytics/Анализ_рынка_ПСН_4кв._2023_БФ_ДЕМО.pdf";
+
+import diGarage2024 from "../assets/collection/Сборник_корректировок_ГАРАЖИ_2024_demo.pdf";
+import diZu2024 from "../assets/collection/Сборник_корректировок_ЗЕМЛЯ_2024_demo.pdf";
+import diIzhs20241 from "../assets/collection/Сборник_корректировок_ИЖС_2024_demo.pdf";
+import diApartment2024 from "../assets/collection/Сборник_корректировок_КВАРТИРЫ_2024_demo.pdf";
+import diPsn20241 from "../assets/collection/Сборник_корректировок_ПСН_2024_demo.pdf";
+import diTon2024 from "../assets/collection/Сборник_корректировок_ТОН_2024_demo.pdf";
+
+
 export default {
+    daoTon20234,
+    daoEarth20234,
+    daoIzhs20234,
+    daoOffice20234,
+    daoPsn20234,
+    diGarage2024,
+    diZu2024,
+    diIzhs20241,
+    diApartment2024,
+    diPsn20241,
+    diTon2024,
     aoEarth20234,
     aoEarth20241,
     aoIzhs20234,
