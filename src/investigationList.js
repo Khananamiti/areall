@@ -6,7 +6,7 @@ const investigationList = [
     img: images.aoEarth20234,
     alt: "Аналитический отчет", // Подпись к рисунку
     type: "Анализ рынка", // Тип документа
-    demo: "src/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf", // Демо
+    demo: images.aoEarth20234, // Демо
     text: 'Аналитический отчет "Рынок земли" города Омска. 2024', // Описание
     price: "10000 руб.", // Цена
     date: "01.10.2023", // Опубликован
@@ -18,7 +18,7 @@ const investigationList = [
     img: images.aoOffice20234,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
-    demo: "src/demo/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЕМО.pdf",
+    demo: images.daoOffice20234,
     text: 'Аналитический отчет "Офисная недвижимость" города Омска. 2024',
     price: "10000 руб.",
     date: "01.10.2023",
@@ -31,7 +31,7 @@ const investigationList = [
     alt: "Аналитический отчет",
     type: "Анализ рынка",
     demo: "src/demo/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf",
-    text: 'Аналитический отчет "Индивидуальная жилая застройка" города Омска. 4Q 2023',
+    text: images.daoIzhs20234,
     price: "10000 руб.",
     date: "01.10.2023",
     company: 'НП "Евразийский Союз Экспертов"',
@@ -43,7 +43,7 @@ const investigationList = [
     alt: "Аналитический отчет",
     type: "Анализ рынка",
     demo: "src/demo/analytics/Анализ_рынка_ПСН_4кв._2023_БФ_ДЕМО.pdf",
-    text: 'Аналитический отчет "Производственно складская недвижимость" города Омска. 2024',
+    text: images.daoPsn20234,
     price: "10000 руб.",
     date: "01.10.2023",
     company: 'НП "Евразийский Союз Экспертов"',
@@ -54,7 +54,7 @@ const investigationList = [
     img: images.aoTon20234,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
-    demo: "src/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf",
+    demo: images.daoTon20234,
     text: 'Аналитический отчет "Торговые помещения" города Омска. 2024',
     price: "10000 руб.",
     date: "01.10.2023",
@@ -66,7 +66,7 @@ const investigationList = [
     img: images.iApartment2024,
     alt: "Сборник корректировок",
     type: "Исследования рынка",
-    demo: "src/demo/collection/Сборник_корректировок_КВАРТИРЫ_2024_demo.pdf",
+    demo: images.diApartment2024,
     text: 'Сборник корректировок "Квартиры" 2024',
     price: "10000 руб.",
     date: "01.10.2023",
@@ -78,7 +78,7 @@ const investigationList = [
     img: images.aoIzhs20234,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
-    demo: "src/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf",
+    demo: images.daoIzhs20234,
     text: 'Аналитический отчет "Рынок земли" города Омска. 4Q 2023',
     price: "5000 руб.",
     date: "01.10.2023",
