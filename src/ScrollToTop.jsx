@@ -12,8 +12,8 @@ const ScrollToTop = () => {
     });
   };
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      window.scrollY > 400 ? setShowTopBtn(true) : setShowTopBtn(false); // Расстояние от верхней точки больше 400 - флаг появится
+    window.addEventListener("scroll", () => { // Навесили обработчик событий, проскролить
+      window.scrollY > 400 ? setShowTopBtn(true) : setShowTopBtn(false); // Если страница прокручена больше чем на 400px, то делаем кнопку видимой, иначе скрываем
     });
   }, []);
   return (

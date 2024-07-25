@@ -19,7 +19,7 @@ const Investigation = () => {
     }
   };
   return (
-    <section className="investigation none1">
+    <section className="investigation none1" id="investigation">
       {/* Исследования рынка недвижимости */}
       <div className="container">
         <div className="shop block block--w780">
