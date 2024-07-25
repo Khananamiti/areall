@@ -4,14 +4,14 @@ const Document = ({ item }) => {
   return (
     <div className="investigation__document">
       <div className="document__img">
-        <img src={item.img} alt={item.title} />
+        <img src={item.img} alt={item.alt} /> 
       </div>
       <div className="document__info">
-        <span className="document__type">{item.title}</span>
+        <span className="document__type">{item.type}</span>
         <a
-          href={item.pdf}
           className="document__link"
           target="_blank"
+          href={item.demo}
         >
           {item.text}
         </a>
@@ -24,17 +24,15 @@ const Document = ({ item }) => {
         <div className="document__price">{item.price}</div>
         <div className="document__data">
           <p>ОПУБЛИКОВАН:</p>
-          <p>01.10.2023</p>
-        </div>
-        <div className="document__buy">
-          {/* <button
-                  type="button"
-                  className="document__btn"
-                  onClick={window.open('/qr-code.html')}
-                >
-                  Купить
-                </button> */}
-        </div>
+          <p>{item.date}</p>
+        </div>        
+        <button
+          className="document__btn"
+          type="button"
+          // onClick={window.open('./qr-code.html')}
+        >
+          Купить
+        </button>        
       </div>
     </div>
   );

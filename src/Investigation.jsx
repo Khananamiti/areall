@@ -40,7 +40,7 @@ const Investigation = () => {
               "ИЖС",
               "ПСН",
               "Торговые помещения",
-              "Сборники корректировок",
+              "Исследования рынка",
               "Анализ рынка",
             ].map((category) => (
               <button
@@ -60,43 +60,6 @@ const Investigation = () => {
             {filterItems.map((item) => {
               return <Document key={item.id} item={item} />;
             })}
-
-            {/* AO "Рынок земли" 2023 */}
-            <div className="investigation__document">
-              <div className="document__img">
-                <img src={images.aoEarth20234} alt="Документ" />
-              </div>
-              <div className="document__info">
-                <span className="document__type">Анализ рынка</span>
-                <a
-                  href="src/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf"
-                  className="document__link"
-                  target="_blank"
-                >
-                  Аналитический отчет "Рынок земли" города Омска. 4Q 2023
-                </a>
-                <div className="document__company">
-                  <span>Подготовлен:</span>
-                  <p>НП "Евразийский Союз Экспертов</p>
-                </div>
-              </div>
-              <div className="document__result">
-                <div className="document__price">5000 руб.</div>
-                <div className="document__data">
-                  <p>ОПУБЛИКОВАН:</p>
-                  <p>01.10.2023</p>
-                </div>
-                <div className="document__buy">
-                  {/* <button
-                    type="button"
-                    className="document__btn"
-                    onClick={window.open('./qr-code.html')}
-                  >
-                    Купить
-                  </button> */}
-                </div>
-              </div>
-            </div>
 
             {/* AO "Рынок земли" 2024 */}
             <div className="investigation__document">

@@ -2,7 +2,7 @@ import images from "./constants/data";
 
 const Library = () => {
   return (
-    <section className="library none1" id="library">
+    <section className="library none" id="library">
       {/* Библиотека оценщика */}
       <div className="library__top">
         <div className="library__top-row">
