@@ -3,7 +3,7 @@ import images from "./constants/data";
 const investigationList = [
   { // AO "Рынок земли" 2024
     id: 1,
-    img: images.aoEarth20241,
+    img: images.aoEarth20234,
     alt: "Аналитический отчет", // Подпись к рисунку
     type: "Анализ рынка", // Тип документа
     demo: "src/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf", // Демо
@@ -15,7 +15,7 @@ const investigationList = [
   },
   {
     id: 2,
-    img: images.aoOffice20241,
+    img: images.aoOffice20234,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
     demo: "src/demo/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЕМО.pdf",
@@ -27,7 +27,7 @@ const investigationList = [
   },
   {
     id: 3,
-    img: images.aoIzhs20241,
+    img: images.aoIzhs20234,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
     demo: "src/demo/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf",
@@ -39,7 +39,7 @@ const investigationList = [
   },
   {
     id: 4,
-    img: images.aoPsn20241,
+    img: images.aoPsn20234,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
     demo: "src/demo/analytics/Анализ_рынка_ПСН_4кв._2023_БФ_ДЕМО.pdf",
