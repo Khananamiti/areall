@@ -5,7 +5,7 @@ import investigationList from "./investigationList";
 import Document from "./Document";
 
 const Investigation = () => {
-  const [isActive, setIsActive] = useState("Рынок земли");
+  const [isActive, setIsActive] = useState("Земля");
   const [filterItems, setFilterItems] = useState(investigationList);
 
   const handleFilter = (category) => {
@@ -20,7 +20,7 @@ const Investigation = () => {
   };
   return (
     <section className="investigation none1" id="investigation">
-      {/* Исследования рынка недвижимости */}
+      {/* СЕКЦИЯ Исследования рынка недвижимости */}
       <div className="container">
         <div className="shop block block--w780">
           <div className="investigation__title">
@@ -57,15 +57,11 @@ const Investigation = () => {
 
           <div className="investigation__documents">
             {/* АНАЛИТИЧЕСКИЕ ОТЧЕТЫ */}
+            {filterItems.map((item) => {
+              return <Document key={item.id} item={item} />;
+            })}
 
             {/* AO "Рынок земли" 2023 */}
-
-            <div className="investigation__document">
-              {filterItems.map((item) => {
-                return <Document key={item.id} item={item} />;
-              })}
-            </div>
-
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoEarth20234} alt="Документ" />
@@ -1111,7 +1107,7 @@ const Investigation = () => {
           </div>
 
           {/* Публичная кадастровая карта */}
-          <div className="cad-map block block--w380 block--fix1">
+          <div className="cad-map block block--w380 block--fix1" id="cadastre">
             <div className="cad-map__title">
               <h2 className="title-16">Публичная кадастровая карта</h2>
               <p className="subtitle">

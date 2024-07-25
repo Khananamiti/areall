@@ -1,7 +1,6 @@
 import images from "./constants/data";
 import { useState } from "react";
 
-
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
 
@@ -10,8 +9,8 @@ const Header = () => {
   };
 
   const scrollToSection = (sectionId) => {
-    document.getElementById(sectionId).scrollIntoView({behavior: "smooth"})
-  }
+    document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <header className="header none1">
@@ -39,17 +38,55 @@ const Header = () => {
             <div className="header__nav">
               <nav className={isActive ? "nav active" : "nav"}>
                 <ul className="nav__list">
-                  <li className="item" onClick={() => scrollToSection(library)}>Библиотека оценщика</li>
-                  <li className="item" onClick={() => scrollToSection(cadastre)}>Народный кадастр</li>
-                  <li className="item" onClick={() => scrollToSection(realEstateMarket)}>Рынок недвижимости</li>
-                  <li className="item" onClick={() => scrollToSection(analysis)}>Аналитика</li>
-                  <li className="item" onClick={() => scrollToSection(investigation)}>Исследования</li>
-                  <li className="item info info--more">Еще
+                  <li className="item" onClick={() => scrollToSection("library")}>
+                    Библиотека оценщика
+                  </li>
+                  <li
+                    className="item"
+                    onClick={() => scrollToSection("cadastre")}
+                  >
+                    Народный кадастр
+                  </li>
+                  <li
+                    className="item"
+                    onClick={() => scrollToSection("realEstateMarket")}
+                  >
+                    Рынок недвижимости
+                  </li>
+                  <li
+                    className="item"
+                    onClick={() => scrollToSection("analysis")}
+                  >
+                    Аналитика
+                  </li>
+                  <li
+                    className="item"
+                    onClick={() => scrollToSection("investigation")}
+                  >
+                    Исследования
+                  </li>
+                  <li className="item info info--more">
+                    Еще
                     {/* Пока скрыт выпадающий список */}
                     <ul className="nav-more-dropdown none">
-                      <li className="item" onClick={() => scrollToSection(education)}>Образование</li>
-                      <li className="item" onClick={() => scrollToSection(glossary)}>Глоссарий</li>
-                      <li className="item" onClick={() => scrollToSection(events)}>Мероприятия</li>
+                      <li
+                        className="item"
+                        onClick={() => scrollToSection("education")}
+                      >
+                        Образование
+                      </li>
+                      <li
+                        className="item"
+                        onClick={() => scrollToSection("glossary")}
+                      >
+                        Глоссарий
+                      </li>
+                      <li
+                        className="item"
+                        onClick={() => scrollToSection("events")}
+                      >
+                        Мероприятия
+                      </li>
                     </ul>
                   </li>
                 </ul>
