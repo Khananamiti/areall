@@ -2,7 +2,7 @@
 
 const Research = () => {
   return (
-    <section className="research-for-profi none1">
+    <section className="research none">
       {/* Поиск для профессионалов */}
       <div className="container">
         <h2>Поиск недвижимости для профессионалов</h2>
