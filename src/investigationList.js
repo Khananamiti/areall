@@ -6,7 +6,7 @@ const investigationList = [
     img: images.aoEarth20234,
     alt: "Аналитический отчет", // Подпись к рисунку
     type: "Анализ рынка", // Тип документа
-    demo: images.daoEarth20234aoEarth20234, // Демо
+    demo: images.daoEarth20234, // Демо
     text: 'Аналитический отчет "Рынок земли" города Омска. 4Q 2023', // Описание
     price: "4000 руб.", // Цена
     date: "01.10.2023", // Опубликован
