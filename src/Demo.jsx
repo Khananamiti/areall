@@ -22,7 +22,7 @@ const Investigation = () => {
 
           <div className="investigation__documents">
 
-            {/* AO "Рынок земли" 2024 */}
+            {/* !!! AO "Рынок земли" 2024 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoEarth20241} alt="Документ" />
@@ -94,7 +94,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* AO "Офисная недвижимость" 2024*/}
+            {/* !!! AO "Офисная недвижимость" 2024*/}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoOffice20241} alt="Документ" />
@@ -166,7 +166,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* AO "Индивидуальная жилая застройка" 2024 */}
+            {/* !!! AO "Индивидуальная жилая застройка" 2024 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoIzhs20241} alt="Документ" />
@@ -238,7 +238,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* AO "ПСН" 2024 */}
+            {/* !!! AO "ПСН" 2024 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.aoPsn20241} alt="Документ" />
@@ -310,7 +310,7 @@ const Investigation = () => {
             </div>
 
             {/* СБОРНИКИ КОРРЕКТИРОВОК */}
-            {/* "Квартиры" 2020 */}
+            {/* !!! "Квартиры" 2020 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iApartment2020} alt="Документ" />
@@ -343,7 +343,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "Квартиры" 2023 */}
+            {/* !!! "Квартиры" 2023 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iApartment2023} alt="Документ" />
@@ -413,7 +413,7 @@ const Investigation = () => {
               </div>
             </div>
             
-            {/* "Гаражи" 2020 */}
+            {/* !!! "Гаражи" 2020 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iGarage2020} alt="Документ" />
@@ -447,7 +447,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "Гаражи" 2023 */}
+            {/* !!! "Гаражи" 2023 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iGarage2023} alt="Документ" />
@@ -519,7 +519,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "ИЖС" 2020 */}
+            {/* !!! "ИЖС" 2020 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iIzhs2020} alt="Документ" />
@@ -589,7 +589,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "ПСН" 2020 */}
+            {/* !!! "ПСН" 2020 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iPsn2020} alt="Документ" />
@@ -623,7 +623,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "ПСН" 2023 */}
+            {/* !!! "ПСН" 2023 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iPsn2023} alt="Документ" />
@@ -695,7 +695,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "ТОН" 2023 */}
+            {/* !!! "ТОН" 2023 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iTon2023} alt="Документ" />
