@@ -16,7 +16,7 @@
 button.investigation-item  {
   height: 44px;
   padding: 2px 4px;
-  min-width: 60px;
+  width: 100%;
   text-align: center;
   border: 1px solid $stroke;
   border-radius: 6px;
@@ -29,15 +29,11 @@ button.investigation-item  {
   justify-content: space-between;
   gap: 10px;
   padding-bottom: 20px;
-
-  // font-size: larger;
-  // font-weight: bold;
-  // color: black;
 }
 
 .investigation__documents {
-  display: grid;
-  grid-template-rows: repeat(auto-fill, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 30px;
   padding-bottom: 16px;
 }
