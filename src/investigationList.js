@@ -23,7 +23,7 @@ const investigationList = [
     price: "4000 руб.",
     date: "01.10.2023",
     company: 'НП "Евразийский Союз Экспертов"',
-    category: "Офисы",
+    category: "ТОН",
   },
   { // AO "Индивидуальная жилая застройка" 2023
     id: 3,
@@ -59,7 +59,7 @@ const investigationList = [
     price: "4000 руб.",
     date: "01.10.2023",
     company: 'НП "Евразийский Союз Экспертов"',
-    category: "Торговые помещения",
+    category: "ТОН",
   },
   { // СК "Квартиры" 2024
     id: 6,
@@ -156,7 +156,7 @@ const investigationList = [
     price: "5000 руб.",
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
-    category: "Офисы",
+    category: "ТОН",
   },
   { // AO "Индивидуальная жилая застройка" 2024
     id: 14,
