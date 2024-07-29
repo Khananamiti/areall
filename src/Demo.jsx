@@ -864,7 +864,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "ЗУ" 2023 */}
+            {/* !!! "ЗУ" 2023 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iZu2023} alt="Документ" />
