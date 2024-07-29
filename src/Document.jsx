@@ -29,7 +29,7 @@ const Document = ({ item }) => {
         <button
           className="document__btn"
           type="button"
-          // onClick={window.open('./qr-code.html')}
+          // onClick={window.open('qr-code.html')}
         >
           Купить
         </button>        

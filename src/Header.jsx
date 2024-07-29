@@ -4,6 +4,7 @@ import { useState } from "react";
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
 
+  // при вызове функции handleToggle, isActive переходит в противоположное состояние
   const handleToggle = () => {
     setIsActive(!isActive);
   };
@@ -38,7 +39,10 @@ const Header = () => {
             <div className="header__nav">
               <nav className={isActive ? "nav active" : "nav"}>
                 <ul className="nav__list">
-                  <li className="item" onClick={() => scrollToSection("library")}>
+                  <li
+                    className="item"
+                    onClick={() => scrollToSection("library")}
+                  >
                     Библиотека оценщика
                   </li>
                   <li
