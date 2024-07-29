@@ -765,7 +765,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "ЗУ" 2020 */}
+            {/* !!! "ЗУ" 2020 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iZu2020} alt="Документ" />
@@ -798,7 +798,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "ЗУ" 2021 */}
+            {/* !!! "ЗУ" 2021 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iZu2021} alt="Документ" />
@@ -831,7 +831,7 @@ const Investigation = () => {
               </div>
             </div>
 
-            {/* "ЗУ" 2022 */}
+            {/* !!! "ЗУ" 2022 */}
             <div className="investigation__document">
               <div className="document__img">
                 <img src={images.iZu2022} alt="Документ" />
