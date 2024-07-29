@@ -41,8 +41,8 @@ const Investigation = () => {
               "ИЖС",
               "ПСН",
               "Торговые помещения",
-              "Исследования рынка",
-              "Анализ рынка",
+              "Квартиры",
+              "Гаражи",
             ].map((category) => (
               <button
                 className={`investigation-item ${
