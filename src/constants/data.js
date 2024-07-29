@@ -69,6 +69,8 @@ import logo from "../assets/LOGO.svg";
 import qrCode from "../assets/QR-code.jpg";
 import sbpLogo from "../assets/SBP-logo.svg";
 
+
+
 import daoTon20234 from "../assets/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
 import daoEarth20234 from "../assets/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf";
 import daoIzhs20234 from "../assets/demo/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf";
