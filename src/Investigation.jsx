@@ -5,12 +5,12 @@ import investigationList from "./investigationList";
 import Document from "./Document";
 
 const Investigation = () => {
-  const [isActive, setIsActive] = useState("Земля");
+  const [isActive, setIsActive] = useState("Все");
   const [filterItems, setFilterItems] = useState(investigationList);
 
   const handleFilter = (category) => {
     setIsActive(category);
-    if (category === "Земля") setFilterItems(investigationList);
+    if (category === "Все") setFilterItems(investigationList);
     else {
       const filterItem = investigationList.filter(
         (item) => item.category === category
@@ -35,6 +35,7 @@ const Investigation = () => {
           {/* Кнопки фильтрации */}
           <div className="investigation-list">
             {[
+              "Все",
               "Земля",
               "Офисы",
               "ИЖС",
