@@ -9,13 +9,13 @@ import aoPsn20241 from "../assets/analysis/ao-psn2024-1.jpg";
 import aoTon20234 from "../assets/analysis/ao-ton2023-4.jpg";
 
 import advertising from "../assets/header/advertising.jpg";
-import headerBg from "../assets/header/header-bg.jpg";
-import headerBgNav from "../assets/header/header-bg-nav.jpg";
+import bg from "../assets/header/bg.jpg";
+import bgNav from "../assets/header/bg-nav.jpg";
 import library from "../assets/header/library.jpg";
 import contacts from "../assets/header/contacts.png";
 import chevronRight from "../assets/header/chevron-right.svg";
 import geo from "../assets/header/geo.svg";
-import headerMore from "../assets/header/header-more.svg";
+import more from "../assets/header/more.svg";
 import home from "../assets/header/home.svg";
 import logIn from "../assets/header/log-in.svg";
 import menu from "../assets/header/menu.svg";
@@ -69,8 +69,6 @@ import logo from "../assets/LOGO.svg";
 import qrCode from "../assets/QR-code.jpg";
 import sbpLogo from "../assets/SBP-logo.svg";
 
-
-
 import daoTon20234 from "../assets/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
 import daoEarth20234 from "../assets/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf";
 import daoIzhs20234 from "../assets/demo/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf";
@@ -107,14 +105,14 @@ export default {
     aoPsn20241,
     aoTon20234,
     advertising,
-    headerBg,
-    headerBgNav,
+    bg,
+    bgNav,
     icon,
     library,
     contacts,
     chevronRight,
     geo,
-    headerMore,
+    more,
     home,
     logIn,
     menu,

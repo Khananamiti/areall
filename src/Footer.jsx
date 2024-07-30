@@ -76,7 +76,7 @@ const Footer = () => {
             <ul className="footer__nav-list">
               <li>
                 <form action="mailto:areall@mail.ru" className="footer__form">
-                  <input type="text" value="| Ваш вопрос?" name="input" />
+                  <input type="text" placeholder="| Ваш вопрос?" name="input" />
                   <button type="button" className="footer__btn">
                     Направьте нам!
                   </button>

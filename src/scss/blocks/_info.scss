@@ -21,14 +21,14 @@
   }
 
   &--more::before {
-    background-image: url('./../src/img/header/header-more.svg');
+    background-image: url(../../assets/header/more.svg);
   }
 
   &--geo::before {
-    background-image: url('./../src/img/header/geo.svg');
+    background-image: url(../../assets/header/geo.svg);
   }
 
   &--home::before {
-    background-image: url('./../src/img/header/home.svg');
+    background-image: url(../../assets/header/more.svg);
   }
 }
