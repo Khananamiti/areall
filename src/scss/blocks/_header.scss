@@ -2,7 +2,7 @@
   display: flex; // выровняли элементы по горизонтали
   flex-direction: column; // выровняли элементы в колонку
   // background: $header-footer-bg;
-  background: url(./../../assets/header/header-bg-nav.jpg), no-repeat;
+  background: url(./../assets/header/header-bg-nav.jpg), no-repeat;
 }
 
 .header__advertising {
