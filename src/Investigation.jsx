@@ -21,7 +21,7 @@ const Investigation = () => {
   return (
     <section className="investigation none1" id="investigation">
       {/* СЕКЦИЯ Исследования рынка недвижимости */}
-      <motion.div className="container">
+      <div className="container">
         <motion.div className="shop block block--w780">
           <div className="investigation__title">
             <h2 className="title-24">Исследования рынка недвижимости</h2>
@@ -183,7 +183,7 @@ const Investigation = () => {
             </div>
           </div>
         </div>
-      </motion.div>
+      </div>
     </section>
   );
 };
