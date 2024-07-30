@@ -69,7 +69,8 @@ const Header = () => {
                   >
                     Исследования
                   </li>
-                  <li className="item info info--more">
+                  <li className="item">
+                    <img src={images.more} alt="Еще" />
                     Еще
                     {/* Пока скрыт выпадающий список */}
                     <ul className="nav-more-dropdown none">
