@@ -1,11 +1,20 @@
 import React from "react";
+import {motion} from "framer-motion";
 
 const Document = ({ item }) => {
   return (
-    <div className="investigation__document">
+    <motion.div className="investigation__document"
+      initial={{ y: 2, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      exit={{ y: -2, opacity: 0 }}
+      transition={{ duration: 0.2 }}
+    >
+      {/* Обложка документа */}
       <div className="document__img">
         <img src={item.img} alt={item.alt} /> 
       </div>
+
+      {/* Информация */}
       <div className="document__info">
         <span className="document__type">{item.type}</span>
         <a
@@ -20,6 +29,8 @@ const Document = ({ item }) => {
           <p>НП "Евразийский Союз Экспертов"</p>
         </div>
       </div>
+
+      {/* Цена, дата, кнопка  */}
       <div className="document__result">
         <div className="document__price">{item.price}</div>
         <div className="document__data">
@@ -34,7 +45,7 @@ const Document = ({ item }) => {
           Купить
         </button>        
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,8 +1,8 @@
 import images from "./constants/data";
 import React, { useState } from "react";
-
 import investigationList from "./investigationList";
 import Document from "./Document";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Investigation = () => {
   const [isActive, setIsActive] = useState("Все");
@@ -21,8 +21,8 @@ const Investigation = () => {
   return (
     <section className="investigation none1" id="investigation">
       {/* СЕКЦИЯ Исследования рынка недвижимости */}
-      <div className="container">
-        <div className="shop block block--w780">
+      <motion.div className="container">
+        <motion.div className="shop block block--w780">
           <div className="investigation__title">
             <h2 className="title-24">Исследования рынка недвижимости</h2>
             <p className="subtitle">
@@ -55,13 +55,15 @@ const Investigation = () => {
             ))}
           </div>
 
-          <div className="investigation__documents">
-            {/* АНАЛИТИЧЕСКИЕ ОТЧЕТЫ */}
-            {filterItems.map((item) => {
-              return <Document key={item.id} item={item} />;
-            })}
-          </div>
-        </div>
+          <motion.div className="investigation__documents">
+            {/* Все документы */}
+            <AnimatePresence>
+              {filterItems.map((item) => {
+                return <Document key={item.id} item={item} />;
+              })}
+            </AnimatePresence>
+          </motion.div>
+        </motion.div>
 
         {/* Виджеты */}
         <div className="widgets">
@@ -181,7 +183,7 @@ const Investigation = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
