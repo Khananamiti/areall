@@ -2,6 +2,10 @@ import React from "react";
 import {motion} from "framer-motion";
 
 const Document = ({ item }) => {
+  const qrClick = () => {
+    window.open("qr-code.html")
+  }
+
   return (
     <motion.div className="investigation__document"
       initial={{ y: 2, opacity: 0 }}
@@ -40,7 +44,7 @@ const Document = ({ item }) => {
         <button
           className="document__btn"
           type="button"
-          // onClick={window.open(./qr-code.html)}
+          onClick={qrClick}
         >
           Купить
         </button>        
