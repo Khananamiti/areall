@@ -64,7 +64,7 @@ import wGradPlan from "../assets/widgets/grad-plan.png";
 import wPriceZone from "../assets/widgets/price-zone.png";
 import wNpese from "../assets/widgets/npese.svg";
 
-import icon from "../assets/icon.jpg";
+import icon from "../../public/icon.jpg";
 import logo from "../assets/LOGO.svg";
 import qrCode from "../assets/QR-code.jpg";
 import sbpLogo from "../assets/SBP-logo.svg";
