@@ -263,7 +263,7 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(assets/header/header-bg-nav.jpg), no-repeat;
+  background: url(./assets/header/header-bg-nav.jpg), no-repeat;
 }
 
 .header__advertising {
@@ -655,10 +655,10 @@ a:hover {
   background-image: url();
 }
 .info--geo::before {
-  background-image: url(assets/header/geo.svg);
+  background-image: url(./assets/header/geo.svg);
 }
 .info--home::before {
-  background-image: url(assets/header/home.svg);
+  background-image: url(./assets/header/home.svg);
 }
 
 .library {
@@ -668,7 +668,7 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 12px;
-  background: url(assets/header/header-bg.jpg);
+  background: url(./assets/header/header-bg.jpg);
 }
 
 .library__top {
