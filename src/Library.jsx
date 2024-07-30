@@ -7,7 +7,7 @@ const Library = () => {
       <div className="library__top">
         <div className="library__top-row">
           <div className="library__geo">
-            <a href="#!" className="info">
+            <a href="#!" className="library__info">
               <img src={images.geo} alt="Ваш город: " />
               Омск
             </a>
@@ -15,8 +15,8 @@ const Library = () => {
           <div className="library__breadcrumbs">
             <ul className="library__breadcrumbs-list">
               <li>
-                <a href="#!" className="info">
-                  <img src={images.home} alt="Главная" />
+                <a href="#!">
+                  <img src={images.home} alt="Главная" className="library__info" />
                   Главная
                 </a>
               </li>

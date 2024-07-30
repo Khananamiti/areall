@@ -632,35 +632,6 @@ a:hover {
           transform: rotate(-45deg);
 }
 
-.info {
-  position: relative;
-}
-.info--more, .info--geo, .info--home {
-  padding-left: 24px;
-  justify-items: center;
-}
-.info--more::before, .info--geo::before, .info--home::before {
-  content: "";
-  position: absolute;
-  left: 0px;
-  top: 50%;
-  width: 18px;
-  height: 18px;
-  -webkit-transform: translate(0%, -50%);
-          transform: translate(0%, -50%);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.info--more::before {
-  background-image: url(../../assets/header/more.svg);
-}
-.info--geo::before {
-  background-image: url(../../assets/header/geo.svg);
-}
-.info--home::before {
-  background-image: url(../../assets/header/more.svg);
-}
-
 .library {
   overflow: hidden;
   display: grid;
