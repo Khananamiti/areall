@@ -639,7 +639,7 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   padding-bottom: 12px;
-  background: url(./../src/img/header/header-bg.jpg);
+  background: url(./../assets/header/bg.jpg);
 }
 
 .library__top {
@@ -846,6 +846,8 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 20px;
   padding-top: 32px;
 }
