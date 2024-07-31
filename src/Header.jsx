@@ -1,6 +1,5 @@
 import images from "./constants/data";
 import { useState } from "react";
-import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -12,14 +11,6 @@ const Header = () => {
 
   const scrollToSection = (sectionId) => {
     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
-  };
-
-  const [text, setText] = useState("+79136236787");
-  const [isCopied, setIsCopied] = useState(false);
-
-  const onCopyText = () => {
-    setIsCopied(true);
-    setTimeout(() => setIsCopied(false), 1500);
   };
 
   return (
@@ -133,16 +124,9 @@ const Header = () => {
             {/* Реализовать копирование при нажатии на текст */}
             <div className="header__cont-text">
               <div className="text-right">
-                <input
-                  value={text}
-                  onChange={({ target }) => setText(target.value)}
-                />
-                <CopyToClipboard text={text} onCopy={onCopyText}>
-                  <button>+7 (913) 623-67-87</button>
-                </CopyToClipboard>
-                {isCopied ? (
-                  <span style={{ color: "green" }}>Скопировано!</span>
-                ) : null}
+                <a href="tel:+79136236787" className="">
+                  +7 (913) 623-67-87
+                </a>
               </div>
               <div className="text-right">
                 <a href="mailto:areall@mail.ru" className="">
