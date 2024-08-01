@@ -87,10 +87,10 @@ const investigationList = [
   },
   { // СК "ИЖС" 2024
     id: 8,
-    img: images.iIzhs20241,
+    img: images.iIzhs2024,
     alt: "Сборник корректировок",
     type: "Исследования рынка",
-    demo: images.diIzhs20241,
+    demo: images.diIzhs2024,
     text: 'Сборник корректировок "Индивидуальные жилые строения" 2024',
     price: "5000 руб.",
     date: "01.01.2024",
@@ -99,10 +99,10 @@ const investigationList = [
   },
   { // СК "ПСН" 2024
     id: 9,
-    img: images.iPsn20241,
+    img: images.iPsn2024,
     alt: "Сборник корректировок",
     type: "Исследования рынка",
-    demo: images.diPsn20241,
+    demo: images.diPsn2024,
     text: 'Сборник корректировок "Производственно-складская недвижимость" 2024',
     price: "5000 руб.",
     date: "01.01.2024",
@@ -136,10 +136,10 @@ const investigationList = [
   // БЕЗ демо-версии
   { // AO "Рынок земли" 2024
     id: 12,
-    img: images.aoEarth20241,
+    img: images.aoEarth2024,
     alt: "Аналитический отчет", // Подпись к рисунку
     type: "Анализ рынка", // Тип документа
-    // demo: images.daoEarth20241,  Демо
+    // demo: images.daoEarth2024,  Демо
     text: 'Аналитический отчет "Рынок земли" города Омска. 2024', // Описание
     price: "5000 руб.", // Цена
     date: "01.01.2024", // Опубликован
@@ -148,10 +148,10 @@ const investigationList = [
   },
   { // AO "Офисная недвижимость" 2024
     id: 13, 
-    img: images.aoOffice20241,
+    img: images.aoOffice2024,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
-    // demo: images.daoOffice20241,
+    // demo: images.daoOffice2024,
     text: 'Аналитический отчет "Офисная недвижимость" города Омска. 2024',
     price: "5000 руб.",
     date: "01.01.2024",
@@ -160,10 +160,10 @@ const investigationList = [
   },
   { // AO "Индивидуальная жилая застройка" 2024
     id: 14,
-    img: images.aoIzhs20241,
+    img: images.aoIzhs2024,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
-    // demo: images.daoIzhs20241,
+    // demo: images.daoIzhs2024,
     text: 'Аналитический отчет "Индивидуальная жилая застройка" города Омска. 2024',
     price: "5000 руб.",
     date: "01.01.2024",
@@ -172,10 +172,10 @@ const investigationList = [
   },
   { // AO "ПСН" 2023
     id: 15,
-    img: images.aoPsn20241,
+    img: images.aoPsn2024,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
-    // demo: images.daoPsn20241,
+    // demo: images.daoPsn2024,
     text: 'Аналитический отчет "Производственно-складская недвижимость" города Омска. 2024',
     price: "5000 руб.",
     date: "01.01.2024",

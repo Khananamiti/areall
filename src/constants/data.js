@@ -1,11 +1,11 @@
 import aoEarth20234 from "../assets/analysis/ao-earth2023-4.jpg";
-import aoEarth20241 from "../assets/analysis/ao-earth2024-1.jpg";
+import aoEarth2024 from "../assets/analysis/ao-earth2024-1.jpg";
 import aoIzhs20234 from "../assets/analysis/ao-izhs2023-4.jpg";
-import aoIzhs20241 from "../assets/analysis/ao-izhs2024-1.jpg";
+import aoIzhs2024 from "../assets/analysis/ao-izhs2024-1.jpg";
 import aoOffice20234 from "../assets/analysis/ao-office2023-4.jpg";
-import aoOffice20241 from "../assets/analysis/ao-office2024-1.jpg";
+import aoOffice2024 from "../assets/analysis/ao-office2024-1.jpg";
 import aoPsn20234 from "../assets/analysis/ao-psn2023-4.jpg";
-import aoPsn20241 from "../assets/analysis/ao-psn2024-1.jpg";
+import aoPsn2024 from "../assets/analysis/ao-psn2024-1.jpg";
 import aoTon20234 from "../assets/analysis/ao-ton2023-4.jpg";
 
 import advertising from "../assets/header/advertising.jpg";
@@ -27,10 +27,10 @@ import iGarage2020 from "../assets/investigation/garage2020.jpg";
 import iGarage2023 from "../assets/investigation/garage2023.jpg";
 import iGarage2024 from "../assets/investigation/garage2024.jpg";
 import iIzhs2020 from "../assets/investigation/izhs2020.jpg";
-import iIzhs20241 from "../assets/investigation/izhs2024-1.jpg";
+import iIzhs2024 from "../assets/investigation/izhs2024-1.jpg";
 import iPsn2020 from "../assets/investigation/psn2020.jpg";
 import iPsn2023 from "../assets/investigation/psn2023.jpg";
-import iPsn20241 from "../assets/investigation/psn2024-1.jpg";
+import iPsn2024 from "../assets/investigation/psn2024-1.jpg";
 import iTon2023 from "../assets/investigation/ton2023.jpg";
 import iTon2024 from "../assets/investigation/ton2024.jpg";
 import iZu2020 from "../assets/investigation/zu2020.jpg";
@@ -77,9 +77,9 @@ import daoPsn20234 from "../assets/demo/analytics/Анализ_рынка_ПСН
 
 import diGarage2024 from "../assets/demo/collection/Сборник_корректировок_ГАРАЖИ_2024_demo.pdf";
 import diZu2024 from "../assets/demo/collection/Сборник_корректировок_ЗЕМЛЯ_2024_demo.pdf";
-import diIzhs20241 from "../assets/demo/collection/Сборник_корректировок_ИЖС_2024_demo.pdf";
+import diIzhs2024 from "../assets/demo/collection/Сборник_корректировок_ИЖС_2024_demo.pdf";
 import diApartment2024 from "../assets/demo/collection/Сборник_корректировок_КВАРТИРЫ_2024_demo.pdf";
-import diPsn20241 from "../assets/demo/collection/Сборник_корректировок_ПСН_2024_demo.pdf";
+import diPsn2024 from "../assets/demo/collection/Сборник_корректировок_ПСН_2024_demo.pdf";
 import diTon2024 from "../assets/demo/collection/Сборник_корректировок_ТОН_2024_demo.pdf";
 
 
@@ -91,18 +91,18 @@ export default {
     daoPsn20234,
     diGarage2024,
     diZu2024,
-    diIzhs20241,
+    diIzhs2024,
     diApartment2024,
-    diPsn20241,
+    diPsn2024,
     diTon2024,
     aoEarth20234,
-    aoEarth20241,
+    aoEarth2024,
     aoIzhs20234,
-    aoIzhs20241,
+    aoIzhs2024,
     aoOffice20234,
-    aoOffice20241,
+    aoOffice2024,
     aoPsn20234,
-    aoPsn20241,
+    aoPsn2024,
     aoTon20234,
     advertising,
     bg,
@@ -123,10 +123,10 @@ export default {
     iGarage2023,
     iGarage2024,
     iIzhs2020,
-    iIzhs20241,
+    iIzhs2024,
     iPsn2020,
     iPsn2023,
-    iPsn20241,
+    iPsn2024,
     iTon2023,
     iTon2024,
     iZu2020,
