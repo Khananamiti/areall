@@ -9,7 +9,7 @@ npm create vite@latest . -- --template react
 ### Installation react
 
 ```bash
-npm npm i
+npm i
 ```
 
 ## Start project
