@@ -10,16 +10,23 @@ const Footer = () => {
               <img src={images.logo} alt="Areall | Продвижение недвижимости" />
             </a>
             <div className="footer__socials">
-              <a href="tel:+79136236787">
+              <a href="tel:+79136236787" title="Позвонить по телефону">
                 <img src={images.phone} alt="phone" />
               </a>
-              <a href="mailto:areall@mail.ru">
+              <a href="mailto:areall@mail.ru" title="Написать на почту">
                 <img src={images.mail} alt="mail" />
               </a>
-              <a href="https://t.me/+79136236787">
+              <a
+                href="https://t.me/+79136236787"
+                target="_blank"
+                title="Написать в Telegram"
+              >
                 <img src={images.telegram} alt="telegram" />
               </a>
-              <a href="whatsapp://send?phone=+79136236787&text=Здравствуйте! Пишу вам с сайта Areall.ru">
+              <a
+                href="whatsapp://send?phone=+79136236787&text=Здравствуйте! Пишу вам с сайта Areall.ru"
+                title="Написать в Whatsapp"
+              >
                 <img src={images.whatsapp} alt="whatsapp" />
               </a>
             </div>
