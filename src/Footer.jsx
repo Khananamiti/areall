@@ -7,22 +7,19 @@ const Footer = () => {
         <div className="footer-top">
           <div className="footer__logo">
             <a href="#!">
-              <img
-                src={images.logo}
-                alt="Areall | Продвижение недвижимости"
-              />
+              <img src={images.logo} alt="Areall | Продвижение недвижимости" />
             </a>
             <div className="footer__socials">
-              <a href="#!">
+              <a href="tel:+79136236787">
                 <img src={images.phone} alt="phone" />
               </a>
-              <a href="#!">
+              <a href="mailto:areall@mail.ru">
                 <img src={images.mail} alt="mail" />
               </a>
-              <a href="#!">
+              <a href="https://t.me/+79136236787">
                 <img src={images.telegram} alt="telegram" />
               </a>
-              <a href="#!">
+              <a href="whatsapp://send?phone=+79136236787&text=Здравствуйте! Пишу вам с сайта Areall.ru">
                 <img src={images.whatsapp} alt="whatsapp" />
               </a>
             </div>

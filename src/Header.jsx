@@ -147,10 +147,10 @@ const Header = () => {
 
               {/* <!-- Реализовать  переход в соответствующее приложение при нажатии на текст --> */}
               <div className="header__cont-messengers">
-                <a href="#!">
+                <a href="https://t.me/+79136236787">
                   <img src={images.telegram} alt="telegram" />
                 </a>
-                <a href="#!">
+                <a href="whatsapp://send?phone=+79136236787&text=Здравствуйте! Пишу вам с сайта Areall.ru">
                   <img src={images.whatsapp} alt="whatsapp" />
                 </a>
               </div>
