@@ -69,6 +69,7 @@ import logo from "../assets/LOGO.svg";
 import qrCode from "../assets/QR-code.jpg";
 import sbpLogo from "../assets/SBP-logo.svg";
 
+// PDF
 import daoTon20234 from "../assets/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
 import daoEarth20234 from "../assets/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf";
 import daoIzhs20234 from "../assets/demo/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf";
@@ -81,6 +82,23 @@ import diIzhs2024 from "../assets/demo/collection/Сборник_коррект�
 import diApartment2024 from "../assets/demo/collection/Сборник_корректировок_КВАРТИРЫ_2024_demo.pdf";
 import diPsn2024 from "../assets/demo/collection/Сборник_корректировок_ПСН_2024_demo.pdf";
 import diTon2024 from "../assets/demo/collection/Сборник_корректировок_ТОН_2024_demo.pdf";
+
+import diGarage2023 from "../assets/demo/collection/d_Сборник_корректировок_ГАРАЖИ_2023.pdf";
+import diZu2023 from "../assets/demo/collection/d_Сборник_корректировок_ЗЕМЛЯ_2023.pdf";
+import diApartment2023 from "../assets/demo/collection/d_Сборник_корректировок_КВАРТИРЫ_2023.pdf";
+import diPsn2023 from "../assets/demo/collection/d_Сборник_корректировок_ПСН_2023.pdf";
+import diTon2023 from "../assets/demo/collection/d_Сборник_корректировок_Торгово_офисная_2023.pdf";
+
+import diZu2022 from "../assets/demo/collection/Demo_Сборник_корректировок_ЗЕМЛЯ_2022.pdf";
+import diApartment2022 from "../assets/demo/collection/Demo_Сборник_корректировок_КВАРТИРЫ_2022.pdf";
+
+import diZu2021 from "../assets/demo/collection/Demo_Сборник_корректировок_ЗЕМЛЯ_2021.pdf";
+
+import diGarage2020 from "../assets/demo/collection/Demo_Сборник_корректировок_ГАРАЖИ_на_01012020.pdf";
+import diZu2020 from "../assets/demo/collection/Demo_Сборник_корректировок_ЗЕМЛЯ_на_01012020.pdf";
+import diIzhs2020 from "../assets/demo/collection/Demo_Сборник_корректировок_ИЖС_2020.pdf";
+import diApartment2020 from "../assets/demo/collection/Demo_Сборник_корректировок_Сегмент_Квартиры_на_01012020.pdf";
+import diPsn2020 from "../assets/demo/collection/Demo_Сборник_корректировок_ПСН_2020.pdf";
 
 
 export default {
@@ -95,6 +113,19 @@ export default {
     diApartment2024,
     diPsn2024,
     diTon2024,
+    diGarage2020,
+    diZu2020,
+    diIzhs2020,
+    diApartment2020,
+    diPsn2020,
+    diZu2021,
+    diZu2022,
+    diApartment2022,
+    diGarage2023,
+    diZu2023,
+    diApartment2023,
+    diPsn2023,
+    diTon2023,
     aoEarth20234,
     aoEarth2024,
     aoIzhs20234,
