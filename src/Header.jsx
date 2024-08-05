@@ -1,5 +1,6 @@
 import images from "./constants/data";
 import { useState } from "react";
+import Registration from "./Registration";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -12,6 +13,10 @@ const Header = () => {
   const scrollToSection = (sectionId) => {
     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
   };
+
+  const regClick = () => {
+    return (Registration)
+  }
 
   return (
     <header className="header none1">
@@ -116,7 +121,11 @@ const Header = () => {
                 <img src={images.logIn} alt="Войти" />
                 Войти
               </button>
-              <button type="button" className="header__auth-reg">
+              <button
+                type="button"
+                className="header__auth-reg"
+                onClick={regClick}
+              >
                 Зарегистрироваться
               </button>
             </div>
