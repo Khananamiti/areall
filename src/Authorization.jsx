@@ -67,7 +67,7 @@ const Authorization = () => {
   };
 
   return (
-    <div className="authorization">
+    <div className="authorization none">
       <div className="block">
         <form action="#" className="form">
           <h1 className="title-24">Личный кабинет</h1>

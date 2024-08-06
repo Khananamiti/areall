@@ -6,16 +6,18 @@ import Research from "./Research";
 import Geolocation from "./Geolocation";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
-import Registration from "./Registration";
-import Authorization from "./Authorization";
+// import Registration from "./Registration";
+// import Authorization from "./Authorization";
+import Reg from "./Reg";
 
 function App() {
   return (
     <>
       <Header />
       <main>
-        <Registration />
-        <Authorization />
+        <Reg />
+        {/* <Registration /> */}
+        {/* <Authorization /> */}
         <Library />
         <Investigation />
         <Analysis/>

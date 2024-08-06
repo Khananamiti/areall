@@ -67,7 +67,7 @@ const Registration = () => {
   };
 
   return (
-    <div className="registration">
+    <div className="registration none">
       <div className="block">
         <form action="#" className="form">
           <h1 className="title-24">Регистрация</h1>
