@@ -1,6 +1,6 @@
-import images from "./constants/data";
+import images from "../constants/data";
 import React, { useState } from "react";
-import investigationList from "./investigationList";
+import investigationList from "../js/investigationList";
 import Document from "./Document";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -34,25 +34,19 @@ const Investigation = () => {
 
           {/* Кнопки фильтрации */}
           <div className="investigation-list">
-            {[
-              "Все",
-              "Земля",
-              "ИЖС",
-              "ПСН",
-              "ТОН",
-              "Квартиры",
-              "Гаражи",
-            ].map((category) => (
-              <button
-                className={`investigation-item ${
-                  isActive === category ? "active" : ""
-                }`}
-                key={category}
-                onClick={() => handleFilter(category)}
-              >
-                {category}
-              </button>
-            ))}
+            {["Все", "Земля", "ИЖС", "ПСН", "ТОН", "Квартиры", "Гаражи"].map(
+              (category) => (
+                <button
+                  className={`investigation-item ${
+                    isActive === category ? "active" : ""
+                  }`}
+                  key={category}
+                  onClick={() => handleFilter(category)}
+                >
+                  {category}
+                </button>
+              )
+            )}
           </div>
 
           <motion.div className="investigation__documents">

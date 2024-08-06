@@ -1,4 +1,4 @@
-import images from "./constants/data";
+import images from "../constants/data";
 
 const Library = () => {
   return (

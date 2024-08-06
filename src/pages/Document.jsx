@@ -1,5 +1,9 @@
 import React from "react";
 import {motion} from "framer-motion";
+import { Route, Router } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// import QrCode from './QrCode.jsx';
 
 const Document = ({ item }) => {
   const qrClick = () => {
@@ -7,6 +11,7 @@ const Document = ({ item }) => {
   }
 
   return (
+    <>
     <motion.div className="investigation__document"
       initial={{ y: 2, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
@@ -50,6 +55,14 @@ const Document = ({ item }) => {
         </button>        
       </div>
     </motion.div>
+
+    {/* <Router>
+      <Routes>
+        <Route exact path="/" element={<Купить/>} />
+
+      </Routes>
+    </Router> */}
+    </>
   );
 };
 

@@ -1,7 +1,7 @@
-import images from "./constants/data";
+import images from "../constants/data";
 import { useState } from "react";
 import Registration from "./Registration";
-import { Router } from "react-router-dom";
+// import { Route, Router } from "react-router-dom";
 
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
@@ -188,12 +188,6 @@ const Header = () => {
           </div>
         </div>
       </header>
-
-      {/* <Router>
-        <Routes>
-
-        </Routes>
-      </Router> */}
     </>
   );
 };

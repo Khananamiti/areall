@@ -1,7 +1,8 @@
-import images from "./constants/data";
+import images from "../constants/data";
 
 const investigationList = [
-  { // AO "Рынок земли" 2023
+  {
+    // AO "Рынок земли" 2023
     id: 1,
     img: images.aoEarth20234,
     alt: "Аналитический отчет", // Подпись к рисунку
@@ -13,8 +14,9 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"', // Подготовлен
     category: "Земля", // Категория для фильтрации
   },
-  { // AO "Офисная недвижимость" 2023
-    id: 2, 
+  {
+    // AO "Офисная недвижимость" 2023
+    id: 2,
     img: images.aoOffice20234,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
@@ -25,7 +27,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
   },
-  { // AO "Индивидуальная жилая застройка" 2023
+  {
+    // AO "Индивидуальная жилая застройка" 2023
     id: 3,
     img: images.aoIzhs20234,
     alt: "Аналитический отчет",
@@ -37,7 +40,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ИЖС",
   },
-  { // AO "ПСН" 2023
+  {
+    // AO "ПСН" 2023
     id: 4,
     img: images.aoPsn20234,
     alt: "Аналитический отчет",
@@ -49,7 +53,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
   },
-  { // AO "ТОН" 2023
+  {
+    // AO "ТОН" 2023
     id: 5,
     img: images.aoTon20234,
     alt: "Аналитический отчет",
@@ -61,7 +66,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
   },
-  { // СК "Квартиры" 2024
+  {
+    // СК "Квартиры" 2024
     id: 6,
     img: images.iApartment2024,
     alt: "Сборник корректировок",
@@ -73,7 +79,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Квартиры",
   },
-  { // СК "Гаражи" 2024
+  {
+    // СК "Гаражи" 2024
     id: 7,
     img: images.iGarage2024,
     alt: "Сборник корректировок",
@@ -85,7 +92,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Гаражи",
   },
-  { // СК "ИЖС" 2024
+  {
+    // СК "ИЖС" 2024
     id: 8,
     img: images.iIzhs2024,
     alt: "Сборник корректировок",
@@ -97,7 +105,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ИЖС",
   },
-  { // СК "ПСН" 2024
+  {
+    // СК "ПСН" 2024
     id: 9,
     img: images.iPsn2024,
     alt: "Сборник корректировок",
@@ -109,7 +118,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
   },
-  { // СК "ТОН" 2024
+  {
+    // СК "ТОН" 2024
     id: 10,
     img: images.iTon2024,
     alt: "Сборник корректировок",
@@ -121,7 +131,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
   },
-  { // СК "ЗУ" 2024
+  {
+    // СК "ЗУ" 2024
     id: 11,
     img: images.iZu2024,
     alt: "Сборник корректировок",
@@ -135,7 +146,8 @@ const investigationList = [
   },
 
   // БЕЗ демо-версии начало
-  { // AO "Рынок земли" 2024
+  {
+    // AO "Рынок земли" 2024
     id: 12,
     img: images.aoEarth2024,
     alt: "Аналитический отчет", // Подпись к рисунку
@@ -147,8 +159,9 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"', // Подготовлен
     category: "Земля", // Категория для фильтрации
   },
-  { // AO "Офисная недвижимость" 2024
-    id: 13, 
+  {
+    // AO "Офисная недвижимость" 2024
+    id: 13,
     img: images.aoOffice2024,
     alt: "Аналитический отчет",
     type: "Анализ рынка",
@@ -159,7 +172,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
   },
-  { // AO "Индивидуальная жилая застройка" 2024
+  {
+    // AO "Индивидуальная жилая застройка" 2024
     id: 14,
     img: images.aoIzhs2024,
     alt: "Аналитический отчет",
@@ -171,7 +185,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ИЖС",
   },
-  { // AO "ПСН" 2023
+  {
+    // AO "ПСН" 2023
     id: 15,
     img: images.aoPsn2024,
     alt: "Аналитический отчет",
@@ -185,7 +200,8 @@ const investigationList = [
   },
   // БЕЗ демо-версии конец
 
-  { // СК "Квартиры" 2020
+  {
+    // СК "Квартиры" 2020
     id: 16,
     img: images.iApartment2020,
     alt: "Сборник корректировок",
@@ -197,7 +213,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Квартиры",
   },
-  { // СК "Квартиры" 2022
+  {
+    // СК "Квартиры" 2022
     id: 28,
     img: images.iApartment2022,
     alt: "Сборник корректировок",
@@ -209,7 +226,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Квартиры",
   },
-  { // СК "Квартиры" 2023
+  {
+    // СК "Квартиры" 2023
     id: 17,
     img: images.iApartment2023,
     alt: "Сборник корректировок",
@@ -221,7 +239,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Квартиры",
   },
-  { // СК "Гаражи" 2020
+  {
+    // СК "Гаражи" 2020
     id: 18,
     img: images.iGarage2020,
     alt: "Сборник корректировок",
@@ -233,7 +252,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Гаражи",
   },
-  { // СК "Гаражи" 2023
+  {
+    // СК "Гаражи" 2023
     id: 19,
     img: images.iGarage2023,
     alt: "Сборник корректировок",
@@ -245,7 +265,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Гаражи",
   },
-  { // СК "ИЖС" 2020
+  {
+    // СК "ИЖС" 2020
     id: 20,
     img: images.iIzhs2020,
     alt: "Сборник корректировок",
@@ -257,7 +278,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ИЖС",
   },
-  { // СК "ПСН" 2020
+  {
+    // СК "ПСН" 2020
     id: 21,
     img: images.iPsn2020,
     alt: "Сборник корректировок",
@@ -269,7 +291,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
   },
-  { // СК "ПСН" 2023
+  {
+    // СК "ПСН" 2023
     id: 22,
     img: images.iPsn2023,
     alt: "Сборник корректировок",
@@ -281,7 +304,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
   },
-  { // СК "ТОН" 2023
+  {
+    // СК "ТОН" 2023
     id: 23,
     img: images.iTon2023,
     alt: "Сборник корректировок",
@@ -293,7 +317,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
   },
-  { // СК "ЗУ" 2020
+  {
+    // СК "ЗУ" 2020
     id: 24,
     img: images.iZu2020,
     alt: "Сборник корректировок",
@@ -305,7 +330,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Земля",
   },
-  { // СК "ЗУ" 2021
+  {
+    // СК "ЗУ" 2021
     id: 25,
     img: images.iZu2021,
     alt: "Сборник корректировок",
@@ -317,7 +343,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Земля",
   },
-  { // СК "ЗУ" 2022
+  {
+    // СК "ЗУ" 2022
     id: 26,
     img: images.iZu2022,
     alt: "Сборник корректировок",
@@ -329,7 +356,8 @@ const investigationList = [
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Земля",
   },
-  { // СК "ЗУ" 2023
+  {
+    // СК "ЗУ" 2023
     id: 27,
     img: images.iZu2023,
     alt: "Сборник корректировок",

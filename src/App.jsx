@@ -1,13 +1,13 @@
-import Header from "./Header";
-import Library from "./Library";
-import Investigation from "./Investigation";
-import Analysis from "./Analysis";
-import Research from "./Research";
-import Geolocation from "./Geolocation";
-import Footer from "./Footer";
-import ScrollToTop from "./ScrollToTop";
-import Registration from "./Registration";
-import Authorization from "./Authorization";
+import Header from "./pages/Header";
+import Registration from "./pages/Registration";
+import Authorization from "./pages/Authorization";
+import Library from "./Pages/Library";
+import Investigation from "./pages/Investigation";
+import Analysis from "./pages/Analysis";
+import Research from "./pages/Research";
+import Geolocation from "./pages/Geolocation";
+import Footer from "./Pages/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Authorization />
         <Library />
         <Investigation />
-        <Analysis/>
+        <Analysis />
         <Research />
         <Geolocation />
       </main>
