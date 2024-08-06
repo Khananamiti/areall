@@ -7,6 +7,7 @@ import Geolocation from "./Geolocation";
 import Footer from "./Footer";
 import ScrollToTop from "./ScrollToTop";
 import Registration from "./Registration";
+import Authorization from "./Authorization";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <main>
         <Registration />
+        <Authorization />
         <Library />
         <Investigation />
         <Analysis/>
