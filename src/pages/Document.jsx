@@ -1,6 +1,6 @@
 import React from "react";
 import {motion} from "framer-motion";
-import { Route, Router } from "react-router-dom";
+// import { Route, Router } from "react-router-dom";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import QrCode from './QrCode.jsx';

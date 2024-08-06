@@ -6,7 +6,7 @@ import Investigation from "./pages/Investigation";
 import Analysis from "./pages/Analysis";
 import Research from "./pages/Research";
 import Geolocation from "./pages/Geolocation";
-import Footer from "./Pages/Footer";
+import Footer from "./pages/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
