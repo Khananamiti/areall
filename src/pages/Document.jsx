@@ -1,13 +1,12 @@
 import React from "react";
 import {motion} from "framer-motion";
-// import { Route, Router } from "react-router-dom";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
-// import QrCode from './QrCode.jsx';
+import { Qrcode } from './pages/Qrcode';
 
 const Document = ({ item }) => {
   const qrClick = () => {
-    window.open("qr-code.html")
+    window.open("/qr-code.html")
   }
 
   return (
@@ -56,12 +55,10 @@ const Document = ({ item }) => {
       </div>
     </motion.div>
 
-    {/* <Router>
-      <Routes>
-        <Route exact path="/" element={<Купить/>} />
+    <Routes>
+      <Route path="/" element={<Qrcode />} />
 
-      </Routes>
-    </Router> */}
+    </Routes>
     </>
   );
 };

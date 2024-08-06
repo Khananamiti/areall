@@ -1,6 +1,6 @@
 import images from "../constants/data";
 
-const QrCode = () => {
+const Qrcode = () => {
   return (
     <main>
       <div class="qr-code">
@@ -10,4 +10,4 @@ const QrCode = () => {
   );
 };
 
-export default QrCode;
+export default Qrcode;
