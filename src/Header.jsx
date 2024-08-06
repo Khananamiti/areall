@@ -1,6 +1,6 @@
-import images from "../constants/data";
+import images from "./constants/data";
 import { useState } from "react";
-import Registration from "./Registration";
+import Registration from "./pages/Registration";
 // import { Route, Router } from "react-router-dom";
 
 const Header = () => {
