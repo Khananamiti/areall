@@ -3,7 +3,7 @@ import {motion} from "framer-motion";
 
 const Document = ({ item }) => {
   const qrClick = () => {
-    window.open("qr-code.html")
+    window.open("./qr-code.html")
   }
 
   return (
