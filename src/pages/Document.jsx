@@ -6,7 +6,8 @@ import Modal from "../components/Modal/Modal";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 const Document = ({ item }) => {
-  const [modalActive, setModalActive] = useState(true);
+  // Создаем состояние отвечающее за видимость окна
+  const [modalActive, setModalActive] = useState(false); // По умолчанию модально окно невидимое
 
   return (
     <>
@@ -45,15 +46,16 @@ const Document = ({ item }) => {
           <button
             className="document__btn"
             type="button"
-            onClick={() => setModalActive(true)}
+            onClick={() => setModalActive(true)} // Вешаем слушатель нажатия
           >
             Купить
           </button>
-
+          
+          {/* Передаем переменной функцию ee изменяющую как пропсы в модальное окно */}
           <Modal active={modalActive} setActive={setModalActive}>
             <img src={images.qrCode} alt="QR-код для оплаты" />            
           </Modal>
-          
+
         </div>
       </motion.div>
 
