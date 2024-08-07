@@ -28,21 +28,6 @@
   transition: 0.4s all; // Анимирование
 }
 
-// .qr-code {
-//   text-align: center;
-// }
-
-// .qr-code img {
-//   width: auto;
-//   max-width: 100%;
-//   height: auto;
-//   max-height: 100%;
-//   display: inline-block;
-//   vertical-align: middle;
-//   text-align: left;
-//   border-radius: 16px;
-// }
-
 .modal__content.active {
   transform: scale(0.9); // Возвращаем его к полноразмерному состоянию
 }
