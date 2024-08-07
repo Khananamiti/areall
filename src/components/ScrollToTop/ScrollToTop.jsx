@@ -19,7 +19,7 @@ const ScrollToTop = () => {
   return (
     <>
       {showTopBtn && ( // Проверяем, если флаг присутствует, то можем на него нажать
-        <MdKeyboardDoubleArrowUp className="btn-up" onClick={goToTop} /> // ToDo Напиши стиль для кнопки вверх
+        <MdKeyboardDoubleArrowUp className="btn-up" onClick={goToTop} />
       )}
     </>
   );

@@ -1,0 +1,48 @@
+.modal {
+  height: 100vh; // По всей высоте
+  width: 100vw; // По всей ширине
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed; // При скролле модальное окно всегда остается в центре
+  // Прикрепим к левому верхнему углу
+  top: 0;
+  left: 0;
+  // Центруем по горизонтали и вертикали
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; // Прозрачное окно
+  pointer-events: none;
+  transition: 0.5s; // Анимирование открытие окна
+}
+
+.modal.active {
+  opacity: 1; // Делаем окно видимым
+  pointer-events: all;
+}
+
+.modal__content {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: $white;
+  transform: scale(0.5); // Уменьшим на половину в размере
+  transition: 0.4s all; // Анимирование
+}
+
+// .qr-code {
+//   text-align: center;
+// }
+
+// .qr-code img {
+//   width: auto;
+//   max-width: 100%;
+//   height: auto;
+//   max-height: 100%;
+//   display: inline-block;
+//   vertical-align: middle;
+//   text-align: left;
+//   border-radius: 16px;
+// }
+
+.modal__content.active {
+  transform: scale(0.9); // Возвращаем его к полноразмерному состоянию
+}
