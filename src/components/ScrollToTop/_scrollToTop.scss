@@ -1,0 +1,12 @@
+// Стиль для кнопки вверх
+.btn-up { 
+  position: fixed; // Зафиксированное положение
+  background-color: $dark-blue;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 22px;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  z-index: 11;
+}

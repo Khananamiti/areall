@@ -13,6 +13,7 @@ const investigationList = [
     date: "01.10.2023", // Опубликован
     company: 'НП "Евразийский Союз Экспертов"', // Подготовлен
     category: "Земля", // Категория для фильтрации
+    qr: images.qr4000,
   },
   {
     // AO "Офисная недвижимость" 2023
@@ -26,6 +27,7 @@ const investigationList = [
     date: "01.10.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
+    qr: images.qr4000,
   },
   {
     // AO "Индивидуальная жилая застройка" 2023
@@ -39,6 +41,7 @@ const investigationList = [
     date: "01.10.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ИЖС",
+    qr: images.qr4000,
   },
   {
     // AO "ПСН" 2023
@@ -52,6 +55,7 @@ const investigationList = [
     date: "01.10.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
+    qr: images.qr4000,
   },
   {
     // AO "ТОН" 2023
@@ -65,6 +69,7 @@ const investigationList = [
     date: "01.10.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
+    qr: images.qr4000,
   },
   {
     // СК "Квартиры" 2024
@@ -78,6 +83,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Квартиры",
+    qr: images.qr5000,
   },
   {
     // СК "Гаражи" 2024
@@ -91,6 +97,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Гаражи",
+    qr: images.qr5000,
   },
   {
     // СК "ИЖС" 2024
@@ -104,6 +111,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ИЖС",
+    qr: images.qr5000,
   },
   {
     // СК "ПСН" 2024
@@ -117,6 +125,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
+    qr: images.qr5000,
   },
   {
     // СК "ТОН" 2024
@@ -130,6 +139,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
+    qr: images.qr5000,
   },
   {
     // СК "ЗУ" 2024
@@ -143,6 +153,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Земля",
+    qr: images.qr5000,
   },
 
   // БЕЗ демо-версии начало
@@ -158,6 +169,7 @@ const investigationList = [
     date: "01.01.2024", // Опубликован
     company: 'НП "Евразийский Союз Экспертов"', // Подготовлен
     category: "Земля", // Категория для фильтрации
+    qr: images.qr5000,
   },
   {
     // AO "Офисная недвижимость" 2024
@@ -171,6 +183,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
+    qr: images.qr5000,
   },
   {
     // AO "Индивидуальная жилая застройка" 2024
@@ -184,6 +197,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ИЖС",
+    qr: images.qr5000,
   },
   {
     // AO "ПСН" 2023
@@ -197,6 +211,7 @@ const investigationList = [
     date: "01.01.2024",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
+    qr: images.qr5000,
   },
   // БЕЗ демо-версии конец
 
@@ -212,6 +227,7 @@ const investigationList = [
     date: "01.01.2020",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Квартиры",
+    qr: images.qr3000,
   },
   {
     // СК "Квартиры" 2022
@@ -225,6 +241,7 @@ const investigationList = [
     date: "01.01.2022",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Квартиры",
+    qr: images.qr3000,
   },
   {
     // СК "Квартиры" 2023
@@ -238,6 +255,7 @@ const investigationList = [
     date: "01.01.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Квартиры",
+    qr: images.qr4000,
   },
   {
     // СК "Гаражи" 2020
@@ -251,6 +269,7 @@ const investigationList = [
     date: "01.01.2020",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Гаражи",
+    qr: images.qr3000,
   },
   {
     // СК "Гаражи" 2023
@@ -264,6 +283,7 @@ const investigationList = [
     date: "01.01.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Гаражи",
+    qr: images.qr4000,
   },
   {
     // СК "ИЖС" 2020
@@ -277,6 +297,7 @@ const investigationList = [
     date: "01.01.2020",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ИЖС",
+    qr: images.qr4000,
   },
   {
     // СК "ПСН" 2020
@@ -290,6 +311,7 @@ const investigationList = [
     date: "01.01.2020",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
+    qr: images.qr4000,
   },
   {
     // СК "ПСН" 2023
@@ -303,6 +325,7 @@ const investigationList = [
     date: "01.01.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ПСН",
+    qr: images.qr4000,
   },
   {
     // СК "ТОН" 2023
@@ -316,6 +339,7 @@ const investigationList = [
     date: "01.01.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "ТОН",
+    qr: images.qr4000,
   },
   {
     // СК "ЗУ" 2020
@@ -329,6 +353,7 @@ const investigationList = [
     date: "01.01.2020",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Земля",
+    qr: images.qr4000,
   },
   {
     // СК "ЗУ" 2021
@@ -342,6 +367,7 @@ const investigationList = [
     date: "01.01.2021",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Земля",
+    qr: images.qr4000,
   },
   {
     // СК "ЗУ" 2022
@@ -355,6 +381,7 @@ const investigationList = [
     date: "01.01.2022",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Земля",
+    qr: images.qr4000,
   },
   {
     // СК "ЗУ" 2023
@@ -368,6 +395,7 @@ const investigationList = [
     date: "01.01.2023",
     company: 'НП "Евразийский Союз Экспертов"',
     category: "Земля",
+    qr: images.qr4000,
   },
 ];
 

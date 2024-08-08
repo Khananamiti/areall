@@ -1,0 +1,33 @@
+.modal {
+  height: 100vh; // По всей высоте
+  width: 100vw; // По всей ширине
+  background-color: rgba(0, 0, 0, 0.4); // Цвет заднего фона затемненный
+  position: fixed; // При скролле модальное окно всегда остается в центре
+  // Прикрепим к левому верхнему углу
+  top: 0;
+  left: 0;
+  // Центруем по горизонтали и вертикали
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0; // Прозрачное окно
+  pointer-events: none; // Не перекрывает контент и можем с ним взаимодействовать
+  transition: 0.5s; // Анимирование открытие окна
+}
+
+.modal.active {
+  opacity: 1; // Делаем окно видимым
+  pointer-events: all; // Делаем окно кликабельным
+}
+
+.modal__content {
+  padding: 20px;
+  border-radius: 15px;
+  // background-color: $white;
+  transform: scale(0.5); // Уменьшим на половину в размере
+  transition: 0.4s all; // Анимирование
+}
+
+.modal__content.active {
+  transform: scale(0.9); // Возвращаем его к полноразмерному состоянию
+}

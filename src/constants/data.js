@@ -67,8 +67,13 @@ import wNpese from "../assets/widgets/npese.svg";
 
 import icon from "../../public/icon.jpg";
 import logo from "../assets/LOGO.svg";
-import qrCode from "../assets/QR-code.jpg";
-import sbpLogo from "../assets/SBP-logo.svg";
+import qrCode5000 from "../assets/qr/QR-code5000.jpg";
+import qrCode4000 from "../assets/qr/QR-code4000.jpg";
+import qrCode3000 from "../assets/qr/QR-code3000.jpg";
+import qr5000 from "../assets/qr/QR5000.jpg";
+import qr4000 from "../assets/qr/QR4000.jpg";
+import qr3000 from "../assets/qr/QR3000.jpg";
+import sbpLogo from "../assets/qr/SBP-logo.svg";
 
 // PDF
 import daoTon20234 from "../assets/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
@@ -189,6 +194,11 @@ export default {
   wPriceZone,
   wNpese,
   logo,
-  qrCode,
+  qrCode5000,
+  qrCode4000,
+  qrCode3000,
+  qr5000,
+  qr4000,
+  qr3000,
   sbpLogo
 }

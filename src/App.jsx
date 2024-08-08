@@ -7,7 +7,7 @@ import Analysis from "./pages/Analysis";
 import Research from "./pages/Research";
 import Geolocation from "./pages/Geolocation";
 import Footer from "./pages/Footer";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (

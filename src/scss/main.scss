@@ -24,3 +24,8 @@
 @import './blocks/tooltip';
 @import './blocks/registration';
 @import './blocks/authorization';
+@import './blocks/qr';
+
+// Components
+@import '../components/Modal/modal';
+@import '../components/ScrollToTop/scrollToTop';
