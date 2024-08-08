@@ -53,7 +53,7 @@ const Document = ({ item }) => {
           
           {/* Передаем переменной функцию ee изменяющую как пропсы в модальное окно */}
           <Modal active={modalActive} setActive={setModalActive}>
-            <img src={images.qrCode} alt="QR-код для оплаты" />            
+            <img src={item.qr} alt="QR-код для оплаты" />            
           </Modal>
 
         </div>
