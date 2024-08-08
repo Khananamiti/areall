@@ -70,6 +70,9 @@ import logo from "../assets/LOGO.svg";
 import qrCode5000 from "../assets/qr/QR-code5000.jpg";
 import qrCode4000 from "../assets/qr/QR-code4000.jpg";
 import qrCode3000 from "../assets/qr/QR-code3000.jpg";
+import qr5000 from "../assets/qr/QR5000.jpg";
+import qr4000 from "../assets/qr/QR4000.jpg";
+import qr3000 from "../assets/qr/QR3000.jpg";
 import sbpLogo from "../assets/qr/SBP-logo.svg";
 
 // PDF
@@ -194,5 +197,8 @@ export default {
   qrCode5000,
   qrCode4000,
   qrCode3000,
+  qr5000,
+  qr4000,
+  qr3000,
   sbpLogo
 }

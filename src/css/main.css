@@ -1274,6 +1274,81 @@ button.investigation-item {
   background-color: #eec02a;
 }
 
+.qr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+
+.qr__title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.qr__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.qr__content--center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qr__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 8px;
+}
+
+.qr__price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 100px;
+}
+
+.qr__code, .qr__spb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.qr__code img, .qr__code p {
+  width: 350px;
+}
+
+.qr__spb {
+  gap: 8px;
+}
+
+.qr__spb img {
+  width: 240px;
+}
+
 .modal {
   height: 100vh;
   width: 100vw;
@@ -1304,7 +1379,6 @@ button.investigation-item {
 .modal__content {
   padding: 20px;
   border-radius: 15px;
-  background-color: #FFFFFF;
   -webkit-transform: scale(0.5);
           transform: scale(0.5);
   -webkit-transition: 0.4s all;

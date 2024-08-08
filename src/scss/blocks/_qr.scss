@@ -1,0 +1,52 @@
+.qr {
+  display: flex;
+  font-family: $font-secondary;
+}
+
+.qr__title {
+  font-family: $font-main;  
+}
+
+.qr__content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-weight: 500;
+  line-height: 16px;
+  
+  &--center {
+    align-items: center;
+  }
+}
+
+.qr__info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.qr__price {
+  display: flex;
+  gap: 100px;
+}
+
+.qr__code, .qr__spb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.qr__code img, .qr__code p {
+  width: 350px;
+}
+
+.qr__spb {
+  gap: 8px;
+}
+
+.qr__spb img {
+  width: 240px;
+}
