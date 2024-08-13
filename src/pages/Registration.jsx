@@ -97,7 +97,7 @@ const Registration = () => {
             placeholder="Введите свой пароль...."
           />
           {/* Поправить! Убрать ховер эффект при невалидной форме*/}
-           <button
+          <button
             disabled={!formValid}
             className="document__btn"
             type="submit"
