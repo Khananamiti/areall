@@ -8,18 +8,6 @@ import aoPsn20234 from "../assets/analysis/ao-psn2023-4.jpg";
 import aoPsn2024 from "../assets/analysis/ao-psn2024-1.jpg";
 import aoTon20234 from "../assets/analysis/ao-ton2023-4.jpg";
 
-import advertising from "../assets/header/advertising.jpg";
-import bg from "../assets/header/bg.jpg";
-import bgNav from "../assets/header/bg-nav.jpg";
-import library from "../assets/header/library.jpg";
-import contacts from "../assets/header/contacts.png";
-import chevronRight from "../assets/header/chevron-right.svg";
-import geo from "../assets/header/geo.svg";
-import more from "../assets/header/more.svg";
-import home from "../assets/header/home.svg";
-import logIn from "../assets/header/log-in.svg";
-import menu from "../assets/header/menu.svg";
-
 import iApartment2020 from "../assets/investigation/apartment2020.jpg";
 import iApartment2022 from "../assets/investigation/apartment2022.jpg";
 import iApartment2023 from "../assets/investigation/apartment2023.jpg";
@@ -34,12 +22,25 @@ import iPsn2023 from "../assets/investigation/psn2023.jpg";
 import iPsn2024 from "../assets/investigation/psn2024.jpg";
 import iTon2023 from "../assets/investigation/ton2023.jpg";
 import iTon2024 from "../assets/investigation/ton2024.jpg";
+import iZu2019 from "../assets/investigation/zu2019.jpg";
 import iZu2020 from "../assets/investigation/zu2020.jpg";
 import iZu2021 from "../assets/investigation/zu2021.jpg";
 import iZu2022 from "../assets/investigation/zu2022.jpg";
 import iZu2023 from "../assets/investigation/zu2023.jpg";
 import iZu2024 from "../assets/investigation/zu2024.jpg";
 import iDocument from "../assets/investigation/document.svg";
+
+import advertising from "../assets/header/advertising.jpg";
+import bg from "../assets/header/bg.jpg";
+import bgNav from "../assets/header/bg-nav.jpg";
+import library from "../assets/header/library.jpg";
+import contacts from "../assets/header/contacts.png";
+import chevronRight from "../assets/header/chevron-right.svg";
+import geo from "../assets/header/geo.svg";
+import more from "../assets/header/more.svg";
+import home from "../assets/header/home.svg";
+import logIn from "../assets/header/log-in.svg";
+import menu from "../assets/header/menu.svg";
 
 import filters from "../assets/library/filters.png";
 import img0 from "../assets/library/img-0.png";
@@ -73,6 +74,7 @@ import qrCode3000 from "../assets/qr/QR-code3000.jpg";
 import qr5000 from "../assets/qr/QR5000.jpg";
 import qr4000 from "../assets/qr/QR4000.jpg";
 import qr3000 from "../assets/qr/QR3000.jpg";
+import qr2000 from "../assets/qr/QR2000.jpg";
 import sbpLogo from "../assets/qr/SBP-logo.svg";
 
 // PDF
@@ -106,6 +108,8 @@ import diIzhs2020 from "../assets/demo/collection/Demo_Сборник_корре
 import diApartment2020 from "../assets/demo/collection/Demo_Сборник_корректировок_Сегмент_Квартиры_на_01012020.pdf";
 import diPsn2020 from "../assets/demo/collection/Demo_Сборник_корректировок_ПСН_2020.pdf";
 
+import diZu2019 from "../assets/demo/collection/Demo_Сборник_корректировок_ЗЕМЛЯ_на_01012019.pdf";
+
 export default {
   daoTon20234,
   daoEarth20234,
@@ -119,6 +123,7 @@ export default {
   diPsn2024,
   diTon2024,
   diGarage2020,
+  diZu2019,
   diZu2020,
   diIzhs2020,
   diApartment2020,
@@ -166,6 +171,7 @@ export default {
   iPsn2024,
   iTon2023,
   iTon2024,
+  iZu2019,
   iZu2020,
   iZu2021,
   iZu2022,
@@ -200,5 +206,6 @@ export default {
   qr5000,
   qr4000,
   qr3000,
+  qr2000,
   sbpLogo
 }
