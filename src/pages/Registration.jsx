@@ -67,47 +67,49 @@ const Registration = () => {
   };
 
   return (
-    <div className="registration none">
-      <div className="block">
-        <form action="#" className="form">
-          <h1 className="title-24">Регистрация</h1>
-          {/* Если при нажатии на email есть ошибка, то будет создана красная надпись над input с текстом ошибки */}
-          {emailDirty && emailError && (
-            <div style={{ color: "red" }}>{emailError}</div>
-          )}
-          <input
-            onChange={emailHandler}
-            value={email}
-            className="input"
-            onBlur={blurHandler}
-            name="email"
-            type="text"
-            placeholder="Введите свою почту...."
-          />
-          {passwordDirty && passwordError && (
-            <div style={{ color: "red" }}>{passwordError}</div>
-          )}
-          <input
-            onChange={passwordHandler}
-            value={password}
-            className="input"
-            onBlur={blurHandler}
-            name="password"
-            type="password"
-            placeholder="Введите свой пароль...."
-          />
-          {/* Поправить! Убрать ховер эффект при невалидной форме*/}
-          <button
-            disabled={!formValid}
-            className="document__btn"
-            type="submit"
-            onClick={runClick}
-          >
-            Зарегистрироваться
-          </button>
-        </form>
+    <>
+      <div className="registration none">
+        <div className="block">
+          <form action="#" className="form">
+            <h1 className="title-24">Регистрация</h1>
+            {/* Если при нажатии на email есть ошибка, то будет создана красная надпись над input с текстом ошибки */}
+            {emailDirty && emailError && (
+              <div style={{ color: "red" }}>{emailError}</div>
+            )}
+            <input
+              onChange={emailHandler}
+              value={email}
+              className="input"
+              onBlur={blurHandler}
+              name="email"
+              type="text"
+              placeholder="Введите свою почту...."
+            />
+            {passwordDirty && passwordError && (
+              <div style={{ color: "red" }}>{passwordError}</div>
+            )}
+            <input
+              onChange={passwordHandler}
+              value={password}
+              className="input"
+              onBlur={blurHandler}
+              name="password"
+              type="password"
+              placeholder="Введите свой пароль...."
+            />
+            {/* Поправить! Убрать ховер эффект при невалидной форме*/}
+            <button
+              disabled={!formValid}
+              className="document__btn"
+              type="submit"
+              onClick={runClick}
+            >
+              Зарегистрироваться
+            </button>
+          </form>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
