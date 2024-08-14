@@ -56,7 +56,6 @@ const Document = ({ item }) => {
             <div className="qr">
               <div className="block block--w480">
                 <div className="qr__content">
-
                   <div className="qr__title">
                     <h2 className="title-24">Оплата по QR-коду</h2>
                     <div className="title-line"></div>
@@ -75,20 +74,15 @@ const Document = ({ item }) => {
 
                   <div className="qr__code">
                     <p>
-                      Что бы оплатить заказ, откройте приложение мобильного банка и отсканируйте QR-код
+                      Что бы оплатить заказ, откройте приложение мобильного
+                      банка и отсканируйте QR-код
                     </p>
-                    <img
-                      src={item.qr}
-                      alt="QR-код для оплаты"
-                    />
+                    <img src={item.qr} alt="QR-код для оплаты" />
                   </div>
 
                   <div className="qr__spb">
                     <p>Платеж проводится с помощью</p>
-                    <img
-                      src={images.sbpLogo}
-                      alt="QR-код для оплаты"
-                    />
+                    <img src={images.sbpLogo} alt="QR-код для оплаты" />
                   </div>
                 </div>
               </div>
