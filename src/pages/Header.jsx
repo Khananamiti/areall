@@ -16,7 +16,11 @@ const Header = () => {
   };
 
   const regClick = () => {
-    return Registration;
+    return alert("Функция находится в разработке");
+  };
+
+  const authClick = () => {
+    return alert("Функция находится в разработке");
   };
 
   return (
@@ -122,7 +126,11 @@ const Header = () => {
 
             <div className="header__contact item3">
               <div className="header__auth none1">
-                <button type="button" className="header__auth-login">
+                <button
+                  type="button"
+                  className="header__auth-login"
+                  onClick={authClick}
+                >
                   <img src={images.logIn} alt="Войти" />
                   Войти
                 </button>
