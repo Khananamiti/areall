@@ -1,6 +1,6 @@
 import Header from "./pages/Header";
-import Registration from "./pages/Registration";
-import Authorization from "./pages/Authorization";
+// import Registration from "./pages/Registration";
+// import Authorization from "./pages/Authorization";
 import Library from "./pages/Library";
 import Investigation from "./pages/Investigation";
 import Analysis from "./pages/Analysis";
@@ -14,8 +14,8 @@ function App() {
     <>
       <Header />
       <main>
-        <Registration />
-        <Authorization />
+        {/* <Registration /> */}
+        {/* <Authorization /> */}
         <Library />
         <Investigation />
         <Analysis />

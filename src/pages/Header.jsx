@@ -1,6 +1,8 @@
 import images from "../constants/data";
 import { useState } from "react";
+import Authorization from "./Authorization";
 import Registration from "./Registration";
+import Modal from "../components/Modal/Modal";
 // import { Route, Router } from "react-router-dom";
 
 const Header = () => {
@@ -15,9 +17,12 @@ const Header = () => {
     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
   };
 
-  const regClick = () => {
-    return Registration;
-  };
+  // const regClick = () => {
+  //   return alert("Работает!");
+  // };
+
+  // Создаем состояние отвечающее за видимость окна
+  const [modalActive, setModalActive] = useState(false); // По умолчанию модально окно невидимое
 
   return (
     <>
@@ -122,17 +127,23 @@ const Header = () => {
 
             <div className="header__contact item3">
               <div className="header__auth none1">
+
                 <button type="button" className="header__auth-login">
                   <img src={images.logIn} alt="Войти" />
                   Войти
                 </button>
+
                 <button
                   type="button"
                   className="header__auth-reg"
-                  onClick={regClick}
+                  onClick={() => setModalActive(true)} // Вешаем слушатель нажатия
                 >
                   Зарегистрироваться
                 </button>
+
+                <Modal  active={modalActive} setActive={setModalActive}>
+                  <Authorization />
+                </Modal>
               </div>
 
               {/* Реализовать копирование при нажатии на текст */}
