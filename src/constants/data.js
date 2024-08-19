@@ -29,6 +29,7 @@ import iZu2023 from "../assets/investigation/zu2023.webp";
 import iZu2024 from "../assets/investigation/zu2024.webp";
 import iDocument from "../assets/investigation/document.svg";
 
+import advertising from "../assets/header/advertising.webp";
 import bg from "../assets/header/bg.webp";
 import bgNav from "../assets/header/bg-nav.webp";
 import chevronRight from "../assets/header/chevron-right.svg";
@@ -135,6 +136,7 @@ export default {
   aoPsn20234,
   aoPsn2024,
   aoTon20234,
+  advertising,
   bg,
   bgNav,
   chevronRight,
