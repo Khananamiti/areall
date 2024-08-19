@@ -39,11 +39,8 @@ import iZu2023 from "../assets/investigation/zu2023.webp";
 import iZu2024 from "../assets/investigation/zu2024.webp";
 import iDocument from "../assets/investigation/document.svg";
 
-import advertising from "../assets/header/advertising.jpg";
 import bg from "../assets/header/bg.jpg";
 import bgNav from "../assets/header/bg-nav.jpg";
-import library from "../assets/header/library.jpg";
-import contacts from "../assets/header/contacts.png";
 import chevronRight from "../assets/header/chevron-right.svg";
 import geo from "../assets/header/geo.svg";
 import more from "../assets/header/more.svg";
@@ -113,8 +110,6 @@ import diIzhs2020 from "../assets/demo/collection/Demo_Сборник_корре
 import diApartment2020 from "../assets/demo/collection/Demo_Сборник_корректировок_Сегмент_Квартиры_на_01012020.pdf";
 import diPsn2020 from "../assets/demo/collection/Demo_Сборник_корректировок_ПСН_2020.pdf";
 
-import diZu2019 from "../assets/demo/collection/Demo_Сборник_корректировок_ЗЕМЛЯ_на_01012019.pdf";
-
 export default {
   daoTon20234,
   daoEarth20234,
@@ -173,7 +168,6 @@ export default {
   iPsn2024,
   iTon2023,
   iTon2024,
-  iZu2019,
   iZu2020,
   iZu2021,
   iZu2022,
