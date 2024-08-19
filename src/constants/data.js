@@ -8,16 +8,6 @@ import aoPsn20234 from "../assets/analysis/ao-psn2023-4.webp";
 import aoPsn2024 from "../assets/analysis/ao-psn2024-1.webp";
 import aoTon20234 from "../assets/analysis/ao-ton2023-4.webp";
 
-import advertising from "../assets/header/advertising.webp";
-import bg from "../assets/header/bg.webp";
-import bgNav from "../assets/header/bg-nav.webp";
-import chevronRight from "../assets/header/chevron-right.svg";
-import geo from "../assets/header/geo.svg";
-import more from "../assets/header/more.svg";
-import home from "../assets/header/home.svg";
-import logIn from "../assets/header/log-in.svg";
-import menu from "../assets/header/menu.svg";
-
 import iApartment2020 from "../assets/investigation/apartment2020.webp";
 import iApartment2022 from "../assets/investigation/apartment2022.webp";
 import iApartment2023 from "../assets/investigation/apartment2023.webp";
@@ -39,14 +29,15 @@ import iZu2023 from "../assets/investigation/zu2023.webp";
 import iZu2024 from "../assets/investigation/zu2024.webp";
 import iDocument from "../assets/investigation/document.svg";
 
-import bg from "../assets/header/bg.jpg";
-import bgNav from "../assets/header/bg-nav.jpg";
+import bg from "../assets/header/bg.webp";
+import bgNav from "../assets/header/bg-nav.webp";
 import chevronRight from "../assets/header/chevron-right.svg";
 import geo from "../assets/header/geo.svg";
 import more from "../assets/header/more.svg";
 import home from "../assets/header/home.svg";
 import logIn from "../assets/header/log-in.svg";
 import menu from "../assets/header/menu.svg";
+import tg from "../assets/header/telegram.webp";
 
 import filters from "../assets/library/filters.webp";
 import img0 from "../assets/library/img-0.webp";
@@ -123,7 +114,6 @@ export default {
   diPsn2024,
   diTon2024,
   diGarage2020,
-  diZu2019,
   diZu2020,
   diIzhs2020,
   diApartment2020,
@@ -145,7 +135,6 @@ export default {
   aoPsn20234,
   aoPsn2024,
   aoTon20234,
-  advertising,
   bg,
   bgNav,
   chevronRight,
@@ -154,6 +143,7 @@ export default {
   home,
   logIn,
   menu,
+  tg,
   iApartment2020,
   iApartment2022,
   iApartment2023,
@@ -196,9 +186,6 @@ export default {
   wPriceZone,
   wNpese,
   logo,
-  qrCode5000,
-  qrCode4000,
-  qrCode3000,
   qr5000,
   qr4000,
   qr3000,
