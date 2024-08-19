@@ -1,41 +1,12 @@
 import images from "../constants/data";
+import Location from "./Location";
 
 const Library = () => {
   return (
-    <>
+    <>      
       <section className="library none1" id="library">
         {/* Библиотека оценщика */}
-        <div className="library__top">
-          <div className="library__top-row">
-            <div className="library__geo">
-              <a href="#!" className="library__info">
-                <img src={images.geo} alt="Ваш город: " />
-                Омск
-              </a>
-            </div>
-            <div className="library__breadcrumbs">
-              <ul className="library__breadcrumbs-list">
-                <li>
-                  <a href="#!">
-                    <img
-                      src={images.home}
-                      alt="Главная"
-                      className="library__info"
-                    />
-                    Главная
-                  </a>
-                </li>
-                <li className="breadcrumbs-center">
-                  <img src={images.chevronRight} alt="Далее" />
-                </li>
-                <li>
-                  <a href="#!">Библиотека оценщика</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
+        <Location />
         <div className="container">
           <div className="block">
             <div className="library__title">
