@@ -84,7 +84,7 @@ const Header = () => {
                       Исследования
                     </li>
                     <li className="item">
-                      <img src={images.more} alt="Еще" />
+                      <img src={images.more} alt="Иконка 'еще'" />
                       Еще
                       {/* Пока скрыт выпадающий список */}
                       <ul className="nav-more-dropdown none">

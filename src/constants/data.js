@@ -1,33 +1,42 @@
-import aoEarth20234 from "../assets/analysis/ao-earth2023-4.jpg";
-import aoEarth2024 from "../assets/analysis/ao-earth2024-1.jpg";
-import aoIzhs20234 from "../assets/analysis/ao-izhs2023-4.jpg";
-import aoIzhs2024 from "../assets/analysis/ao-izhs2024-1.jpg";
-import aoOffice20234 from "../assets/analysis/ao-office2023-4.jpg";
-import aoOffice2024 from "../assets/analysis/ao-office2024-1.jpg";
-import aoPsn20234 from "../assets/analysis/ao-psn2023-4.jpg";
-import aoPsn2024 from "../assets/analysis/ao-psn2024-1.jpg";
-import aoTon20234 from "../assets/analysis/ao-ton2023-4.jpg";
+import aoEarth20234 from "../assets/analysis/ao-earth2023-4.webp";
+import aoEarth2024 from "../assets/analysis/ao-earth2024-1.webp";
+import aoIzhs20234 from "../assets/analysis/ao-izhs2023-4.webp";
+import aoIzhs2024 from "../assets/analysis/ao-izhs2024-1.webp";
+import aoOffice20234 from "../assets/analysis/ao-office2023-4.webp";
+import aoOffice2024 from "../assets/analysis/ao-office2024-1.webp";
+import aoPsn20234 from "../assets/analysis/ao-psn2023-4.webp";
+import aoPsn2024 from "../assets/analysis/ao-psn2024-1.webp";
+import aoTon20234 from "../assets/analysis/ao-ton2023-4.webp";
 
-import iApartment2020 from "../assets/investigation/apartment2020.jpg";
-import iApartment2022 from "../assets/investigation/apartment2022.jpg";
-import iApartment2023 from "../assets/investigation/apartment2023.jpg";
-import iApartment2024 from "../assets/investigation/apartment2024.jpg";
-import iGarage2020 from "../assets/investigation/garage2020.jpg";
-import iGarage2023 from "../assets/investigation/garage2023.jpg";
-import iGarage2024 from "../assets/investigation/garage2024.jpg";
-import iIzhs2020 from "../assets/investigation/izhs2020.jpg";
-import iIzhs2024 from "../assets/investigation/izhs2024.jpg";
-import iPsn2020 from "../assets/investigation/psn2020.jpg";
-import iPsn2023 from "../assets/investigation/psn2023.jpg";
-import iPsn2024 from "../assets/investigation/psn2024.jpg";
-import iTon2023 from "../assets/investigation/ton2023.jpg";
-import iTon2024 from "../assets/investigation/ton2024.jpg";
-import iZu2019 from "../assets/investigation/zu2019.jpg";
-import iZu2020 from "../assets/investigation/zu2020.jpg";
-import iZu2021 from "../assets/investigation/zu2021.jpg";
-import iZu2022 from "../assets/investigation/zu2022.jpg";
-import iZu2023 from "../assets/investigation/zu2023.jpg";
-import iZu2024 from "../assets/investigation/zu2024.jpg";
+import advertising from "../assets/header/advertising.webp";
+import bg from "../assets/header/bg.webp";
+import bgNav from "../assets/header/bg-nav.webp";
+import chevronRight from "../assets/header/chevron-right.svg";
+import geo from "../assets/header/geo.svg";
+import more from "../assets/header/more.svg";
+import home from "../assets/header/home.svg";
+import logIn from "../assets/header/log-in.svg";
+import menu from "../assets/header/menu.svg";
+
+import iApartment2020 from "../assets/investigation/apartment2020.webp";
+import iApartment2022 from "../assets/investigation/apartment2022.webp";
+import iApartment2023 from "../assets/investigation/apartment2023.webp";
+import iApartment2024 from "../assets/investigation/apartment2024.webp";
+import iGarage2020 from "../assets/investigation/garage2020.webp";
+import iGarage2023 from "../assets/investigation/garage2023.webp";
+import iGarage2024 from "../assets/investigation/garage2024.webp";
+import iIzhs2020 from "../assets/investigation/izhs2020.webp";
+import iIzhs2024 from "../assets/investigation/izhs2024.webp";
+import iPsn2020 from "../assets/investigation/psn2020.webp";
+import iPsn2023 from "../assets/investigation/psn2023.webp";
+import iPsn2024 from "../assets/investigation/psn2024.webp";
+import iTon2023 from "../assets/investigation/ton2023.webp";
+import iTon2024 from "../assets/investigation/ton2024.webp";
+import iZu2020 from "../assets/investigation/zu2020.webp";
+import iZu2021 from "../assets/investigation/zu2021.webp";
+import iZu2022 from "../assets/investigation/zu2022.webp";
+import iZu2023 from "../assets/investigation/zu2023.webp";
+import iZu2024 from "../assets/investigation/zu2024.webp";
 import iDocument from "../assets/investigation/document.svg";
 
 import advertising from "../assets/header/advertising.jpg";
@@ -42,16 +51,16 @@ import home from "../assets/header/home.svg";
 import logIn from "../assets/header/log-in.svg";
 import menu from "../assets/header/menu.svg";
 
-import filters from "../assets/library/filters.png";
-import img0 from "../assets/library/img-0.png";
-import img1 from "../assets/library/img-1.png";
-import img2 from "../assets/library/img-2.png";
-import img3 from "../assets/library/img-3.png";
-import img4 from "../assets/library/img-4.png";
-import img5 from "../assets/library/img-5.png";
-import img6 from "../assets/library/img-6.png";
-import img7 from "../assets/library/img-7.png";
-import img8 from "../assets/library/img-8.png";
+import filters from "../assets/library/filters.webp";
+import img0 from "../assets/library/img-0.webp";
+import img1 from "../assets/library/img-1.webp";
+import img2 from "../assets/library/img-2.webp";
+import img3 from "../assets/library/img-3.webp";
+import img4 from "../assets/library/img-4.webp";
+import img5 from "../assets/library/img-5.webp";
+import img6 from "../assets/library/img-6.webp";
+import img7 from "../assets/library/img-7.webp";
+import img8 from "../assets/library/img-8.webp";
 import play from "../assets/library/play.svg";
 
 import mail from "../assets/socials/mail.svg";
@@ -59,22 +68,18 @@ import phone from "../assets/socials/phone.svg";
 import telegram from "../assets/socials/telegram.svg";
 import whatsapp from "../assets/socials/whatsapp.svg";
 
-import wCadMap from "../assets/widgets/cad-map.png";
-import wCadMapTitle from "../assets/widgets/cad-map-title.png";
-import wCorrect from "../assets/widgets/correct.png";
-import wGradPlan from "../assets/widgets/grad-plan.png";
-import wPriceZone from "../assets/widgets/price-zone.png";
+import wCadMap from "../assets/widgets/cad-map.webp";
+import wCadMapTitle from "../assets/widgets/cad-map-title.webp";
+import wCorrect from "../assets/widgets/correct.webp";
+import wGradPlan from "../assets/widgets/grad-plan.webp";
+import wPriceZone from "../assets/widgets/price-zone.webp";
 import wNpese from "../assets/widgets/npese.svg";
 
-import icon from "../../public/icon.jpg";
 import logo from "../assets/LOGO.svg";
-import qrCode5000 from "../assets/qr/QR-code5000.jpg";
-import qrCode4000 from "../assets/qr/QR-code4000.jpg";
-import qrCode3000 from "../assets/qr/QR-code3000.jpg";
-import qr5000 from "../assets/qr/QR5000.jpg";
-import qr4000 from "../assets/qr/QR4000.jpg";
-import qr3000 from "../assets/qr/QR3000.jpg";
-import qr2000 from "../assets/qr/QR2000.jpg";
+import qr5000 from "../assets/qr/QR5000.webp";
+import qr4000 from "../assets/qr/QR4000.webp";
+import qr3000 from "../assets/qr/QR3000.webp";
+import qr2000 from "../assets/qr/QR2000.webp";
 import sbpLogo from "../assets/qr/SBP-logo.svg";
 
 // PDF
@@ -148,9 +153,6 @@ export default {
   advertising,
   bg,
   bgNav,
-  icon,
-  library,
-  contacts,
   chevronRight,
   geo,
   more,
