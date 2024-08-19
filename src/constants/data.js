@@ -64,9 +64,6 @@ import wPriceZone from "../assets/widgets/price-zone.webp";
 import wNpese from "../assets/widgets/npese.svg";
 
 import logo from "../assets/LOGO.svg";
-import qrCode5000 from "../assets/qr/QR-code5000.webp";
-import qrCode4000 from "../assets/qr/QR-code4000.webp";
-import qrCode3000 from "../assets/qr/QR-code3000.webp";
 import qr5000 from "../assets/qr/QR5000.webp";
 import qr4000 from "../assets/qr/QR4000.webp";
 import qr3000 from "../assets/qr/QR3000.webp";
