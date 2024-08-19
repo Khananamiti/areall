@@ -71,6 +71,18 @@ import qr3000 from "../assets/qr/QR3000.webp";
 import qr2000 from "../assets/qr/QR2000.webp";
 import sbpLogo from "../assets/qr/SBP-logo.svg";
 
+import rfilters from "../assets/research/rfilters.webp";
+import rimg0 from "../assets/research/rimg-0.webp";
+import rimg1 from "../assets/research/rimg-1.webp";
+import rimg2 from "../assets/research/rimg-2.webp";
+import rimg3 from "../assets/research/rimg-3.webp";
+import rimg4 from "../assets/research/rimg-4.webp";
+import rimg5 from "../assets/research/rimg-5.webp";
+import rimg6 from "../assets/research/rimg-6.webp";
+import rimg7 from "../assets/research/rimg-7.webp";
+import rimg8 from "../assets/research/rimg-8.webp";
+import catalog from "../assets/research/catalog.webp";
+
 // PDF
 import daoTon20234 from "../assets/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
 import daoEarth20234 from "../assets/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf";
@@ -192,5 +204,16 @@ export default {
   qr4000,
   qr3000,
   qr2000,
-  sbpLogo
-}
+  sbpLogo,
+  rfilters,
+  rimg0,
+  rimg1,
+  rimg2,
+  rimg3,
+  rimg4,
+  rimg5,
+  rimg6,
+  rimg7,
+  rimg8,
+  catalog,
+};
