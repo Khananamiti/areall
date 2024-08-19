@@ -16,7 +16,7 @@ const Library = () => {
             <ul className="library__breadcrumbs-list">
               <li>
                 <a href="#!">
-                  <img src={images.home} alt="Главная" className="library__info" />
+                  <img src={images.home} alt="Иконка 'Главная'" className="library__info" />
                   Главная
                 </a>
               </li>

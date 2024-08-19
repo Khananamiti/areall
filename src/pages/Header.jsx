@@ -80,7 +80,7 @@ const Header = () => {
                       Исследования
                     </li>
                     <li className="item">
-                      <img src={images.more} alt="Еще" />
+                      <img src={images.more} alt="Иконка 'еще'" />
                       Еще
                       {/* Пока скрыт выпадающий список */}
                       <ul className="nav-more-dropdown none">
@@ -123,7 +123,7 @@ const Header = () => {
             <div className="header__contact item3">
               <div className="header__auth none1">
                 <button type="button" className="header__auth-login">
-                  <img src={images.logIn} alt="Войти" />
+                  <img src={images.logIn} alt="Иконка 'Войти'" />
                   Войти
                 </button>
                 <button
