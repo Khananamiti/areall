@@ -4,7 +4,7 @@ import Location from "./Location";
 const Library = () => {
   return (
     <>      
-      <section className="library none" id="library">
+      <section className="library none1" id="library">
         {/* Библиотека оценщика */}
         <Location />
         <div className="container">

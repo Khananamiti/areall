@@ -6,27 +6,6 @@
   background: url(./../assets/header/bg.webp);
 }
 
-.library__top {
-  padding: 10px 15px;
-}
-
-.library__top-row {
-  display: flex;
-  justify-content: start;
-  column-gap: 50px;
-}
-
-.library__breadcrumbs-list {
-  display: flex;
-  column-gap: 10px;
-  align-items: center;
-}
-
-.breadcrumbs-center {
-  display: flex;
-  align-items: center;
-}
-
 .library__cards {
   display: grid;  
   grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */    

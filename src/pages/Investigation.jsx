@@ -1,4 +1,3 @@
-import images from "../constants/data";
 import React, { useState } from "react";
 import investigationList from "../js/investigationList";
 import Document from "./Document";
@@ -28,7 +27,7 @@ const Investigation = () => {
       <section className="investigation none1" id="investigation">
         {/* СЕКЦИЯ Исследования рынка недвижимости */}
         <div className="container">
-          <motion.div className="shop block block--w780">
+          <motion.div className="shop block block--w780 block--shadow">
             <div className="investigation__title">
               <h2 className="title-24">Исследования рынка недвижимости</h2>
               <p className="subtitle">
@@ -67,11 +66,34 @@ const Investigation = () => {
 
           {/* Виджеты */}
           <div className="widgets">
-            <Npese />
-            <AdjustmentByLocation />
-            <PriceZoning />
-            <UrbanDevelopmentPlan />
-            <CadastralMap />
+            
+            {/* НП ЕСЭ */}
+            <div className="npese block block--w380 block--fix1">
+              <Npese />
+            </div>
+
+            {/* Корректировка по местоположению */}
+            <div className="adjustment block block--w380">
+              <AdjustmentByLocation />
+            </div>
+
+            {/* Ценовое зонирование */}
+            <div className="price-zone block block--w380 block--fix1">
+              <PriceZoning />
+            </div>
+
+            {/* Градостроительный план */}
+            <div className="grad-plan block block--w380 block--fix1">
+              <UrbanDevelopmentPlan />
+            </div>
+
+            {/* Публичная кадастровая карта */}
+            <div
+              className="cad-map block block--w380 block--fix1"
+              id="cadastre"
+            >
+              <CadastralMap />
+            </div>
           </div>
         </div>
       </section>

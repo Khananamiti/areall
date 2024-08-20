@@ -1,4 +1,8 @@
 import images from "../constants/data";
+import CadastralMap from "./widgets/CadastralMap";
+import UrbanDevelopmentPlan from "./widgets/UrbanDevelopmentPlan";
+import AdjustmentByLocation from "./widgets/AdjustmentByLocation";
+import PriceZoning from "./widgets/PriceZoning";
 
 const Research = () => {
   return (
@@ -6,7 +10,7 @@ const Research = () => {
       {/* Поиск для профессионалов */}
       <section className="research none1">
         <div className="container">
-          <div className="block">
+          <div className="block block--shadow">
             <div className="research__title">
               <h2 className="title-24">
                 Поиск недвижимости для профессионалов
@@ -106,6 +110,7 @@ const Research = () => {
                   className="research__card-img video__img"
                 />
               </div>
+
               <div className="research__card">
                 <div className="research__card-text card-bg card-bg--3">
                   <ul>
@@ -127,6 +132,7 @@ const Research = () => {
                   className="research__card-img"
                 />
               </div>
+
               <div className="research__card">
                 <div className="research__card-text card-bg card-bg--4">
                   <ul>
@@ -145,6 +151,7 @@ const Research = () => {
                   className="research__card-img"
                 />
               </div>
+
               <div className="research__card">
                 <div className="research__card-text card-bg card-bg--5">
                   <ul>
@@ -160,6 +167,7 @@ const Research = () => {
                   className="research__card-img"
                 />
               </div>
+
               <div className="research__card">
                 <div className="research__card-text card-bg card-bg--6">
                   <ul>
@@ -181,6 +189,7 @@ const Research = () => {
                   className="research__card-img"
                 />
               </div>
+
               <div className="research__card">
                 <div className="research__card-text card-bg card-bg--7">
                   <ul>
@@ -196,6 +205,7 @@ const Research = () => {
                   className="research__card-img"
                 />
               </div>
+              
               <div className="research__card">
                 <div className="research__card-text card-bg card-bg--8">
                   <ul>

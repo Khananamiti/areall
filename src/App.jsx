@@ -5,7 +5,7 @@ import Library from "./pages/Library";
 import Investigation from "./pages/Investigation";
 import Analysis from "./pages/Analysis";
 import Research from "./pages/Research";
-import Geolocation from "./pages/Geolocation";
+import Maps from "./pages/Maps";
 import Footer from "./pages/Footer";
 import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
@@ -20,7 +20,7 @@ function App() {
         <Investigation />
         <Analysis />
         <Research />
-        <Geolocation />
+        <Maps />
       </main>
       <Footer />
       <ScrollToTop />

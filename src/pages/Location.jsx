@@ -3,36 +3,38 @@ import images from "../constants/data";
 const Location = () => {
   return (
     <>
-      <div className="library__top">
-        <div className="library__top-row">
-          <div className="library__geo">
-            <a href="#!" className="library__info">
-              <img src={images.geo} alt="Ваш город: " />
-              Омск
-            </a>
-          </div>
-          <div className="library__breadcrumbs">
-            <ul className="library__breadcrumbs-list">
-              <li>
-                <a href="#!">
-                  <img
-                    src={images.home}
-                    alt="Главная"
-                    className="library__info"
-                  />
-                  Главная
-                </a>
-              </li>
-              {/* <li className="breadcrumbs-center">
-                <img src={images.chevronRight} alt="Далее" />
-              </li>
-              <li>
-                <a href="#!">Библиотека оценщика</a>
-              </li> */}
-            </ul>
+      <section className="location">
+        <div className="location__top">
+          <div className="location__top-row">
+            <div className="location__geo">
+              <a href="#!" className="location__info">
+                <img src={images.geo} alt="Ваш город: " />
+                Омск
+              </a>
+            </div>
+            <div className="location__breadcrumbs">
+              <ul className="location__breadcrumbs-list">
+                <li>
+                  <a href="#!">
+                    <img
+                      src={images.home}
+                      alt="Главная"
+                      className="location__info"
+                    />
+                    Главная
+                  </a>
+                </li>
+                {/* <li className="location__breadcrumbs-center">
+                  <img src={images.chevronRight} alt="Далее" />
+                </li>
+                <li>
+                  <a href="#!">Библиотека оценщика</a>
+                </li> */}
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };
