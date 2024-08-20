@@ -9,12 +9,30 @@ const Maps = () => {
       {/* Поиск для профессионалов */}
       <section className="maps none1">
         <div className="container">
-          <div className="block block--shadow">
+          <div className="block block--shadow block--padding0">
             <div className="maps__cards">
-              <AdjustmentByLocation />
-              <UrbanDevelopmentPlan />
-              <PriceZoning />
-              <CadastralMap />
+              {/* Корректировка по местоположению */}
+              <div className="adjustment block block--w580">
+                <AdjustmentByLocation />
+              </div>
+
+              {/* Градостроительный план */}
+              <div className="grad-plan block block--w580">
+                <UrbanDevelopmentPlan />
+              </div>
+
+              {/* Ценовое зонирование */}
+              <div className="price-zone block block--w580">
+                <PriceZoning />
+              </div>
+
+              {/* Публичная кадастровая карта */}
+              <div
+                className="cad-map block block--w580"
+                id="cadastre"
+              >
+                <CadastralMap />
+              </div>
             </div>
           </div>
         </div>

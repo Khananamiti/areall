@@ -1,8 +1,4 @@
 import images from "../constants/data";
-import CadastralMap from "./widgets/CadastralMap";
-import UrbanDevelopmentPlan from "./widgets/UrbanDevelopmentPlan";
-import AdjustmentByLocation from "./widgets/AdjustmentByLocation";
-import PriceZoning from "./widgets/PriceZoning";
 
 const Research = () => {
   return (

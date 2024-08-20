@@ -66,7 +66,6 @@ const Investigation = () => {
 
           {/* Виджеты */}
           <div className="widgets">
-            
             {/* НП ЕСЭ */}
             <div className="npese block block--w380 block--fix1">
               <Npese />
@@ -88,10 +87,7 @@ const Investigation = () => {
             </div>
 
             {/* Публичная кадастровая карта */}
-            <div
-              className="cad-map block block--w380 block--fix1"
-              id="cadastre"
-            >
+            <div className="cad-map block block--w380 block--fix1">
               <CadastralMap />
             </div>
           </div>

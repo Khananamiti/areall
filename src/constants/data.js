@@ -1,3 +1,4 @@
+// Аналитические отчеты - обложки
 import aoEarth20234 from "../assets/analysis/ao-earth2023-4.webp";
 import aoEarth2024 from "../assets/analysis/ao-earth2024-1.webp";
 import aoIzhs20234 from "../assets/analysis/ao-izhs2023-4.webp";
@@ -8,6 +9,7 @@ import aoPsn20234 from "../assets/analysis/ao-psn2023-4.webp";
 import aoPsn2024 from "../assets/analysis/ao-psn2024-1.webp";
 import aoTon20234 from "../assets/analysis/ao-ton2023-4.webp";
 
+// Сборники корректировок - обложки
 import iApartment2020 from "../assets/investigation/apartment2020.webp";
 import iApartment2022 from "../assets/investigation/apartment2022.webp";
 import iApartment2023 from "../assets/investigation/apartment2023.webp";
@@ -83,13 +85,15 @@ import rimg7 from "../assets/research/rimg-7.webp";
 import rimg8 from "../assets/research/rimg-8.webp";
 import catalog from "../assets/research/catalog.webp";
 
-// PDF
+/* PDF */
+// Аналитические отчеты - демо
 import daoTon20234 from "../assets/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
 import daoEarth20234 from "../assets/demo/analytics/Анализ_рынка_земля_4Q_2023_БФ_ДЕМО.pdf";
 import daoIzhs20234 from "../assets/demo/analytics/Анализ_рынка_ИЖС_4Q_2023_БФ_ДЕМО.pdf";
 import daoOffice20234 from "../assets/demo/analytics/Анализ_рынка_офисной_недвижимости_4_кв_2Q23_БФ_ДЕМО.pdf";
 import daoPsn20234 from "../assets/demo/analytics/Анализ_рынка_ПСН_4кв._2023_БФ_ДЕМО.pdf";
 
+// Сборники корректировок - демо
 import diGarage2024 from "../assets/demo/collection/Сборник_корректировок_ГАРАЖИ_2024_demo.pdf";
 import diZu2024 from "../assets/demo/collection/Сборник_корректировок_ЗЕМЛЯ_2024_demo.pdf";
 import diIzhs2024 from "../assets/demo/collection/Сборник_корректировок_ИЖС_2024_demo.pdf";
