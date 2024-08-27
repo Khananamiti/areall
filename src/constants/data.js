@@ -64,7 +64,7 @@ import wGradPlan from "../assets/widgets/grad-plan.webp";
 import wPriceZone from "../assets/widgets/price-zone.webp";
 import wNpese from "../assets/widgets/npese.svg";
 
-import logo from "../assets/LOGO.svg";
+import logo from "../assets/LOGO1.svg";
 import qr5000 from "../assets/qr/QR5000.webp";
 import qr4000 from "../assets/qr/QR4000.webp";
 import qr3000 from "../assets/qr/QR3000.webp";
