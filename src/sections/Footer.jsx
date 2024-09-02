@@ -83,7 +83,7 @@ const Footer = () => {
             <div className="footer__question">
               <ul className="footer__nav-list">
                 <li>
-                  <form action="mailto:areall@mail.ru" className="footer__form">
+                  <form action="mailto:areallru@ya.ru" className="footer__form">
                     <input
                       type="text"
                       placeholder="| Ваш вопрос?"

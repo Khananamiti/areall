@@ -160,7 +160,7 @@ const Header = () => {
                     className=""
                     title="Написать на почту"
                   >
-                    areall@mail.ru
+                    areallru@ya.ru
                   </a>
                 </div>
               </div>
@@ -170,7 +170,7 @@ const Header = () => {
                   <a href="tel:+79136236787" title="Позвонить по телефону">
                     <img src={images.phone} alt="phone" />
                   </a>
-                  <a href="mailto:areall@mail.ru" title="Написать на почту">
+                  <a href="mailto:areallru@ya.ru" title="Написать на почту">
                     <img src={images.mail} alt="mail" />
                   </a>
                 </div>
