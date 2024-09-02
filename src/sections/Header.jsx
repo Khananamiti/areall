@@ -156,7 +156,7 @@ const Header = () => {
                 </div>
                 <div className="text-right">
                   <a
-                    href="mailto:areall@mail.ru"
+                    href="mailto:areallru@ya.ru"
                     className=""
                     title="Написать на почту"
                   >
