@@ -63,12 +63,15 @@ const Document = ({ item }) => {
 
                   <div className="qr__info">
                     <p>
-                      Некоммерческое Партнерство “Евразийский Союз Экспертов”
+                      Некоммерческое партнерство “Евразийский Союз Экспертов”
                     </p>
-                    <p>Areall</p>
                     <div className="qr__price">
-                      <p>Сумма к оплате:</p>
-                      <p>{item.price}</p>
+                      <p>
+                        <b>Сумма к оплате:</b>
+                      </p>
+                      <p>
+                        <b>{item.price}</b>
+                      </p>
                     </div>
                   </div>
 
@@ -77,30 +80,33 @@ const Document = ({ item }) => {
                       Что бы оплатить заказ, откройте приложение мобильного
                       банка и отсканируйте QR-код.
                     </p>
-                    <div>
-                      Для получения материалов, направьте письмо по адресу{" "}
-                      <a
-                        href="mailto:areallru@ya.ru"
-                        className="active"
-                        title="Написать на почту areallru@ya.ru"
-                      >
-                        areallru@ya.ru
-                      </a>{" "}
-                      или{" "}
-                      <a
-                        href="mailto:sborniki.ese@mail.ru"
-                        className="active"
-                        title="Написать на почту sborniki.ese@mail.ru"
-                      >
-                        sborniki.ese@mail.ru
-                      </a>
-                    </div>
                     <img src={item.qr} alt="QR-код для оплаты" />
                   </div>
 
                   <div className="qr__spb">
-                    <p>Платеж проводится с помощью</p>
-                    <img src={images.sbpLogo} alt="QR-код для оплаты" />
+                    <p>Платеж проводится с помощью:</p>
+                    <img src={images.sbpLogo} alt="СБП" />
+                  </div>
+
+                  <div className="qr__instruction">
+                    Для получения оплаченных материалов,
+                    <br /> направьте письмо по адресу:
+                    <br />
+                    <a
+                      href="mailto:areallru@ya.ru"
+                      className="link__accent"
+                      title="Написать на почту areallru@ya.ru"
+                    >
+                      areallru@ya.ru
+                    </a>{" "}
+                    или{" "}
+                    <a
+                      href="mailto:sborniki.ese@mail.ru"
+                      className="link__accent"
+                      title="Написать на почту sborniki.ese@mail.ru"
+                    >
+                      sborniki.ese@mail.ru
+                    </a>
                   </div>
                 </div>
               </div>
