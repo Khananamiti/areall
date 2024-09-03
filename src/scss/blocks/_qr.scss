@@ -10,7 +10,7 @@
 .qr__content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   font-weight: 500;
   line-height: 16px;
   
@@ -25,9 +25,13 @@
   gap: 8px;
 }
 
-.qr__price {
-  display: flex;
-  gap: 100px;
+
+
+.qr__price {  
+  display: flex;  
+  justify-content: center;
+  font-size: 16px;
+  gap: 8px;
 }
 
 .qr__code, .qr__spb {
@@ -36,7 +40,6 @@
   align-items: center;
   text-align: center;
   gap: 8px;
-  padding-top: 8px;
 }
 
 .qr__code img, .qr__code p {
@@ -48,5 +51,10 @@
 }
 
 .qr__spb img {
-  width: 240px;
+  width: 110px;
+}
+
+.qr__instruction {
+  text-align: center;
+  font-size: 16px;
 }

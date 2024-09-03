@@ -23,6 +23,10 @@ a {
   color: $accent;
 }
 
+.link__accent {
+  color: $dark-blue;
+}
+
 .container {
   display: flex;
   gap: 20px;

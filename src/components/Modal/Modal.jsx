@@ -9,20 +9,22 @@ import React from "react";
 */
 const Modal = ({ active, setActive, children }) => {
   return (
-    <div
-      className={active ? "modal active" : "modal"} // Блок МО
-      // Вешаем слушатель обработки нажатия. При нажатии на затемненную область, МО закроется
-      onClick={() => setActive(false)}
-    >
+    <>
       <div
-        // 
-        className={active ? "modal__content active" : "modal__content"} // Контент Модального окна
-        // МО не закроется, при нажатии на контентную область
-        onClick={(e) => e.stopPropagation()}
+        className={active ? "modal active" : "modal"} // Блок МО
+        // Вешаем слушатель обработки нажатия. При нажатии на затемненную область, МО закроется
+        onClick={() => setActive(false)}
       >
-        {children} 
+        <div
+          //
+          className={active ? "modal__content active" : "modal__content"} // Контент Модального окна
+          // МО не закроется, при нажатии на контентную область
+          onClick={(e) => e.stopPropagation()}
+        >
+          {children}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

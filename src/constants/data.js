@@ -8,16 +8,6 @@ import aoPsn20234 from "../assets/analysis/ao-psn2023-4.webp";
 import aoPsn2024 from "../assets/analysis/ao-psn2024-1.webp";
 import aoTon20234 from "../assets/analysis/ao-ton2023-4.webp";
 
-import advertising from "../assets/header/advertising.webp";
-import bg from "../assets/header/bg.webp";
-import bgNav from "../assets/header/bg-nav.webp";
-import chevronRight from "../assets/header/chevron-right.svg";
-import geo from "../assets/header/geo.svg";
-import more from "../assets/header/more.svg";
-import home from "../assets/header/home.svg";
-import logIn from "../assets/header/log-in.svg";
-import menu from "../assets/header/menu.svg";
-
 import iApartment2020 from "../assets/investigation/apartment2020.webp";
 import iApartment2022 from "../assets/investigation/apartment2022.webp";
 import iApartment2023 from "../assets/investigation/apartment2023.webp";
@@ -38,6 +28,17 @@ import iZu2022 from "../assets/investigation/zu2022.webp";
 import iZu2023 from "../assets/investigation/zu2023.webp";
 import iZu2024 from "../assets/investigation/zu2024.webp";
 import iDocument from "../assets/investigation/document.svg";
+
+import advertising from "../assets/header/advertising.webp";
+import bg from "../assets/header/bg.webp";
+import bgNav from "../assets/header/bg-nav.webp";
+import chevronRight from "../assets/header/chevron-right.svg";
+import geo from "../assets/header/geo.svg";
+import more from "../assets/header/more.svg";
+import home from "../assets/header/home.svg";
+import logIn from "../assets/header/log-in.svg";
+import menu from "../assets/header/menu.svg";
+import tg from "../assets/header/telegram.webp";
 
 import filters from "../assets/library/filters.webp";
 import img0 from "../assets/library/img-0.webp";
@@ -63,11 +64,24 @@ import wGradPlan from "../assets/widgets/grad-plan.webp";
 import wPriceZone from "../assets/widgets/price-zone.webp";
 import wNpese from "../assets/widgets/npese.svg";
 
-import logo from "../assets/LOGO.svg";
+import logo from "../assets/LOGO1.svg";
 import qr5000 from "../assets/qr/QR5000.webp";
 import qr4000 from "../assets/qr/QR4000.webp";
 import qr3000 from "../assets/qr/QR3000.webp";
+import qr2000 from "../assets/qr/QR2000.webp";
 import sbpLogo from "../assets/qr/SBP-logo.svg";
+
+import rfilters from "../assets/research/rfilters.webp";
+import rimg0 from "../assets/research/rimg-0.webp";
+import rimg1 from "../assets/research/rimg-1.webp";
+import rimg2 from "../assets/research/rimg-2.webp";
+import rimg3 from "../assets/research/rimg-3.webp";
+import rimg4 from "../assets/research/rimg-4.webp";
+import rimg5 from "../assets/research/rimg-5.webp";
+import rimg6 from "../assets/research/rimg-6.webp";
+import rimg7 from "../assets/research/rimg-7.webp";
+import rimg8 from "../assets/research/rimg-8.webp";
+import catalog from "../assets/research/catalog.webp";
 
 // PDF
 import daoTon20234 from "../assets/demo/analytics/Анализ_рынка_4_кв_2023_г_Торговля_БФ_ДЕМО.pdf";
@@ -143,6 +157,7 @@ export default {
   home,
   logIn,
   menu,
+  tg,
   iApartment2020,
   iApartment2022,
   iApartment2023,
@@ -185,11 +200,20 @@ export default {
   wPriceZone,
   wNpese,
   logo,
-  qrCode5000,
-  qrCode4000,
-  qrCode3000,
   qr5000,
   qr4000,
   qr3000,
+  qr2000,
   sbpLogo,
-}
+  rfilters,
+  rimg0,
+  rimg1,
+  rimg2,
+  rimg3,
+  rimg4,
+  rimg5,
+  rimg6,
+  rimg7,
+  rimg8,
+  catalog,
+};

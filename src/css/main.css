@@ -112,6 +112,10 @@ a:hover {
   color: #FBD14C;
 }
 
+.link__accent {
+  color: #194465;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1293,7 +1297,7 @@ button.investigation-item {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 24px;
+  gap: 16px;
   font-weight: 500;
   line-height: 16px;
 }
@@ -1318,7 +1322,11 @@ button.investigation-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+  gap: 8px;
 }
 
 .qr__code, .qr__spb {
@@ -1334,7 +1342,6 @@ button.investigation-item {
           align-items: center;
   text-align: center;
   gap: 8px;
-  padding-top: 8px;
 }
 
 .qr__code img, .qr__code p {
@@ -1346,7 +1353,96 @@ button.investigation-item {
 }
 
 .qr__spb img {
-  width: 240px;
+  width: 110px;
+}
+
+.qr__instruction {
+  text-align: center;
+  font-size: 16px;
+}
+
+.research {
+  overflow: hidden;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 12px;
+}
+
+.research__top {
+  padding: 10px 15px;
+}
+
+.research__top-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.research__breadcrumbs-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.breadcrumbs-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.research__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 350px); /* Будет создано 3 колонки */
+  grid-template-rows: repeat(3, 233px); /* Будет создано 3 ряда */
+  gap: 33px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media screen and (max-width: 1200px) {
+  .research__cards {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 350px)); /* Aдаптив для мобильных устройств */
+  }
+}
+
+.research__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 15px;
+  -webkit-box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: -3px 3px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.research__card-text {
+  font-size: 12px;
+  line-height: 20px;
+  width: 175px;
+  padding: 16px 8px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.research__card-img {
+  width: 175px;
+  background: #FFFFFF;
+  border-radius: 0px 15px 15px 0px;
 }
 
 .modal {
