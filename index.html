@@ -5,11 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <link rel="shortcut icon" href="/icon.jpg?url" />
-    <link rel="stylesheet" href="./src/css/main.css" />
-    <title>Areall</title>
+
+    <!-- МЕТА -->
+    <title>Areall - Аналитические сервисы рынка недвижимости</title>
+    <meta name="description" content="Исследования рынка недвижимости. Справочники оценщика, сборники корректировок, мониторинги рынка, аналитические отчеты">
+    <meta name="keywords" content="исследования рынка недвижимости, справочник оценщика, сборник корректировок, мониторинг рынка, аналитический отчет">
+  
+    <!-- Контролирует поведение поисковых систем при индексации страницы --> 
+    <meta name="robots" content="index,follow,noodp"><!-- Все поисковые системы -->
+    <meta name="googlebot" content="index,follow"><!-- Указание отдельно для Google -->
+  
+    <!-- Позволяет указать Google не показывать в поисковой выдаче поле для поиска по сайту -->
+    <meta name="google" content="nositelinkssearchbox"><!-- Позволяет указать Google не предлагать перевести эту страницу -->
+    <meta name="google" content="notranslate"><!-- Подтверждает авторство страницы в Google Search Console -->
+    <meta name="google-site-verification" content="verification_token"> <!-- Тег указания ПО, которое сгенерировало эту страницу -->
+    <meta name="generator" content="program"><!-- Короткое описание тематики вашего сайта -->
+    <meta name="subject" content="тематика вашего сайта"><!-- open graph Facebook-->
+    <meta content="Заголовок">
+    <meta content="website">
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#4285f4">
+  
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#4285f4">
+  
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  
+    <!-- Яндекс.Браузер -->
+    <meta name="viewport" content="ya-title=#4e69a2,ya-dock=fade">
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="stylesheet" href="./src/css/main.css" />    
   </head>
   <body>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();
+      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(98217419, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/98217419" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
     <div id="root"></div>
     <script type="module" src="./src/main.jsx"></script>
   </body>
