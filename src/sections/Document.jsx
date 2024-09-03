@@ -75,8 +75,26 @@ const Document = ({ item }) => {
                   <div className="qr__code">
                     <p>
                       Что бы оплатить заказ, откройте приложение мобильного
-                      банка и отсканируйте QR-код
+                      банка и отсканируйте QR-код.
                     </p>
+                    <div>
+                      Для получения материалов, направьте письмо по адресу{" "}
+                      <a
+                        href="mailto:areallru@ya.ru"
+                        className="active"
+                        title="Написать на почту areallru@ya.ru"
+                      >
+                        areallru@ya.ru
+                      </a>{" "}
+                      или{" "}
+                      <a
+                        href="mailto:sborniki.ese@mail.ru"
+                        className="active"
+                        title="Написать на почту sborniki.ese@mail.ru"
+                      >
+                        sborniki.ese@mail.ru
+                      </a>
+                    </div>
                     <img src={item.qr} alt="QR-код для оплаты" />
                   </div>
 
